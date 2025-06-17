@@ -1,0 +1,4 @@
+the Jan 2025 batch, we had created API keys for everyone with an iitm.ac.in email to use gpt-4o-mini and text-embedding-3-small . Your usage is limited to $1 per calendar month for this course. Don't exceed that. Use AI Proxy instead of OpenAI. Specifically: Replace your API to https://api.openai.com/... with https://aiproxy.sanand.workers.dev/openai/... Replace the OPENAI_API_KEY with the AIPROXY_TOKEN that someone will give you.
+
+---
+

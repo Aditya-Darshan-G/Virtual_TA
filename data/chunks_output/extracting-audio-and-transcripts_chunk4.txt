@@ -1,0 +1,29 @@
+\
+ --skip-download \
+ --sub-format "srt" \
+ "https://www.youtube.com/watch?v=VIDEO_ID" Download both audio and subtitles with custom output template yt-dlp -f "ba[abr<50]/worstaudio" \
+ --extract-audio \
+ --audio-format mp3 \
+ --audio-quality 32k \
+ --write-auto-sub \
+ --sub-format "srt" \
+ -o "%(title)s.%(ext)s" \
+ "https://www.youtube.com/watch?v=VIDEO_ID" Download entire playlist's audio yt-dlp -f "ba[abr<50]/worstaudio" \
+ --extract-audio \
+ --audio-format mp3 \
+ --audio-quality 32k \
+ -o "%(playlist_index)s-%(title)s.%(ext)s" \
+ "https://www.youtube.com/playlist?list=PLAYLIST_ID"
+``` For Python integration: ```python /// script requires-python = ">=3.9" dependencies = ["yt-dlp"] /// import yt_dlp def download_audio(url: str) -> None:
+ """Download audio at speech-optimized quality."""
+ ydl_opts = {
+ 'format': 'ba[abr<50]/worstaudio',
+ 'postprocessors': [{
+ 'key': 'FFmpegExtractAudio',
+ 'preferredcodec': 'mp3',
+ 'preferredquality': '32'
+ }]
+ } with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+
+---
+

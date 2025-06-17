@@ -1,0 +1,4 @@
+Live Session: 04 Feb 2025 Q1: I'm having trouble with question 7 of the GA3 assignment. I'm trying to send a POST request, but it keeps showing "method not allowed". A1: When you access a URL from a browser, it sends a GET request. To send a POST request, you need an extension like Thunder Client or Postman. Thunder Client doesn't require a login, but Postman does. However, Thunder Client is now a paid service. Q2: Previously, I was seeing some things, but now I'm getting the "method not allowed" error. I don't know why. A2: Let's troubleshoot this. We'll use Thunder Client. Q3: After changing my method to POST, what do I do next? A3: Go to the "Body" section in Thunder Client. Create a JSON object using curly braces {} . Then, refer to question 7 for the JSON object to copy and paste. Remove the three dots (...) from the copied JSON. Click the "Send" button.
+
+---
+

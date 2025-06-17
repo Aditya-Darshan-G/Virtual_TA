@@ -1,0 +1,9 @@
+directories -exec sh -c '...' _ {} + : Executes a shell command with batched files for efficiency for f; do ... done : Loops through each file in the batch w3m -dump -T text/html -cols 80 -no-graph "$f" : Uses the w3m text browser to render HTML -dump : Output the rendered page to stdout -T text/html : Specify input format as HTML -cols 80 : Set output width to 80 columns -no-graph : Don't show graphic characters for tables and frames > "${f%.html}.md" : Save output to a .md file with the same base name Comparison | Approach | Speed | Format Quality | Preservation | Best For |
+| ------------ | --------- | -------------- | ---------------------------------- | ------------------------------- |
+| defuddle-cli | Slow | High | Good structure and links | Content migration, publishing |
+| pandoc | Slow | Very High | Almost everything | Academic papers, documentation |
+| lynx | Fast | Low | Basic structure only | Quick extraction, large batches |
+| w3m | Very Slow | Medium-Low | Basic structur
+
+---
+

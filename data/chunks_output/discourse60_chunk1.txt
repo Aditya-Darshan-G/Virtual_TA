@@ -1,0 +1,20 @@
+)
+ return log_time, method, url, status
+
+with gzip.open(log_path, 'rt') as file:
+ for entry in file:
+ log_time, method, url, status = parse_log(entry)
+ if method == 'GET' and url.startswith('/blog/') and 200 <= status < 300:
+ if log_time.weekday() == 0 and start_time <= log_time.time() < end_time:
+ log_data.append(entry)
+
+print(f"Successful GET requests: {len(log_data)}") ps: I shared code after the deadline hopefully no issues there!
+
+I’m also facing same kind of issue in Q3, GA5, while cross checked answer from different methods getting same result 1603, which is showing incorrect. Kindly check this issue. Thanks
+
+The same issue is being faced by many students, not only for this condition, but others as well. Please look into it
+
+actually i got 130 as answer. but the answer accepted by the portal was 129. i felt like, i have to change one or two numbers front and back, i tried the same before.
+
+---
+

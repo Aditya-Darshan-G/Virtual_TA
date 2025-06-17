@@ -1,0 +1,5 @@
+d {} : Output to a markdown file, with the input file as the last argument Lynx Lynx is fast and generates text (not Markdown) with minimal formatting. Lynx renders the HTML as it would appear in a text browser, preserving basic structure but losing complex formatting. Best for quick content extraction or when processing large numbers of files. bash
+find . -type f -name '*.html' -exec sh -c 'for f; do lynx -dump -nolist "$f" > "${f%.html}.txt"; done' _ {} + find . -type f -name '*.html' : Finds all HTML files in the current directory and subdirectories -exec sh -c '...' _ {} + : Executes a shell command with batched files for efficiency for f; do ...
+
+---
+

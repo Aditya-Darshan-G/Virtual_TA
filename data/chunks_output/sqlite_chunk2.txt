@@ -1,0 +1,39 @@
+e(db, '''
+ SELECT date, COUNT(*) as count
+ FROM events
+ GROUP BY date
+''')
+``` Common Operations: Database Management ```sql
+ -- Backup database
+ .backup 'backup.db' -- Import CSV
+ .mode csv
+ .import data.csv table_name -- Export results
+ .headers on
+ .mode csv
+ .output results.csv
+ SELECT * FROM table;
+ ``` Performance Optimization ```sql
+ -- Create index
+ CREATE INDEX idx_user_email ON users(email); -- Analyze query
+ EXPLAIN QUERY PLAN
+ SELECT * FROM users WHERE email LIKE '%@example.com'; -- Show indexes
+ SELECT * FROM sqlite_master WHERE type='index';
+ ``` Data Analysis ```sql
+ -- Time series aggregation
+ SELECT
+ date(timestamp),
+ COUNT(*) as events,
+ AVG(duration) as avg_duration
+ FROM events
+ GROUP BY date(timestamp); -- Window functions
+ SELECT *,
+ AVG(amount) OVER (
+ PARTITION BY user_id
+ ORDER BY date
+ ROWS BETWEEN 3 PRECEDING AND CURRENT ROW
+ ) as moving_avg
+ FROM transactions;
+ ``` Tools to work with SQLite: SQLiteStudio : Lightweight GUI DBeaver : Full-featured GUI sqlite-u
+
+---
+

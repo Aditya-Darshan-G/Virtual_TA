@@ -1,0 +1,26 @@
+-1",
+ "prompt": "A whimsical illustration of a cat playing chess",
+ "n": 1,
+ "size": "1024x1024"
+ }' > image.png ( Generate Image | OpenAI API - Postman ) Generation options Adjust these JSON parameters: model : gpt-image-1 (default). prompt : Text description. n : Number of images. size : 256x256 , 512x512 , or 1024x1024 . response_format : "url" (default) or "b64_json" . json
+{
+ "model": "gpt-image-1",
+ "prompt": "...",
+ "n": 2,
+ "size": "512x512",
+ "response_format": "b64_json"
+} Simple image editing Use the Edits endpoint with an image and a mask: bash
+curl https://api.openai.com/v1/images/edits \
+ -H 'Content-Type: application/json' \
+ -H "Authorization: Bearer $OPENAI_API_KEY" \
+ -d '{
+ "model": "gpt-image-1",
+ "image": "data:image/png;base64,<BASE64_IMAGE>",
+ "mask": "data:image/png;base64,<BASE64_MASK>",
+ "prompt": "Add a rainbow in the sky above the mountains",
+ "n": 1,
+ "size": "1024x1024"
+ }' ( curl - What's the correct URL to test OpenAI API? - Stack Overflow ) Editing opti
+
+---
+

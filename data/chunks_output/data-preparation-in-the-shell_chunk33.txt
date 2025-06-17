@@ -1,0 +1,9 @@
+nd.net-Apr-2024 So, in Apr 2024, there were ~208K requests to the site. Useful to know. I wonder: Who is sending most of these requests? Let's extract the IP addresses and count them. Extract the IP column We'll use cut to cut the first column. It has 2 options that we'll use. --delimiter is the character that splits fields. In the log file, it's a space. (We'll confirm this shortly.) --fields picks the field to cut. We want field 1 (IP address) Let's preview this: ```python Preview just the IP addresses from the logs !cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | head -n 5
+``` 17.241.219.11
+17.241.75.154
+101.44.248.120
+17.241.227.200
+37.59.21.100 We used the | operator. That passes the output to the next command, head -n 5 , and gives us first 5 lines. This is called piping and is the equivalent of calling a function inside another in programming languages. We'll use sort to sort these IP addresses. That puts the same IP addresses next to each other.
+
+---
+

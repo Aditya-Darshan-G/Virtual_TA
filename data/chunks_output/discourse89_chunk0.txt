@@ -1,0 +1,8 @@
+The lectures primarily focus on surface-level explanations without ensuring a strong foundational understanding of the topics. Key concepts, such as Large Language Models (LLMs) and related technologies, are not explained in a structured manner, making it difficult for students to follow.
+
+@carlton sir i watch live session recording , but still not getting some useful from it , I am talking about week 3 content in llm , these words are never heard by us so please try to tech from basic things please . At least tell us , what is llm and what is use of , everything is going to above of our head .
+
+Hi Hari, The goal of the course was never to go deep into specific technologies, with perhaps the exception of LLMs as major tooling capability for data science. Due to the volume of the content in the first 3 weeks it was decided to at least get students sufficient information to be able to do the Graded Assignments.
+
+---
+

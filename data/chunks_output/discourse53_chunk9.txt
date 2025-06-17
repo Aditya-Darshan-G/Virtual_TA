@@ -1,0 +1,4 @@
+king for help Again to quote Anand: We encourage learning by sharing You CAN copy from friends. You can work in groups. You can share code. Even in projects, assignments, and exams (except the final end-term exam). Why should you copy? Because in real life, there’s no time to re-invent the wheel. You’ll be working in teams on the shoulders of giants. It’s important to learn how to do that well. To learn well, understand what you’re copying. If you’re short of time, prioritize. To learn better, teach what you’ve learnt. Now will be a good point to reflect on the optimization problem of Grades versus Learning. The larger question for each of you is to consider the short-term advantage of better grades versus the long term advantage of improving the fundamentals related to tools usage (not just for Data Science, but in every day life itself).
+
+---
+

@@ -1,0 +1,4 @@
+ploy a test version npx vercel --prod to deploy to production Environment Variables . Use npx vercel env add to add environment variables. In your code, use os.environ.get('SECRET_KEY') to access them. Videos
+
+---
+

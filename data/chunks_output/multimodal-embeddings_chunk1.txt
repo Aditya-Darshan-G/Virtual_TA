@@ -1,0 +1,10 @@
+omic Atlas homepage:
+ 👉 https://atlas.nomic.ai/ ( Atlas | Nomic Atlas Documentation ) Once logged in, open the Dashboard and navigate to Settings → API Keys . Click Create API Key , name it, and copy the generated key. Set in your shell: bash
+export NOMIC_API_KEY="your-nomic-api-key" Jina AI Visit the Jina AI Embeddings page:
+ 👉 https://jina.ai/embeddings/ ( Jina AI ) Click Get Started (no credit card needed) and register for a free account. Every new key comes with 1 million free tokens . In the dashboard, go to API Key & Billing and copy your key. Set in your shell: bash
+export JINA_API_KEY="your-jina-api-key" Google Vertex AI Sign up for Google Cloud’s free tier (90 days, \$300 credit):
+ 👉 https://cloud.google.com/free ( Google Cloud ) In the Cloud Console, open APIs & Services → Credentials :
+ 👉 https://console.cloud.google.com/apis/credentials ( Google Cloud ) Click Create credentials → API key , then copy the key.
+
+---
+

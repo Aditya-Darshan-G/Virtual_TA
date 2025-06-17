@@ -1,0 +1,6 @@
+ng uvx : ```bash Run llm via uvx without any prior installation uvx llm 'Translate "Hello, world" into Japanese' Specify a model uvx llm -m gpt-4.1-nano 'Draft a 200-word blog post on data ethics' Use structured JSON output uvx llm 'List the top 5 programming languages in 2025 with their release years' \
+ --schema-multi 'rank,language,release_year'
+``` Key Features Interactive prompts : llm '…' — Fast shell access to any LLM. Conversational flow : -c '…' — Continue context across prompts. Model switching : -m MODEL — Use OpenAI, Anthropic, local models, and more. Structured output : llm json — Produce JSON for automation. Logging & history : llm logs path — Persist every prompt/response in SQLite. Web UI : datasette "$(llm logs path)" — Browse your entire history with Datasette. Persistent chat : llm chat — Keep the model in memory across multiple interactions. Plugin ecosystem : llm install PLUGIN — Add support for new models, data sources, or workflows.
+
+---
+

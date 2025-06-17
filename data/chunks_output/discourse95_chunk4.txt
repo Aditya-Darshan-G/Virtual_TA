@@ -1,0 +1,6 @@
+y review and update dependencies to prevent using outdated or insecure packages. Kind regards
+
+For some projects where there are many dependencies, like an ML project or flask app, it’s better you mantain a virtual environment since the dependencies are interconnected with their versions. Whereas for some simple projects, with less dependencies, global installation is fine. For project that is to be deployed, make sure you use the virtual environment, only then you can ensure what worked for you also works on the deployement 24f2006531: Additionally, when managing dependencies, would it be better to install packages individually using pip or list them in a requirements.txt file? Coming to your second question, The first time you install a fresh dependency, use direct and latest version. But if you are cloning or thinking of sharing the repo or using someone’s project it’s better to use requirements.txt.
+
+---
+

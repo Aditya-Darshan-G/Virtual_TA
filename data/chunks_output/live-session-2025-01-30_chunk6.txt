@@ -1,0 +1,4 @@
+erent variable name. I used an alias. I'll explain what that means. Q16: When passing multiple parameters with the same name, how do I handle it? A16: You need to use lists. Import List from the typing library. I got this from ChatGPT. Always learn from ChatGPT, but also learn from the process. The query will take all the strings and put them into one list. The default value is used if no parameter is passed. An alias is another name for a variable. The variable name is className , but we can use the class parameter using this alias. Q17: My code was working correctly except for the name. I don't know how to write it. A17: You are using httpx . You're also using index.py . This is not Flask-based; it's more like an HTTP server. Q18: I'll try to do it again according to the requirements and add the requirements.txt file. After that, I'll share my screen. A18: Okay, you can do that. The Flask-based code is not needed here.
+
+---
+

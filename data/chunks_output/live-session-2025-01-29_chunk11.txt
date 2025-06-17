@@ -1,0 +1,4 @@
+us on Discourse. Q17: I'm getting an error from this. I don't know how... A17: In the ninth question, you're getting an error. Earlier, it was working fine. You'll need to... this is the Vercel one, right? No, this is the FastAPI one. You'll have to run the server for that. You should post this on Discourse. Just copy that whole error message itself and put it in a notepad or something, and then post on Discourse. Q18: One more thing I wanted to say: actually, I'm not... while installing ngrok with this terminal, I wasn't able to do that, so I installed it in a different directory using the app. Is it doing anything? When I run it from here... A18: It shouldn't matter because we are able to access it through the browser. It was still able to access it, and you can see a 200 OK on there. That means the site is running okay; your model is running okay. Why you're getting a Cloudflare error, I'm not entirely sure.
+
+---
+

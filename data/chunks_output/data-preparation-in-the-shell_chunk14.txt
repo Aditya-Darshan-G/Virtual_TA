@@ -1,0 +1,22 @@
+al output
+ -X, --request <method> Specify request method to use
+ --request-target <path> Specify the target for this request
+ --resolve <[+]host:port:addr[,addr]...> Resolve the host+port to this address
+ --retry <num> Retry request if transient problems occur
+ --retry-all-errors Retry all errors (use with --retry)
+ --retry-connrefused Retry on connection refused (use with --retry)
+ --retry-delay <seconds> Wait time between retries
+ --retry-max-time <seconds> Retry only within this period
+ --sasl-authzid <identity> Identity for SASL PLAIN authentication
+ --sasl-ir Enable initial response in SASL authentication
+ --service-name <name> SPNEGO service name
+ -S, --show-error Show error even when -s is used
+ -s, --silent Silent mode
+ --socks4 <host[:port]> SOCKS4 proxy on given host + port
+ --socks4a <host[:port]> SOCKS4a proxy on given host + port
+ --socks5 <host[:port]> SOCKS5 proxy on given host + port
+ --socks5-basic Enable username/password auth for SOCKS5 proxies
+ --socks5-gssapi Enabl
+
+---
+

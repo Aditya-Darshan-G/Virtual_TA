@@ -1,0 +1,4 @@
+the video: Data analysis with DuckDB - Notebook Parquet file format - a fast columnar storage format that's becoming a de facto standard for big data DuckDB - a fast in-memory database that's very good with large-scale analysis Plotly Datasets - a collection of sample datasets for analysis. This includes the Kaggle Flights Dataset that the notebook downloads as 2015_flights.parquet
+
+---
+

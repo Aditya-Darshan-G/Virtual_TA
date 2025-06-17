@@ -1,0 +1,6 @@
+Display frame metadata ffprobe -v quiet -print_format json -show_frames input.mp4 Generate video thumbnails ffmpeg -i input.mp4 -vf "thumbnail" -frames:v 1 thumb.jpg
+``` Watch this introduction to FFmpeg (12 min): Tools: ffmpeg.lav.io : Interactive command builder FFmpeg Explorer : Visual FFmpeg command generator FFmpeg Buddy : Simple command generator Tips: Use -c copy when possible to avoid re-encoding Monitor progress with -progress pipe:1 Use -hide_banner to reduce output verbosity Test commands with small clips first Use hardware acceleration when available (-hwaccel auto) Error Handling: ```bash Validate file before processing ffprobe input.mp4 2>&1 | grep "Invalid" Continue on errors in batch processing ffmpeg -i input.mp4 output.mp4 -xerror Get detailed error information ffmpeg -v error -i input.mp4 2>&1 | grep -A2 "Error"
+``` Media tools: yt-dlp yt-dlp is a feature-rich command-line tool for downloading audio/video from thousands of sites.
+
+---
+

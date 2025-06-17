@@ -1,0 +1,21 @@
+ame> TLS username for HTTPS proxy
+ --proxy-tlsv1 Use TLSv1 for HTTPS proxy
+ -U, --proxy-user <user:password> Proxy user and password
+ --proxy1.0 <host[:port]> Use HTTP/1.0 proxy on given port
+ -p, --proxytunnel Operate through an HTTP proxy tunnel (using CONNECT)
+ --pubkey <key> SSH Public key file name
+ -Q, --quote <command> Send command(s) to server before transfer
+ --random-file <file> File for reading random data from
+ -r, --range <range> Retrieve only the bytes within RANGE
+ --raw Do HTTP "raw"; no transfer decoding
+ -e, --referer <URL> Referrer URL
+ -J, --remote-header-name Use the header-provided filename
+ -O, --remote-name Write output to a file named as the remote file
+ --remote-name-all Use the remote file name for all URLs
+ -R, --remote-time Set the remote file's time on the local output
+ -X, --request <method> Specify request method to use
+ --request-target <path> Specify the target for this request
+ --resolve <[+]host:port:addr[,addr]...> Resolve the host+port to this addr
+
+---
+

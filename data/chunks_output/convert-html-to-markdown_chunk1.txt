@@ -1,0 +1,5 @@
+ombining web crawling with HTML-to-text conversion in a single workflow -- all using the command line. defuddle-cli defuddle-cli specializes in HTML - Markdown conversion. It's a bit slow and not very customizable but produces clean Markdown that preserves structure, links, and basic formatting. Best for content where preserving the document structure is important. bash
+find . -name '*.html' -exec npx --package defuddle-cli -y defuddle parse {} --md -o {}.md \; find . -name '*.html' : Finds all HTML files in the current directory and subdirectories -exec ... \; : Executes the following command for each file found npx --package defuddle-cli -y : Installs and runs defuddle-cli without prompting defuddle parse {} --md : Parses the HTML file (represented by {} ) and converts to markdown -o {}.md : Outputs to a file with the original name plus .md extension Pandoc Pandoc is a bit slow and highly customizable, preserving almost all formatting elements, leading to verbose markdown.
+
+---
+

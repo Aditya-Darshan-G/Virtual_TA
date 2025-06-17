@@ -1,0 +1,9 @@
+le. inputs = document.querySelectorAll('input')
+textboxes = document.querySelectorAll("textarea")
+buttons = document.querySelectorAll("button")
+inputs.forEach(input => input.removeAttribute('disabled'));
+buttons.forEach(input => input.removeAttribute('disabled'));
+textboxes.forEach(input => input.removeAttribute('disabled')); Do not submit or save your answers. All the best! Kind regards TDS Team Update 2 26/02/2025 11:00 am We will be releasing Mock 2 tonight on an exam portal at 8pm (no time limit). The link for the Mock 2 will be available in this post as well as in the Seek Portal. An email will also be sent with the link to Mock 2. We will be conducting a solving session at 9pm. This will be a regular teaching session (not like the first session on Tuesday 25/02/25 which was a real preview of what ROE looks like). Kind regards, TDS Team Update 1 25/02/2025 7:46pm We have now closed the mock submissions.
+
+---
+

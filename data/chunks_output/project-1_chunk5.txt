@@ -1,0 +1,4 @@
+number in /data/ticket-sales-gold.txt Developers will call the /run?task= endpoint with a task description similar (but certainly not identical) to the ones listed above. For example, Task A3 can be written in these ways - all are equivalent. The file /data/dates.txt contains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to /data/dates-wednesdays.txt Write the # of Thursdays in /data/extracts.txt into /data/extracts-count.txt /data/contents.log में कितने रविवार हैं? गिनो और /data/contents.dates में लिखो /data/contents.log ல எத்தனை ஞாயிறு இருக்குனு கணக்கு போட்டு, அதை /data/contents.dates ல எழுது Your task is to build an agent that uses an LLM to parse the task description and execute the required steps. Phase B: Handle Business Tasks The DataWorks security team has added the following requirements. No matter what the task is, the agent must ensure that: B1 .
+
+---
+

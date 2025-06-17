@@ -1,0 +1,4 @@
+CORS: Cross-Origin Resource Sharing CORS (Cross-Origin Resource Sharing) is a security mechanism that controls how web browsers handle requests between different origins (domains, protocols, or ports). Data scientists need CORS for APIs serving data or analysis to a browser on a different domain. Watch this practical explanation of CORS (3 min): Key CORS concepts: Same-Origin Policy : Browsers block requests between different origins by default CORS Headers : Server responses must include specific headers to allow cross-origin requests Preflight Requests : Browsers send OPTIONS requests to check if the actual request is allowed Credentials : Special handling required for requests with cookies or authentication If you're exposing your API with a GET request publicly, the only thing you need to do is set the HTTP header Access-Control-Allow-Origin: * .
+
+---
+

@@ -1,0 +1,14 @@
+hen your JSON file is too large or when you only need to work with part of the data. Example: Processing a continuous feed from an API that returns a large JSON array, such as sensor data or event logs, while filtering on the fly. ```python
+import ijson async def process_large_json(filepath: str) -> list:
+ """Process a large JSON file without loading it entirely into memory."""
+ results = [] with open(filepath, 'rb') as file:
+ # Stream objects under the 'items' key
+ parser = ijson.items(file, 'items.item')
+ async for item in parser:
+ if item['value'] > 100: # Process conditionally
+ results.append(item)
+
+return results ``` Pandas JSON Columns Pandas makes it easy to work with tabular data that includes JSON strings. When you receive API data where one column holds nested JSON, flattening these structures lets you analyze and visualize the data using familiar DataFrame operations.
+
+---
+

@@ -1,0 +1,20 @@
+Disable Browser extensions
+
+As I highlighted earlier, Its not accepting the answer if I follow correct logic for renaming for example 209->210, but it is accepting if rename as 209->310
+
+Hi Anant, 21f2000370: image 1296×158 7.29 KB Here in question, it’s mentioned to replace every digit with next digit, that’s why 209 would be 310.
+
+In attempting the third question, I’m unable to download the npm package as it requires docker. When trying to install docker from the installer, it freezes in the verifying package stage. Can somebody please help solve my problem? @carlton @Jivraj
+
+image 1627×202 12.6 KB Which HTML content we want to take?
+
+Hi Suhani, npm does not require docker. Kind regards
+
+Hi Hisham, Its described in the question. There is a hidden element hiding somewhere after that question. You would have to inspect the DOM to find it.
+
+Screenshot 2025-01-11 at 10.29.41 PM 1440×900 160 KB @s.anand please guide me through this question, my answer is showing incorrect
+
+Hello Sir.
+
+---
+

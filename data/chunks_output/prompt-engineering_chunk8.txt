@@ -1,0 +1,8 @@
+SON schema is to give ChatGPT sample output and ask it to generate the schema. Imagine you’re organizing data for a big project. Plain text is like dumping everything into one messy pile — it’s hard to find what you need later.
+JSON, on the other hand, is like packing your data into neat, labeled boxes within boxes.
+Everything has its place: fields like ‘name,’ ‘description,’ and ‘value’ make the data easy to read, especially for machines.
+For example, instead of just listing items, you can structure them as a JSON array, with each item as an object.
+That way, when you hand it to a program, it’s all clear and ready to use. Prefer Yes/No answers Convert rating or percentage questions into Yes/No queries. LLMs handle binary choices better than numeric scales.
+
+---
+

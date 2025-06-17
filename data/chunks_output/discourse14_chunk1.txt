@@ -1,0 +1,16 @@
+e (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:
+ pearson_corr = kk['price_retention'].corr(kk[col])
+ print(f'\t{col:25} : {pearson_corr:.2f}') And got the following output: Pearson correlation for Karnataka between price retention and column
+ Mileage (km/l) : 0.03
+ Avg Daily Distance (km) : -0.06
+ Engine Capacity (cc) : -0.04 Whereas options are below where none of them are correct. image 281×219 9.1 KB Whereas for Q2 (Punjab and Yamaha) I used the following code: print(f'Pearson correlation for Punjab and Yamaha between price retention and column')
+pb = df[(df['State'] == 'Punjab') & (df['Brand'] == 'Yamaha')]
+for col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:
+ pearson_corr = pb['price_retention'].corr(pb[col])
+ print(f'\t{col:25} : {pearson_corr:.2f}') and got the following answers: Pearson correlation for Punjab and Yamaha between price retention and column
+ Mileage (km/l) : 0.24
+ Avg Daily Distance (km) : -0.06
+ Engine Capacity (cc) : -
+
+---
+

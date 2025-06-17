@@ -1,0 +1,4 @@
+d on the user's request? A4: You send the user's natural language request (prompt) and a list of your application's capabilities to GPT. GPT determines which function to run and the required parameters, returning this information as structured JSON. Your application then uses this JSON to execute the appropriate function. Q5: What is the purpose of if __name__ == "__main__": ? A5: This is the entry point for your application. The Python interpreter runs from top to bottom, but it won't run the code within this block unless the file is the starting file of the application. This is crucial for multi-file applications where the interpreter needs to know where to begin. Q6: Should I create a tunnel for this application? A6: No, there's no need to create a tunnel if you want others to try it. Using a tool like ngrok allows others to access your server directly and send queries.
+
+---
+

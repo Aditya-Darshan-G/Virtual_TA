@@ -1,0 +1,4 @@
+The request body. "model": "gpt-4o-mini" : The model to use for text generation. "messages": : The messages to send to the model. "role": "user" : The role of the message. "content": "Write a haiku about programming." : The content of the message. This video explains how to use large language models (LLMs) for sentiment analysis and classification, covering: Sentiment Analysis : Use OpenAI API to identify the sentiment of movie reviews as positive or negative. Prompt Engineering : Learn how to craft effective prompts to get desired results from LLMs. LLM Training : Understand how to train LLMs by providing examples and feedback. OpenAI API Integration : Integrate OpenAI API into Python code to perform sentiment analysis. Tokenization : Learn about tokenization and its impact on LLM input and cost. Zero-Shot, One-Shot, and Multi-Shot Learning : Understand different approaches to using LLMs for learning.
+
+---
+

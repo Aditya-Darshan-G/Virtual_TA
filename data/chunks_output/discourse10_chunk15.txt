@@ -1,0 +1,4 @@
+Text C. Use the VALUE() function D. Use SUBSTITUTE() Answer : C — The VALUE function converts text that appears as numbers into actual numeric values. This is useful when data is imported with formatting issues. Module: Data Analysis Q11: Outlier Detection You are analyzing a dataset of employee salaries. Which visualization is best for quickly identifying outliers? A. Line chart B. Box plot C. Histogram D. Pie chart Answer : B — A box plot clearly shows the spread of data and highlights outliers as individual points beyond the whiskers. Module: Large Language Models Q12: Prompt Engineering Strategy To get consistent, structured responses from a language model when extracting key information, which approach is most effective? A. Ask the model to “summarize” the text B. Use open-ended questions C. Use system messages and JSON schema formatting D.
+
+---
+

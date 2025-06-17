@@ -1,0 +1,4 @@
+e accessed by anyone. You may use any platform. (If you use ngrok, ensure that it is running continuously until you get your results.) Share your code Create a new public GitHub repository Add an MIT LICENSE file Commit and push your code Submit your URL Submit your GitHub repository URL and your API endpoint URL at https://exam.sanand.workers.dev/tds-project-virtual-ta Evaluation Pre-requisites : Your repository MUST meet the following criteria to be eligible for evaluation Your GitHub repository exists and is publicly accessible Your GitHub repository has a LICENSE file with the MIT license in the root folder We will use a modified version of project-tds-virtual-ta-promptfoo.yaml with 10 realistic questions. Correct answers will be awarded up to 2 marks each. Your score will be the sum of the marks above. No normalization. What you get is what you get.
+
+---
+

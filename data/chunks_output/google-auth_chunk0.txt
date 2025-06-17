@@ -1,0 +1,4 @@
+Google Authentication with FastAPI Secure your API endpoints using Google ID tokens to restrict access to specific email addresses. Google Auth is the most commonly implemented single sign-on mechanism because: It's popular and user-friendly. Users can log in with their existing Google accounts. It's secure: Google supports OAuth2 and OpenID Connect to handle authentication. Here's how you build a FastAPI app that identifies the user. Go to the Google Cloud Console – Credentials and click Create Credentials > OAuth client ID . Choose Web application , set your authorized redirect URIs (e.g., http://localhost:8000/ ).
+
+---
+

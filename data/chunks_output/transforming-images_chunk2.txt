@@ -1,0 +1,35 @@
+path: str,
+ size: tuple[int, int],
+ rotation: float = 0
+) -> Image.Image:
+ """Transform image with basic operations."""
+ with Image.open(path) as img:
+ # Resize with anti-aliasing
+ img = img.resize(size, Image.LANCZOS) # Rotate around center
+ if rotation:
+ img = img.rotate(rotation, expand=True)
+
+ # Auto-crop empty edges
+ img = img.crop(img.getbbox())
+
+ return img ``` Color and Enhancement Adjust image appearance with built-in enhancement tools: ```python
+from PIL import ImageEnhance, ImageOps async def enhance_image(
+ img: Image.Image,
+ brightness: float = 1.0,
+ contrast: float = 1.0,
+ saturation: float = 1.0
+) -> Image.Image:
+ """Apply color enhancements to image."""
+ enhancers = [
+ (ImageEnhance.Brightness, brightness),
+ (ImageEnhance.Contrast, contrast),
+ (ImageEnhance.Color, saturation)
+ ] for Enhancer, factor in enhancers:
+ if factor != 1.0:
+ img = Enhancer(img).enhance(factor)
+
+return img ``` Filters and Effects Apply visual effects and filters to images: ```python
+from PIL impo
+
+---
+

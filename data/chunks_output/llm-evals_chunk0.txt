@@ -1,0 +1,4 @@
+LLM Evaluations with PromptFoo Test-drive your prompts and models with automated, reliable evaluations. PromptFoo is a test-driven development framework for LLMs: Developer-first : Fast CLI with live reload & caching ( promptfoo.dev ) Multi-provider : Works with OpenAI, Anthropic, HuggingFace, Ollama & more ( GitHub ) Assertions : Built‑in ( contains , equals ) & model‑graded ( llm-rubric ) ( docs ) CI/CD : Integrate evals into pipelines for regression safety ( CI/CD guide ) To run PromptFoo: Install Node.js & npm ( nodejs.org ) Set up your OPENAI_API_KEY environment variable Configure promptfooconfig.yaml .
+
+---
+

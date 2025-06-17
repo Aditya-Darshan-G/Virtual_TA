@@ -1,0 +1,14 @@
+█████╗ ███████╗██╗██╗ ███████╗
+██║ ██║ ██╔══██╗████╗ ████║██╔══██╗██╔════╝██║██║ ██╔════╝
+██║ ██║ ███████║██╔████╔██║███████║█████╗ ██║██║ █████╗
+██║ ██║ ██╔══██║██║╚██╔╝██║██╔══██║██╔══╝ ██║██║ ██╔══╝
+███████╗███████╗██║ ██║██║ ╚═╝ ██║██║ ██║██║ ██║███████╗███████╗
+╚══════╝╚══════╝╚═╝ ╚═╝╚═╝ ╚═╝╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚══════╝
+software: llamafile 0.8.17
+model: Llama-3.2-1B-Instruct-Q8_0.gguf
+compute: 13th Gen Intel Core i9-13900HX (alderlake)
+server: http://127.0.0.1:8080/ A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.
+``` You can now chat with the model. Type /exit or press Ctrl+C to stop. You can also visit http://127.0.0.1:8080/ in your browser to chat with the model. LlamaFile exposes an OpenAI compatible API.
+
+---
+

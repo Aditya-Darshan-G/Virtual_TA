@@ -1,0 +1,10 @@
+collection 4. Find similar topics bash
+llm similar typescript-book -n 3 -c "What does the author affectionately call the => syntax?" This returns the 3 chunksmost similar to the question posed. similar : retrieves the top n most similar chunks from the embeddings store. -n 3 : return three results. -c : the user’s query string. 5. Answer a question using retrieved context bash
+Q="What does the author affectionately call the => syntax?"
+llm similar typescript-book -n 3 -c "$Q" \
+ | jq '.content' \
+ | llm -s "$Q - Answer ONLY from these notes. Cite verbatim from notes." \
+ | uvx streamdown This answers the question in natural language following these steps: Store the query in Q . Retrieve the top 3 matching chunks. jq '.content' extracts just the text snippets. Pipe into llm -s , instructing the model: -s : stream a prompt directly to the LLM. "$Q - Answer ONLY from these notes. Cite verbatim from notes." : ensures the response is grounded.
+
+---
+

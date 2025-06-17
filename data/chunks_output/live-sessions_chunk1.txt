@@ -1,0 +1,8 @@
+missing information, in a conversational style.
+Avoid repeating questions, consolidating similar ones.
+Prefer "You" and "I" instead of "student" and "instructor".
+For example: Q1: [Concisely framed question] A1: [Succinct answer]
+```
+
+---
+

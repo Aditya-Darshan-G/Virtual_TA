@@ -1,0 +1,14 @@
+nput": {"text": text},
+ "voice": {"languageCode": "en-US", "name": voice_name},
+ "audioConfig": {"audioEncoding": "MP3"}
+ }
+ )
+ return base64.b64decode(response.json()["audioContent"]) if name == " main ":
+ with open("openai_speech.mp3", "wb") as f:
+ f.write(generate_openai_speech("Hello from OpenAI's text to speech API!"))
+ with open("gemini_speech.mp3", "wb") as f:
+ f.write(generate_gemini_speech("Hello from Google's Gemini Speech Studio!"))
+```
+
+---
+

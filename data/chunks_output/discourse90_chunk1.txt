@@ -1,0 +1,37 @@
+larityRequest(BaseModel):
+ docs: List[str]
+ query: str
+
+# OpenAI API key and URL
+API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
+API_KEY = "enter your key" # Replace with your actual API key
+
+def get_embeddings(docs: List[str]) -> List[List[float]]:
+ """Retrieve embeddings for a list of documents from OpenAI's API."""
+ headers = {
+ "Content-Type": "application/json",
+ "Authorization": f"Bearer {API_KEY}",
+ }
+ 
+ data = {
+ "model": "text-embedding-3-small", # Use the correct model
+ "input": docs
+ }
+
+ response = requests.post(API_URL, json=data, headers=headers)
+
+ if response.status_code != 200:
+ raise HTTPException(status_code=response.status_code, detail="API request failed")
+
+ response_data = response.json()
+ if 'data' not in response_data:
+ raise KeyError("Missing 'data' field in API response")
+
+ return [embedding['embedding'] for embedding in response_data['data']]
+
+@app.post("/similarity")
+async def similarity(request: SimilarityRequest):
+ # Get embeddings for do
+
+---
+

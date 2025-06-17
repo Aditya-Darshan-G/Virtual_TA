@@ -1,0 +1,4 @@
+the default terminal in a Mac might not support all commands, so WSL is an alternative. Q14: Why does the course feel overwhelming? A14: The instructor acknowledges that the course challenges students' logical thinking by introducing concepts and tools not previously taught. The instructor encourages students to use ChatGPT to help bridge knowledge gaps and emphasizes that the course aims to build a strong foundation and encourage exploration beyond the curriculum. The instructor also points out that the course materials are available in the course portal, including content for weeks beyond the current one.
+
+---
+

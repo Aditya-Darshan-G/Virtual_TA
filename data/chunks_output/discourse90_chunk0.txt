@@ -1,0 +1,30 @@
+sir I am not able to solve these question I have tried all thing also the video which you shared but still after using postman also i am unable to answer it (showing methods not allowed everytime)and also in Q8 I am having this problem Screenshot 2025-02-05 182750 1917×1018 38.3 KB import requests
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
+from sentence_transformers import util
+from fastapi.middleware.cors import CORSMiddleware
+from typing import List
+
+# Create FastAPI app
+app = FastAPI()
+
+# Enable CORS
+app.add_middleware(
+ CORSMiddleware,
+ allow_origins=["*"], # Allow all origins
+ allow_credentials=True,
+ allow_methods=["OPTIONS", "POST"], # Allow OPTIONS and POST
+ allow_headers=["*"], # Allow all headers
+)
+
+# Pydantic model to parse incoming data
+class SimilarityRequest(BaseModel):
+ docs: List[str]
+ query: str
+
+# OpenAI API key and URL
+API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
+API_KEY = "enter your key" # Replace with your actu
+
+---
+

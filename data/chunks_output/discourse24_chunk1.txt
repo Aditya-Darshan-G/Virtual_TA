@@ -1,0 +1,16 @@
+submit their code by Friday 31 Jan, I will run a sample evaluation and share the results.
+
+sir show us all the way to do project
+
+Hi Shouvik, We will have live sessions to guide on how to do project. Kind regards Jivraj
+
+Will those session be on youtube too?
+
+Hi Sakthivel, Yes all sessions are being recorded and are available on youtube within a day. Jan 25 TDS Playlist Kind regards
+
+Screenshot 2025-01-23 151614 1281×125 18.1 KB sir @Jivraj after editing line 127 in datagen.py i got those required data files. is it allowed ? also i had to run datagen.py MANUALLY(is this process also should be automatic)?
+
+Hi Guddu , I didn’t make any changes to file and it worked for me. Can you mention what is need of making changes ? command that I used : uv run datagen.py 22f3002542@ds.study.iitm.ac.in --root ./data here --root option defines the folder where you want to store generated data. by default it would try to create a folder in root directory of operating system.
+
+---
+

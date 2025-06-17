@@ -1,0 +1,4 @@
+g the model: -s : stream a prompt directly to the LLM. "$Q - Answer ONLY from these notes. Cite verbatim from notes." : ensures the response is grounded. uvx streamdown formats the streamed LLM output for easy reading.
+
+---
+

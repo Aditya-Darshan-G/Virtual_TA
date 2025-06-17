@@ -1,0 +1,38 @@
+lculate performance bonus for employee (\d+) for (\d{4})\.", query):
+ return {
+ "name": "calculate_performance_bonus",
+ "arguments": {
+ "employee_id": int(match.group(1)),
+ "current_year": int(match.group(2))
+ }
+ }
+ elif match := re.match(r"report office issue (\d+) for the (\w+) department\.", query):
+ return {
+ "name": "report_office_issue",
+ "arguments": {
+ "issue_code": int(match.group(1)),
+ "department": match.group(2)
+ }
+ }
+ return {}
+
+@app.get("/execute")
+async def execute_query(q: str):
+ # Extract the function name and arguments from the query
+ result = extract_parameters(q)
+ 
+ if not result:
+ return JSONResponse(content={"error": "No matching function found for the query"}, status_code=400)
+ 
+ # Call the respective function
+ func_name = result["name"]
+ arguments = result["arguments"]
+ 
+ # Call the function dynamically based on func_name
+ if func_name == "get_ticket_status":
+ response = get_ticket_status(**arguments)
+ elif func_name == "schedule_meeting":
+ response = schedule_m
+
+---
+

@@ -1,0 +1,21 @@
+ith -l; see TIME_STYLE below
+ -t sort by time, newest first; see --time
+ -T, --tabsize=COLS assume tab stops at each COLS instead of 8
+ -u with -lt: sort by, and show, access time;
+ with -l: show access time and sort by name;
+ otherwise: sort by access time, newest first
+ -U do not sort; list entries in directory order
+ -v natural sort of (version) numbers within text
+ -w, --width=COLS set output width to COLS. 0 means no limit
+ -x list entries by lines instead of by columns
+ -X sort alphabetically by entry extension
+ -Z, --context print any security context of each file
+ -1 list one file per line. Avoid '\n' with -q or -b
+ --help display this help and exit
+ --version output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,...
+
+---
+

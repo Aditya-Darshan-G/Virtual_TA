@@ -1,0 +1,4 @@
+Dear all, I’m thrilled to share a project inspired by my experience in the *Tools in Data Science * course: LLM Classroom Assignment Evaluator . This is the basic prototype. This tool leverages Google APIs and LLMs to automate grading and feedback for Google Classroom assignments, making evaluation faster and more insightful for educators. A heartfelt thanks to @s.anand , our course instructor, and TAs @Carlton and @Jivraj , whose guidance on LLM function calling and real-world applications made this project possible. I’d love to invite contributions from this amazing community to: Expand functionality and evaluation models. Fix bugs and optimize workflows. Improve documentation for broader accessibility. The GitHub repository is open for forks, pull requests, and ideas.
+
+---
+

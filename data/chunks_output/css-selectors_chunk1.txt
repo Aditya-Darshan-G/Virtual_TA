@@ -1,0 +1,4 @@
+ctors : Target elements based on their attributes or attribute values ( [type="text"] ) Combinators : Use relationships between elements ( div > p , div + p , div ~ p ) Practice your CSS selector skills with this interactive tool: CSS Diner : A fun game that teaches CSS selectors through increasingly challenging levels
+
+---
+

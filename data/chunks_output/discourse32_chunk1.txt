@@ -1,0 +1,12 @@
+be great if you demonstrate it in today’s live session at 8pm. Otherwise next week is all about project 2 discussion.
+
+Thank you for the opportunity! However, I won’t be able to present the project in a public session as my Azure API URL would be exposed , and since it incurs costs per usage , I need to keep it secure. I’d prefer a private meet to demonstrate the project. Please let me know if that can be arranged. Looking forward to discussing it!
+
+That’s amazing @23f2005702 , so far I have completed till 44 Qs and deployed it on azure too !! Mine is solving around 40 correctly out of these 44 (checked with another user’s login on the portal).
+
+@Saransh_Saini I can’t join the meet since I’m out of station and don’t have PC access. I also have other coursework, so I’ll be available for a meet from the 31st onwards
+
+Congrats for your project mate! Just wanted to ask how did you frame your questions for the Graded Assignments? Cause that will help me complete mine.
+
+---
+

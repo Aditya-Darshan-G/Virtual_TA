@@ -1,0 +1,12 @@
+ssue Report If your Docker image was run on the wrong architecture, please fill out this form: Submit Report Bug fixes If you find bugs in our evaluation scripts, you might benefit from more marks because of the bug fix. So it is in your interest to look through our scripts and logs and identify bugs or anomalies. You might just go from 0 to heros. Kind regards, TDS Team
+
+What is the highest mark anyone has scored? Is it 22/20 @Carlton ?
+
+How come me and my group used same code but some got 10 some 11 some 12?
+
+@carlton Please make clear what the average marks are, what highest marks are, and how the project will be evaulated. We are very close to the end semester exam, and we are still not clear on assignment and project marks. It is a bit frustrating to plan in such circumstances.
+
+You have to see the logs for that. We have shared the logs. Everyone was graded by the exact same code, so there is no partiality.
+
+---
+

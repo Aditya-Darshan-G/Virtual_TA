@@ -1,0 +1,6 @@
+ts while removing sensitive or unnecessary information. Business analysis rarely needs all data - marketing teams want current customers, finance needs profitable regions, and product managers focus on active items. Efficient filtering reduces processing time, protects sensitive data (removing PII columns), and ensures analysis focuses on business-relevant subsets rather than getting lost in comprehensive but unfocused datasets. sql
+SELECT order_id, amount FROM orders WHERE region = 'US';
+SELECT * EXCLUDE region FROM orders; Derived Columns Now, let's create new business metrics from existing data that drive key performance indicators. Raw transaction amounts become profit margins with tax calculations, customer regions enable territory-based analysis, and dates support seasonal comparisons. These derived metrics power executive dashboards, sales team performance tracking, and automated business rules without requiring manual calculations or separate reporting tools.
+
+---
+

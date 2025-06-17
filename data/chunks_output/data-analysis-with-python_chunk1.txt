@@ -1,0 +1,4 @@
+mize heat maps to visualize data patterns effectively. Leveraging AI : Use ChatGPT to generate and refine analytical code, enhancing productivity and accuracy. Here are the links used in the video: Data analysis with Python - Notebook Card transactions dataset (Parquet) 10 minutes to Pandas Python Pandas tutorials
+
+---
+

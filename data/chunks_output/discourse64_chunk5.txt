@@ -1,0 +1,12 @@
+finally submit
+
+For question 2 getting Error: At [8].title: Values don’t match. Expected: “9. Un matrimonio di troppo”. Actual: “9. You’re Cordially Invited” But this movie is not found when searched by name image 1414×295 19 KB
+
+how to get the BBC weather API key?
+
+Just a quick query on the Bonus mark. Would this be added to the final grade? Say for example, Someone get a full score in the first 4 assignments. So the total comes up to 39.5/39.5, and would be converted to 0.15 or 15 marks. Would the bonus mark be additional to that 15 or would the score change to 40.5/39.5 and then get normalised to 15?
+
+@JoelJeffrey It will be added to the GA4 marks, not the final grade.
+
+---
+

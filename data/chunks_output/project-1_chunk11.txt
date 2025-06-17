@@ -1,0 +1,4 @@
+versity . You're encouraged to copy code and learn from each other. We encourage diversity too. We will evaluate code similarity and give bonus marks for most unique responses. (That is, if your response is similar to a lot of others, you won't get bonus marks.) Your score will be the sum of the marks above. No normalization, i.e. whether it's 0/20 or 22/20, what you get is what you get. This execution will be automated via: validate.py to check the pre-requisites and generate the eligible images.txt export AIPROXY_TOKEN=... to set the AI Proxy token run.sh to evaluate all submissions.
+
+---
+

@@ -1,0 +1,12 @@
+am sending postman request as http://localhost:8000/run?task=The file ./data/dates.txt contains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to ./data/dates-wednesdays.txt do I need to use dockerfile for this? i am still getting the same error as Screenshot 2025-02-14 231752 1786×1065 74.8 KB @carlton , @Saransh_Saini , @Jivraj
+
+have you first post a request for task A1 as it creates the data folder along with all the other files .
+
+no actually do we have to create another file for that or we have to request post in this one ? can you guide me for that step wise . it would be very helpful.
+
+by running task A1 , it automatically creates a data folder along with all the files in it. Without running task A1 you can’t do rest of A tasks
+
+how can i run A1 task can elaborate a little bit.
+
+---
+

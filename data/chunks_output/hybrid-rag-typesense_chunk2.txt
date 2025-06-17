@@ -1,0 +1,31 @@
+"httpx"] /// import json
+import httpx
+import os headers = {"X-TYPESENSE-API-KEY": "secret-key"} schema = {
+ "name": "notes",
+ "fields": [
+ {"name": "id", "type": "string", "facet": False},
+ {"name": "content", "type": "string", "facet": False},
+ {
+ "name": "embedding",
+ "type": "float[]",
+ "embed": {
+ "from": ["content"],
+ "model_config": {
+ "model_name": "openai/text-embedding-3-small",
+ "api_key": os.getenv("OPENAI_API_KEY"),
+ },
+ },
+ },
+ ],
+} with open("chunks.json", "r") as f:
+ chunks = [json.loads(line) for line in f.readlines()] with httpx.Client() as client:
+ # Create the collection
+ if client.get(f"http://localhost:8108/collections/notes", headers=headers).status_code == 404:
+ r = client.post("http://localhost:8108/collections", json=schema, headers=headers) # Embed the chunks
+result = client.post(
+ "http://localhost:8108/collections/notes/documents/import?action=emplace",
+ headers={**headers, "Content-Type": "text/plain"},
+ data="\n".join(json.dumps(chunk) for chunk in chunks)
+
+---
+

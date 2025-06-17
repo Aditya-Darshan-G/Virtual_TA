@@ -1,0 +1,8 @@
+h : Activates the virtual environment (fish shell syntax) uv pip install crawl4ai : Installs the crawl4ai package crawl4ai-setup : Initializes crawl4ai's required dependencies markdown-crawler markdown-crawler combines web crawling with markdown conversion in one tool. It's efficient for bulk processing but tends to produce lower-quality markdown conversion compared to specialized converters like pandoc or defuddle. Best for projects where quantity and integration are more important than perfect formatting. bash
+uv venv
+source .venv/bin/activate.fish
+uv pip install markdown-crawler
+markdown-crawler -t 5 -d 3 -b ./markdown https://study.iitm.ac.in/ds/ uv venv and activation: Same as above uv pip install markdown-crawler : Installs the markdown-crawler package markdown-crawler : Runs the crawler with these options: -t 5 : Sets 5 threads for parallel crawling -d 3 : Limits crawl depth to 3 levels -b ./markdown : Sets the base output directory Final argument is the starting URL
+
+---
+

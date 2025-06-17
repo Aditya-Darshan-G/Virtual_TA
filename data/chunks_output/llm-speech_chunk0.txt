@@ -1,0 +1,14 @@
+OpenAI TTS-1 for Text-to-Speech Generation OpenAI's Text-to-Speech API (TTS-1) converts text into natural-sounding speech using state-of-the-art neural models. Released in March 2025, it offers multiple voices and control over speaking style and speed. Simple speech generation To generate speech from text, send a POST request to the speech endpoint: bash
+curl https://api.openai.com/v1/audio/speech \
+ -H "Authorization: Bearer $OPENAI_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{
+ "model": "tts-1",
+ "input": "Hello! This is a test of the OpenAI text to speech API.",
+ "voice": "alloy"
+ }' --output speech.mp3 Generation options Control the output with these parameters: model : tts-1 (standard) or tts-1-hd (higher quality) input : Text to convert (max 4096 characters) voice : alloy , echo , fable , onyx , nova , or shimmer response_format : mp3 (default), opus , aac , or flac speed : 0.25 to 4.0 (default 1.0) bash
+curl https://api.openai.com/v1/audio/speech \
+ -H "Authorization:
+
+---
+

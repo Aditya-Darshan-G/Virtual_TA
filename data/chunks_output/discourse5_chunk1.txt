@@ -1,0 +1,8 @@
+will push scores over this weekend. We are currently doing normalisation. Kind regards
+
+Hi @carlton , I’m experiencing the same issue mentioned in this thread regarding Project 1 evaluation emails: The first email I received confirmed all requirements were met (public repo, MIT License, Dockerfile, etc.) The second email incorrectly flagged missing files despite their presence in my repository Here are screenshots of both emails showing the discrepancy: First Evaluation Email 1511×724 76.2 KB Second Evaluation Email 1247×681 37.5 KB My GitHub repo remains publicly accessible with all required components: GitHub repo Could you please confirm this was an automated error and that my submission will be evaluated based on the actual repository contents? Your clarification would be greatly appreciated. Thank you for your time and assistance!
+
+Hi, Prerequisite checks have passed. But your docker image was missing a dependency that you forgot to copy into the image.
+
+---
+

@@ -1,0 +1,40 @@
+ple"
+ },
+ "flavor": {
+ "type": "string",
+ "description": "Flavor of the cake"
+ }
+ },
+ "required": ["no_people", "flavor"],
+ "additionalProperties": False
+ },
+ "strict": True
+ }
+}
+
+def sort_contacts(contacts_file_path: str, output_file_path: str):
+ try:
+ contacts = pd.read_json(contacts_file_path)
+ contacts.sort_values(["last_name", "first_name"]).to_json(output_file_path, orient="records")
+ return {"message": f"Contacts sorted and saved to {output_file_path}"}
+ except Exception as e:
+ return {"error": f"Failed to sort contacts: {str(e)}"}
+
+tools = [bakecake, a1_tool, a2_tool, a3_tool, a4_tool, a5_tool, a6_tool, a7_tool, a8_tool, a9_tool, a10_tool]
+
+def query_gpt(user_input: str, tools: list[dict] = tools) -> dict[str, Any]:
+ response = requests.post(
+ url="https://aiproxy.sanand.workers.dev/openai/v1/chat/completions",
+ headers={
+ "Content-Type": "application/json",
+ "Authorization": f"Bearer {AIPROXY_TOKEN}"
+ },
+ json={
+ "model": "gpt-4o-mini",
+ "messages": [
+ {
+ "role": "system",
+ "c
+
+---
+

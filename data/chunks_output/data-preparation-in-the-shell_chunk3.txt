@@ -1,0 +1,25 @@
+set
+ -b, --cookie <data|filename> Send cookies from string/file
+ -c, --cookie-jar <filename> Write cookies to <filename> after operation
+ --create-dirs Create necessary local directory hierarchy
+ --create-file-mode <mode> File mode for created files
+ --crlf Convert LF to CRLF in upload
+ --crlfile <file> Use this CRL list
+ --curves <algorithm list> (EC) TLS key exchange algorithm(s) to request
+ -d, --data <data> HTTP POST data
+ --data-ascii <data> HTTP POST ASCII data
+ --data-binary <data> HTTP POST binary data
+ --data-raw <data> HTTP POST data, '@' allowed
+ --data-urlencode <data> HTTP POST data url encoded
+ --delegation <LEVEL> GSS-API delegation permission
+ --digest Use HTTP Digest Authentication
+ -q, --disable Disable .curlrc
+ --disable-eprt Inhibit using EPRT or LPRT
+ --disable-epsv Inhibit using EPSV
+ --disallow-username-in-url Disallow username in url
+ --dns-interface <interface> Interface to use for DNS requests
+ --dns-ipv4-addr <address> IPv4 address to use for DNS requests
+ --
+
+---
+

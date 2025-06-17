@@ -1,0 +1,28 @@
+nse_format": {
+ "type": "json_schema",
+ "json_schema": {
+ "name": "math_response",
+ "strict": true
+ "schema": {
+ "type": "object",
+ "properties": {
+ "steps": {
+ "type": "array",
+ "items": {
+ "type": "object",
+ "properties": { "explanation": { "type": "string" }, "output": { "type": "string" } },
+ "required": ["explanation", "output"],
+ "additionalProperties": false
+ }
+ },
+ "final_answer": { "type": "string" }
+ },
+ "required": ["steps", "final_answer"],
+ "additionalProperties": false
+ }
+ }
+ }
+}' Here's what the response_format tells OpenAI. The items marked ⚠️ are OpenAI specific requirements for the JSON schema. "type": "json_schema" : We want you to generate a JSON response that follows this schema. "json_schema": : We're going to give you a schema. "name": "math_response" : The schema is called math_response . (We can call it anything.) "strict": true : Follow the schema exactly. "schema": : Now, here's the actual JSON schema. "type": "object" : Return an object.
+
+---
+

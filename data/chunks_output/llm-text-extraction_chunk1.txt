@@ -1,0 +1,12 @@
+ore real-world applications of LLMs for data extraction, such as customer service email analysis. Here are the links used in the video: Jupyter Notebook JSON Schema Function calling Structured Outputs is a feature that ensures the model will always generate responses that adhere to your supplied JSON Schema , so you don't need to worry about the model omitting a required key,
+or hallucinating an invalid enum value. bash
+curl https://api.openai.com/v1/chat/completions \
+-H "Authorization: Bearer $OPENAI_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "gpt-4o-2024-08-06",
+ "messages": [
+ { "role": "system", "content": "You are a helpful math tutor.
+
+---
+

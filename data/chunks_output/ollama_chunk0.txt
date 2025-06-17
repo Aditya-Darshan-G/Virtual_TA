@@ -1,0 +1,7 @@
+Local LLM Runner: Ollama ollama is a command-line tool for running open-source large language models entirely on your own machine—no API keys, no vendor lock-in, full control over models and performance. Basic Usage Download Ollama for macOS, Linux, or Windows and add the binary to your PATH . See the full Docs ↗ for installation details and troubleshooting. ```bash List installed and available models ollama list Download/pin a specific model version ollama pull gemma3:1b-it-qat Run a one-off prompt ollama run gemma3:1b-it-qat 'Write a haiku about data visualization' Launch a persistent HTTP API on port 11434 ollama serve Interact programmatically over HTTP curl -X POST http://localhost:11434/api/chat \
+ -H 'Content-Type: application/json' \
+ -d '{"model":"gemma3:1b-it-qat","prompt":"Hello, world!"}'
+``` Key Features Model management : list / pull — Install and switch among Llama 3.3, DeepSeek-R1, Gemma 3, Mistral, Phi-4, and more.
+
+---
+

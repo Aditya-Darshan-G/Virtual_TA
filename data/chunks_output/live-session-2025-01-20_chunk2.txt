@@ -1,0 +1,4 @@
+ubmit the GitHub and Docker file details. Q4: How does the project accommodate participants from non-science or non-coding backgrounds? A4: The course aims to equip all participants, regardless of their background, with the necessary skills for the industry. It provides support through live sessions, encourages the use of external resources like ChatGPT and YouTube, and offers dedicated project sessions. The goal is to bridge the technical gap and prepare everyone for real-world challenges. Q5: How can I seek help or clarification on the project, especially if I find it overwhelming? A5: You can ask questions during the live sessions, utilize the course forum, or reach out to the instructors directly through the designated channels. Additionally, you can use resources like ChatGPT for assistance.
+
+---
+

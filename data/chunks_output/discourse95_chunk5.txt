@@ -1,0 +1,6 @@
+t if you are cloning or thinking of sharing the repo or using someone’s project it’s better to use requirements.txt. 24f2006531: My understanding is that if a version is not specified in the requirements.txt file, it installs the latest available version, whereas specifying a version ensures a specific installation The creation of requirements.txt ensures that the current installation version is listed. Never try to list requirements.txt. There is a command to do that, pip3 freeze > requirements.txt . This does the hard work of listing the dependencies for you
+
+Thank you sir for clarifying. carlton: • Using greater than/less than constraints : package>=1.2,<2.0 (allows updates but avoids major version changes). I wasn’t aware of greater than/less than constraint.
+
+---
+

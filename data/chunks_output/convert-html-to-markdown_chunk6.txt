@@ -1,0 +1,11 @@
+| Slow | Very High | Almost everything | Academic papers, documentation |
+| lynx | Fast | Low | Basic structure only | Quick extraction, large batches |
+| w3m | Very Slow | Medium-Low | Basic structure with better tables | Improved readability over lynx | Optimize Batch Processing Process in parallel : Use GNU Parallel for multi-core processing: bash
+ find . -name "*.html" | parallel "pandoc -f html -t markdown_strict -o {}.md {}" Filter files before processing : bash
+ find . -name "*.html" -type f -size -1M -exec pandoc -f html -t markdown {} -o {}.md \; Customize output format with additional parameters: bash
+ # For pandoc, preserve line breaks but simplify other formatting
+ find . -name "*.html" -exec pandoc -f html -t markdown --wrap=preserve --atx-headers {} -o {}.md \; Handle errors gracefully : bash
+ find .
+
+---
+

@@ -1,0 +1,4 @@
+What should we focus on when using the Elements, Console, and Network tabs? A36: For the Elements tab, focus on extracting data using CSS selectors (classes and IDs). The Console tab is used for running JavaScript, particularly for data scraping with CSS selectors. The Network tab shows what the browser is fetching. The instructor recommends exploring these tabs and having fun with them.
+
+---
+

@@ -1,0 +1,6 @@
+SeoBot/1.0; +https://dataforseo.com/dataforseo-bot)" www.s-anand.net 192.254.190.216 These requests have clearly identified themselves as DataForSeoBot/1.0 , which is helpful. It also seems to be crawling robots.txt to check if it's allowed to crawl the site, which is polite. Let's look at the second IP address: 37.59.21.100 . That seems to be from OVH, a French cloud hosting provider. Is that a bot, too? ```python Preview lines that begin with 37.59.21.100 !grep "^37.59.21.100 " s-anand.net-Apr-2024 | head -n 5
+``` 37.59.21.100 - - [31/Mar/2024:07:19:41 -0500] "GET /blog/matching-misspelt-tamil-movie-names/feed/ HTTP/1.1" 200 1105 "-" "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36" www.s-anand.net 192.254.190.216
+37.59.21.100 - - [31/Mar/2024:07:19:53 -0500] "GET /blog/hindi-songs-online/feed/ HTTP/1.1" 200 1382 "-" "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36" www.s-ana
+
+---
+

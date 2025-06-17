@@ -1,0 +1,23 @@
+et("/api")
+async def get_students(class_: Optional[List[str]] = Query(None)):
+ print(f"Requested classes: {class_}") # Debugging line
+ if class_:
+ filtered_students = [student for student in students if student["class"] in class_]
+ print(f"Filtered students: {filtered_students}") # Debugging line
+ return {"students": filtered_students}
+ return {"students": students}
+
+if __name__ == "__main__":
+ import uvicorn
+ uvicorn.run(app, host="127.0.0.1", port=8000)
+
+Hi Mishkat, This error is because you are filtering on class_ instead of class So if you send a request on http://127.0.0.1/api?class_=1S you will see response for that 1S class only. kind regards
+
+thank you so much after modifying the code it got accepted
+
+Hi Guddu, Inside index.html file of your repo, don’t put html code just put your email in the file nothing else. This issue is because when you deploy on github pages it encrypts any email that’s on page. kind regards.
+
+I am facing an issue with Docker Desktop.
+
+---
+

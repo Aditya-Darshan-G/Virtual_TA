@@ -1,0 +1,25 @@
+https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:streamGenerateContent?alt=sse \
+ -H "X-Goog-API-Key: $GEMINI_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d "$(cat << EOF
+ {
+ "contents": [
+ {
+ "role": "user",
+ "parts": [
+ {
+ "inline_data": {
+ "mime_type": "audio/mp3",
+ "data": "$(base64 --wrap=0 $MP3_FILE)"
+ }
+ },
+ {"text": "Transcribe this"}
+ ]
+ }
+ ]
+ }
+ EOF
+ )"
+
+---
+

@@ -1,0 +1,28 @@
+ll GPT-4o-Mini via AI Proxy."""
+ async with httpx.AsyncClient(timeout=30.0) as client:
+ response = await client.post(
+ "https://llmfoundry.straive.com/v1/chat/completions",
+ headers={"Authorization": f"Bearer {token}"},
+ json={
+ "model": "gpt-4o-mini",
+ "messages": [
+ {"role": "system", "content": system_prompt},
+ {"role": "user", "content": user_prompt},
+ ],
+ },
+ )
+ response.raise_for_status()
+ return response.json()["choices"][0]["message"]["content"]
+
+system_prompt = """The user will provide a task description.
+Write one or more `bash` or `python` scripts to execute the task.
+
+CODING RULES:
+
+- uv, the Python runner, is ALREADY installed. Run with `uv run [URL] [ARGUMENTS]`
+- Parse dates with `python-dateutil`
+- Sender email is in the `From: "Name <email@...>` header
+- When removing a prefix (e.g.
+
+---
+

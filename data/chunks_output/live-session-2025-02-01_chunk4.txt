@@ -1,0 +1,4 @@
+ou are using the correct key in the JSON response ( .keys() ). Q9: How do I use Docker? A9: Docker creates lightweight, self-contained images that run inside a Docker engine. This isolates your application from the underlying system, making it portable and easy to deploy anywhere. You build the image using podman build -t tds-hello . (the . refers to the current working directory). Then, you run it using podman run -it tds-hello bash . The bash command opens an interactive shell within the Docker container. Q10: What are the use cases for Docker? A10: Docker is useful for deploying applications to various environments without worrying about dependencies or system specifics. You create a Docker image containing your application and its dependencies. Anyone can then download and run the image regardless of their operating system. This is especially helpful for teams with different setups or when deploying to multiple clients.
+
+---
+

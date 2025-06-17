@@ -1,0 +1,4 @@
+the browser and allows for automation. Q11: How to handle encoding issues when opening CSV files? A11: When opening CSV files, especially those with unusual characters, specify the correct encoding (e.g., using the encoding parameter in pandas). The instructor shows how to detect the encoding of a file using Python and then uses pandas to open the file with the detected encoding. Q12: How to use Git and GitHub? A12: The instructor suggests covering Git and GitHub in a separate session due to the complexity and time required for a thorough explanation. Q13: How to use WSL (Windows Subsystem for Linux) in VS Code? A13: The instructor explains how to use the WSL extension in VS Code to access a Linux terminal within VS Code. This is useful for running bash commands. The instructor notes that the default terminal in a Mac might not support all commands, so WSL is an alternative.
+
+---
+

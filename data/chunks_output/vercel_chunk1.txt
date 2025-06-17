@@ -1,0 +1,4 @@
+busy periods. For example, if 100 people fill out your contact form at once, the platform creates 100 temporary copies of your code to handle them all. When they're done, these copies disappear. It's cheaper than running a full-time server because you're not paying for the time when no one is using your tool - most tools are idle 95% of the time! Rather than writing a full program, serverless platforms let you write functions. These functions are called via HTTP requests. They run in a cloud environment and are scaled up and down automatically. But this means you write programs in a different style. For example: You can't pip install packages - you have to use requirements.txt You can't read or write files from the file system - you can only use APIs. You can't run commands (e.g. subprocess.run() ) Vercel is a cloud platform optimized for frontend frameworks and serverless functions. Vercel is tightly integrated with GitHub.
+
+---
+

@@ -1,0 +1,8 @@
+(like Crawl4AI) with post-processing conversion For simple website archiving : Markdown-crawler provides a convenient all-in-one solution For high-quality conversion : Use wget/wget2 for crawling followed by pandoc for conversion For maximum speed : Combine wget with lynx in a pipeline Crawl4AI Crawl4AI is designed for single-page extraction with high-quality content processing. Crawl4AI is optimized for AI training data extraction, focusing on clean, structured content rather than complete site preservation. It excels at removing boilerplate content and preserving the main article text. bash
+uv venv
+source .venv/bin/activate.fish
+uv pip install crawl4ai
+crawl4ai-setup uv venv : Creates a Python virtual environment using uv (a faster alternative to virtualenv) source .venv/bin/activate.fish : Activates the virtual environment (fish shell syntax) uv pip install crawl4ai : Installs the crawl4ai package crawl4ai-setup : Initializes crawl4ai's required dependencies markdown-crawler markdow
+
+---
+

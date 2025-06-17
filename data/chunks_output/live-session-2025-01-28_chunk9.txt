@@ -1,0 +1,4 @@
+ject will have to work. Q26: The ninth question in the prompt engineering section mentions paying money. Do I have to pay? A26: No, you don't have to pay. Q27: I have a few more questions. Will we have more sessions before GA3 is due? A27: Yes, we'll have at least three more sessions before GA3 is due. Q28: I thought GA3 was due this weekend. Is that wrong? A28: Yes, it's due this weekend, but we'll have three more sessions before then. Q29: I have another question. Is it okay to ask now? A29: Sure. Q30: I submitted my answers, but I don't know if I did it correctly. There's nothing to submit here. I just say "yes"? A30: You just say "yes" and submit to the URL. It will pick up the API itself. Q31: Why isn't it reflecting? A31: It may be because you haven't pushed to GitHub yet. Q32: I have a question about GA1, questions 10 and 11. I posted them on Discourse, but haven't received a reply. In question 10, the hash button is showing an error.
+
+---
+

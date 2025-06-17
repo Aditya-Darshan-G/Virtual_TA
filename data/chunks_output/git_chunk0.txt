@@ -1,0 +1,7 @@
+Version Control: Git, GitHub Git is the de facto standard for version control of software (and sometimes, data as well). It's a system that keeps track of changes you make to files and folders. It allows you to revert to a previous state, compare changes, etc. It's a central tool in any developer's workflow. GitHub is the most popular hosting service for Git repositories. It's a website that shows your code, allows you to collaborate with others, and provides many useful tools for developers. Watch these introductory videos to learn the basics of Git and GitHub (98 min): Essential Git Commands: ```bash Repository Setup git init # Create new repo
+git clone url # Clone existing repo
+git remote add origin url # Connect to remote Basic Workflow git status # Check status
+git add .
+
+---
+

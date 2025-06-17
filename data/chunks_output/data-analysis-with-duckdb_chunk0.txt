@@ -1,0 +1,4 @@
+Data Analysis with DuckDB You'll learn how to perform data analysis using DuckDB and Pandas, covering: Parquet for Data Storage : Understand why Parquet is a faster, more compact, and better-typed storage format compared to CSV, JSON, and SQLite. DuckDB Setup : Learn how to install and set up DuckDB, along with integrating it into a Jupyter notebook environment. File Format Comparisons : Compare file formats by speed and size, observing the performance difference between saving and loading data in CSV, JSON, SQLite, and Parquet. Faster Queries with DuckDB : Learn how DuckDB uses parallel processing, columnar storage, and on-disk operations to outperform Pandas in speed and memory efficiency. SQL Query Execution in DuckDB : Run SQL queries directly on Parquet files and Pandas DataFrames to compute metrics such as the number of unique flight routes delayed by certain time intervals.
+
+---
+

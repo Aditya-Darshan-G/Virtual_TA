@@ -1,0 +1,4 @@
+ove the three dots (...) from the copied JSON. Click the "Send" button. Q4: I'm getting an error: "API key client option must be set either by passing API key to the client or by setting the OPENAI_API_KEY environment variable." Am I trying to access an OpenAI key? A4: Yes, you are. Since you don't have a .env file, you need to create one. For now, comment out the code after line 172 and replace it with return "hello" to test. Restart the server. Q5: Thunder Client is not showing any paywall. A5: Thunder Client has a free version with limitations (e.g., 15 collections and 15 requests). Q6: Earlier, Thunder Client was free. When did it change? A6: Recently. Q7: I'm still stuck. Can you spell "Thunder Client"? A7: T-H-U-N-D-E-R-C-L-I-E-N-T Q8: I'm still getting errors. What's wrong? A8: Let's review your code. You're trying to send a request using the OpenAI module, which won't work. You need to send the request through an API proxy.
+
+---
+

@@ -1,0 +1,23 @@
+ut <seconds> How long to wait for 100-continue
+ -f, --fail Fail silently (no output at all) on HTTP errors
+ --fail-early Fail on first transfer error, do not continue
+ --fail-with-body Fail on HTTP errors but save the body
+ --false-start Enable TLS False Start
+ -F, --form <name=content> Specify multipart MIME data
+ --form-escape Escape multipart form field/file names using backslash
+ --form-string <name=string> Specify multipart MIME data
+ --ftp-account <data> Account data string
+ --ftp-alternative-to-user <command> String to replace USER [name]
+ --ftp-create-dirs Create the remote dirs if not present
+ --ftp-method <method> Control CWD usage
+ --ftp-pasv Use PASV/EPSV instead of PORT
+ -P, --ftp-port <address> Use PORT instead of PASV
+ --ftp-pret Send PRET before PASV
+ --ftp-skip-pasv-ip Skip the IP address for PASV
+ --ftp-ssl-ccc Send CCC after authenticating
+ --ftp-ssl-ccc-mode <active/passive> Set CCC mode
+ --ftp-ssl-control Require SSL/TLS for FTP login, clear for transfer
+ -G, --get
+
+---
+

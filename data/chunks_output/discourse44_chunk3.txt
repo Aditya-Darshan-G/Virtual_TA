@@ -1,0 +1,14 @@
+uble check- @Jivraj , @carlton Thank you grab-IIT-Madras--Microsoft Edge_at_23.15.25_on__14-02-2025__003255 1920×1317 210 KB
+
+image 817×458 29.3 KB this is my data before date filter - for question 1 please conform am i doing correct. and tell how to do the date filtering as some are in mm-dd-yyyy or yyyy-mm-dd format. as this data is less i did it manually SUM OF COST 14891.00 SUM OF SALES 31004.00 TOTAL 45895.00 TOTAL MARGIN 0.351083996 but this is not correct please guide
+
+@23f1003186 – thanks for flagging this. You’re right. I’ve fixed this error.
+
+Any signal for this question? @s.anand @carlton
+
+@23f1003186 thanks again for flagging this. This is fixed, too.
+
+tried google sheets - it autoformatted my date data, also i realized later i was applying the formula the wrong way.
+
+---
+

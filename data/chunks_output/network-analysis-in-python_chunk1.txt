@@ -1,0 +1,4 @@
+are links used in the video: Jupyter Notebook Exploring the Movie Actor Network in Python Jupyter Notebook - Shortest Path Jupyter Notebook - Actor network IMDb Datasets Learn about the sknetwork package Learn about the scipy.sparse matrices and video Introduction to Kumu Network analysis with Kumu Introduction to Systems and Network Mapping with Kumu
+
+---
+

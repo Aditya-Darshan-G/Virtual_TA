@@ -1,0 +1,4 @@
+l messy work is debugging and deployment due to the sheer variety of it. Some are deploying on AWS, some on scalingo, some on Digitalocean, some on Render, some on Azure… even helping amongst ourselves is getting complex because of this.
+
+---
+

@@ -1,0 +1,4 @@
+s every object to have "additionalProperties": false . "final_answer": : There's a final_answer property. "type": "string" : ... which is a string. "required": ["steps", "final_answer"] : ⚠️ You must add "required": [...] and include all fields in the object. "additionalProperties": false : ⚠️ OpenAI requires every object to have "additionalProperties": false .
+
+---
+

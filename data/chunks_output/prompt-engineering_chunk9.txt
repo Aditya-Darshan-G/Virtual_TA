@@ -1,0 +1,6 @@
+nfident are you that this method works? (Reason: Asks for a numeric rating, which can be imprecise.) GOOD : Is this method likely to work as intended? Please give a reasoning and then answer Yes or No. (Reason: A binary question simplifies the response and clarifies what’s being asked.) Don’t ask ‘On a scale of one to five...’. Models are not good with numbers.
+They don't know how to grade something 7 versus 8 on a 10 point scale. ‘Yes or no?’ is simple. It’s clear. It’s quick.
+So, break your question into simple parts that they can answer with just a yes or a no. Ask for reason first, then the answer Instruct the model to provide its reasoning steps before stating the final answer. This makes it less likely to justify itself and more likely to think deeper, leading to more accurate results. BAD : What is the best route to take? (Reason: Direct question without prompting reasoning steps first.) GOOD : First, explain your reasoning step by step for how you determine the best route.
+
+---
+

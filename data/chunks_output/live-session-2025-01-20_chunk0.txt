@@ -1,0 +1,4 @@
+Live Session: 20 Jan 2025 Q1: What is an ML project, and how does it compare to the "fitting of six models" project? A1: An ML (Machine Learning) project involves more factors than just fitting models. The "fitting of six models" project was a simplified version done for a friend's certification course. It involved training six models on a pre-cleaned dataset with some hyperparameter tuning but minimal data preprocessing or cleaning. Q2: Is the TDS project designed to provide a level playing field for everyone, considering some participants may lack coding experience? A2: The TDS project aims to combine everything learned in the course so far. It might seem challenging, especially for those without a coding background. The project requires creating an application with specific endpoints, pushing it to GitHub, creating a Docker file, and submitting it through a Google form.
+
+---
+

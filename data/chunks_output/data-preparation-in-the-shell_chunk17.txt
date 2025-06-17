@@ -1,0 +1,22 @@
+e TLSv1.0 or greater
+ --tlsv1.0 Use TLSv1.0 or greater
+ --tlsv1.1 Use TLSv1.1 or greater
+ --tlsv1.2 Use TLSv1.2 or greater
+ --tlsv1.3 Use TLSv1.3 or greater
+ --tr-encoding Request compressed transfer encoding
+ --trace <file> Write a debug trace to FILE
+ --trace-ascii <file> Like --trace, but without hex output
+ --trace-time Add time stamps to trace/verbose output
+ --unix-socket <path> Connect through this Unix domain socket
+ -T, --upload-file <file> Transfer local FILE to destination
+ --url <url> URL to work with
+ -B, --use-ascii Use ASCII/text transfer
+ -u, --user <user:password> Server user and password
+ -A, --user-agent <name> Send User-Agent <name> to server
+ -v, --verbose Make the operation more talkative
+ -V, --version Show version number and quit
+ -w, --write-out <format> Use output FORMAT after completion
+ --xattr Store metadata in extended file attributes ```python We're using 3 curl options here: --continue-at - continues the download from where it left off.
+
+---
+

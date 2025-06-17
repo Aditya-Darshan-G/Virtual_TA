@@ -1,0 +1,8 @@
+ally difficult for an LLM to overcome without significant assistance from the “hooomann” So practise with the concepts are going to be key without having to look up everything because looking up everything takes too much time. Collaboration with others is going be helpful. ROE is not proctored and is open internet. There is a reason for that. Its very hard. There will be a dataset or multiple datasets. Sometimes you may have to combine datasets to answer questions. You will have to extract data from the dataset. You will have to transform/clean the data and you will have to gain some information from the data, is what typical ROEs test. Kind regards
+
+Is there scope for collaboration in a 45 minute test?
+
+Depends on the collaborators and how they split up the tasks. If its a team that knows their roles and a team leader that can designate tasks correctly then quite possibly. In practise though that rarely happens. Also 45 mins is not a given, its a typical time we aim for.
+
+---
+

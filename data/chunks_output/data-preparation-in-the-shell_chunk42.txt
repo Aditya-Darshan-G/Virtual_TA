@@ -1,0 +1,24 @@
+matches non-space characters \S* matches 0 or more non-space characters ```python Find all words with bot in it !grep --only-matching '\b\w bot\w \b' s-anand.net-Apr-2024 | head
+``` Applebot
+applebot
+Applebot
+applebot
+Applebot
+applebot
+Applebot
+applebot
+Applebot
+applebot ```python Count frequency of all words with bot in it and show the top 10 !grep --only-matching '\S bot\S ' s-anand.net-Apr-2024 | sort | uniq --count | sort --key 1n | tail
+``` 4134 PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
+ 4307 /robots.txt
+ 5664 bingbot/2.0;
+ 5664 +http://www.bing.com/bingbot.htm)
+ 8771 +claudebot@anthropic.com)"
+ 8827 +http://www.google.com/bot.html)"
+ 8830 Googlebot/2.1;
+ 13798 (Applebot/0.1;
+ 13798 +http://www.apple.com/go/applebot)"
+ 101262 +https://dataforseo.com/dataforseo-bot)" That gives me a rough sense of who's crawling my site. DataForSEO Apple Google Anthropic Bing PetalBot Convert logs to CSV This file is almost a CSV file separated by spaces instead of commas.
+
+---
+

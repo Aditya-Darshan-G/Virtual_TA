@@ -1,0 +1,10 @@
+D AS customer,
+ date '2025-01-01' + CAST(seq % 15 AS INTEGER) AS order_date,
+ CASE WHEN seq % 3 = 0 THEN 'Widget ' || seq ELSE 'Gadget ' || seq END AS product,
+ round(random()*1000, 2) AS amount,
+ CASE WHEN seq % 4 = 0 THEN 'EU' ELSE 'US' END AS region
+FROM range(1, 50) tbl(seq);
+SQL Create a Messy CSV Let's also simulate real-world data export issues - unescaped quotes, missing delimiters, and malformed records that break standard CSV parsers. Data rarely arrives clean. Export systems fail, manual data entry introduces errors, and third-party integrations send malformed files. Learning to handle corrupted CSV files prevents hours of debugging and ensures your data pipeline doesn't break when inevitably receiving bad data from vendors, APIs, or legacy systems.
+
+---
+

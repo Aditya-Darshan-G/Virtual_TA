@@ -1,0 +1,4 @@
+en readers Citation and reference management : Extract bibliographic information from academic papers Documentation conversion : Transform technical PDFs into maintainable documentation PyMuPDF4LLM PyMuPDF4LLM is a specialized component of the PyMuPDF library that generates Markdown specifically formatted for Large Language Models. It produces high-quality markdown with good preservation of document structure. It's specifically optimized for producing text that works well with LLMs, removing irrelevant formatting while preserving semantic structure. Requires PyTorch, which adds dependencies but enables more advanced processing capabilities. PyMuPDF4LLM uses MuPDF as its PDF parsing engine. PyMuPDF is emerging as a strong default for PDF text extraction due to its accuracy and performance in handling complex PDF structures.
+
+---
+

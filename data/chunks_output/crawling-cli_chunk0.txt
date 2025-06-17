@@ -1,0 +1,4 @@
+Crawling with the CLI Since websites are a common source of data, we often download entire websites (crawling) and then process them offline. Web crawling is essential in many data-driven scenarios: Data mining and analysis : Gathering structured data from multiple pages for market research, competitive analysis, or academic research Content archiving : Creating offline copies of websites for preservation or backup purposes SEO analysis : Analyzing site structure, metadata, and content to improve search rankings Legal compliance : Capturing website content for regulatory or compliance documentation Website migration : Creating a complete copy before moving to a new platform or design Offline access : Downloading educational resources, documentation, or reference materials for use without internet connection The most commonly used tool for fetching websites is wget . It is pre-installed in many UNIX distributions and easy to install.
+
+---
+

@@ -1,0 +1,8 @@
+dear @carlton sir i am unable to access the course calender for tds and also not able to get the recorded videos of tds in my portal.kindly help me out with this
+
+Same issue with me sir. This is how my dashboard looks like. It shows the same for week 2 as well. dashboard_tds_jahnaviHunsigida 936×561 93.3 KB
+
+@RaunakThatoi @jahnavih The course content is available at Screenshot 2025-01-13 at 22.47.14 2068×788 75.4 KB At Tools in Data Science the course calendar is also available. Screenshot 2025-01-13 at 22.51.33 2044×1082 250 KB Likewise the GAs also are available through the links in the seek portal as well as on the course domain shared above. The course introduction has very important information. Many students who faced problems in Tools for Data Science in previous terms usually never read the intro. Please be diligent to read everything carefully.
+
+---
+

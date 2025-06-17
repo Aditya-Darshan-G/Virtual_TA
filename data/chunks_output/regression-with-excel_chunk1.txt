@@ -1,0 +1,4 @@
+luating the model based on significance values and understanding the implications of unexpected results (e.g., stringency index). Further Analysis : Recognizing the need for additional analysis when encountering unexpected or inconclusive results. Here are the links used in the video: Understand regression COVID-19 vaccinations - Regression Excel file COVID-19 vaccinations - Regression Model 2 Excel file
+
+---
+

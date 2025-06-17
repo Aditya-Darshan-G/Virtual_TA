@@ -1,0 +1,8 @@
+e and you will get a WSL terminal to work with. For more information watch this video https://youtu.be/q74CP4fB7cY?si=M_zw8WzpmMCyVQat or watch TDS Live Sessions. Regards, TDS TA
+
+what frameworks can we use? hopefully anything? or what frameworks can’t we use? @carlton @Jivraj
+
+Project 1 deliverables are all that matter. How you accomplish them is not very relevant. The keys to a successful Project 1 are: Deliverables, and an example of the Evaluation has been provided. If your project runs in accordance with the Evaluation methodology then it is considered. Screenshot 2025-01-27 at 8.35.23 am 1764×1764 374 KB Please read the documentation carefully from top to bottom. So the main question is how do you test if the script will run according to the evaluation? The whole point is for it to run not just on your system. It should be deployable anywhere on any machine. Your solution should work anywhere we test it. Thats why you package it in a docker container.
+
+---
+

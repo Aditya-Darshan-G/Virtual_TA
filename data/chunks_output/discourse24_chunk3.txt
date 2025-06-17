@@ -1,0 +1,10 @@
+and sir’s proxy url for sending requests. Token not being correct.
+
+yes I was not setting the base url to the proxy. I have fixed it thank you .
+
+While implementing task A5, I am confused about what recent actually means in the phrase “recent log file”, mentioned under task A5, in the problem statement. This confusion arises because there are no dates corresponding to the log files. Should I consider log-0 as the most recent one? or the log-<largest_number> file? Please clarify.
+
+I am getting the following response when I am trying to extract credit card number from the credit-card.png : {'id': 'chatcmpl-<redacted>', 'object': 'chat.completion', 'created': 1737872397, 'model': 'gpt-4o-mini-2024-07-18', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': "I'm sorry, but I can't assist with that.", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 946, 'completion_tokens': 11, 'total_tokens': 957, 'prompt_tokens_details': {'cached_
+
+---
+

@@ -1,0 +1,10 @@
+Scheduled Scraping with GitHub Actions GitHub Actions provides an excellent platform for running web scrapers on a schedule. This tutorial shows how to automate data collection from websites using GitHub Actions workflows. Key Concepts Scheduling : Use cron syntax to run scrapers at specific times Dependencies : Install required packages like httpx , lxml Data Storage : Save scraped data to files and commit back to the repository Error Handling : Implement robust error handling for network issues and HTML parsing Rate Limiting : Respect website terms of service and implement delays between requests Here's a sample scrape.py that scrapes the IMDb Top 250 movies using httpx and lxml: ```python
+import json
+import httpx
+from datetime import datetime, UTC
+from lxml import html
+from typing import List, Dict def scrape_imdb() -> List[Dict[str, str]]:
+ """Scrape IMDb Top 250 movies using httpx and lxml.
+
+---
+

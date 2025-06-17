@@ -1,0 +1,5 @@
+--strip-all --all-progressive --max=85 image.jpg Convert and resize convert input.jpg -resize 800x600 output.jpg Batch convert mogrify -format webp -quality 85 *.jpg
+``` Watch this video on modern image formats and optimization (15 min): Tools for image optimization: squoosh.app : Browser-based compression ImageOptim : GUI tool for Mac sharp : Node.js image processing Pillow : Python imaging library
+
+---
+

@@ -1,0 +1,11 @@
+| Best For |
+| ------------ | ---------------------------------------- | ---------------------------- | ------------------------------------ |
+| PyMuPDF4LLM | Structure preservation, LLM optimization | Requires PyTorch | AI training data, semantic structure |
+| Markitdown | Multi-format support, simple usage | Less precise layout handling | Batch processing, mixed documents |
+| Unstructured | Wide format support, active development | Can be resource-intensive | Production pipelines, integration |
+| GROBID | Reference extraction excellence | Narrower use case | Academic papers, citations |
+| Docling | Advanced document understanding | Installation difficulties | Research applications |
+| MegaParse | Comprehensive approach | Requires OpenAI API | Complex documents, OCR needs | How to pick: Need LLM-ready content? PyMuPDF4LLM is specifically designed for this Working with multiple document formats? Markitdown handles diverse inputs Extracting academic references? GROBID remains the stand
+
+---
+

@@ -1,0 +1,4 @@
+sights before starting the data cleaning and modeling process. Here are links used in the video: Jupyter Notebook Pandas Profiling output Learn about the pandas_profiling package . Video Learn about the google.colab package
+
+---
+

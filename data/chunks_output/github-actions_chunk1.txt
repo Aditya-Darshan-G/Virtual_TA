@@ -1,0 +1,31 @@
+s:
+ collect-iss-data:
+ runs-on: ubuntu-latest
+ permissions:
+ contents: write steps:
+ - name: Checkout repository
+ uses: actions/checkout@v4
+
+ - name: Install uv
+ uses: astral-sh/setup-uv@v5
+
+ - name: Fetch ISS location data
+ run: | # python
+ uv run --with requests python << 'EOF'
+ import requests
+
+ data = requests.get('http://api.open-notify.org/iss-now.json').text
+ with open('iss-location.jsonl', 'a') as f:
+ f.write(data + '\n')
+ 'EOF'
+
+ - name: Commit and push changes
+ run: | # shell
+ git config --local user.email "github-actions[bot]@users.noreply.github.com"
+ git config --local user.name "github-actions[bot]"
+ git add iss-location.jsonl
+ git commit -m "Update ISS position data [skip ci]" || exit 0
+ git push ``` Tools: GitHub CLI : Manage workflows from terminal Super-Linter : Validate code style Release Drafter : Automate releases act : Run actions locally How to handle secrets in GitHub Actions
+
+---
+

@@ -1,0 +1,4 @@
+ussia? (ANS: https://data.gov.ru/?language=en ) Are research papers structured, semi-structured or unstructured? (ANS: Semi-structured. They have author names, abstracts, keywords, etc. but most content is free-form.) Are book titles categorical or composite? (ANS: Categorical. They don't have an underlying structure.) Optional: Tools used in the industry Kathir Mani from QueLit and Anand S from Gramener discuss the tools and technologies used in the industry. (9 min) Scraping: Reference and helpful content For those who don't know HTML, CSS, or JavaScript, this FreeCodeCamp Responsive Web Design course is a good starting point. For those who don't know Python, this Learn Python video and this Python for Beginners playlist is a good starting point. Few More Scraping tools About Scrapy & Chrome Web Scraper Extension (Video) Chrome Web Scraper Extension (Video) Scraping: Sample questions Read the Hacker News API docs .
+
+---
+

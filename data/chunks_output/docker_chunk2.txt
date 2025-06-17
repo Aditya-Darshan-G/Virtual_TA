@@ -1,0 +1,5 @@
+push py-hello:latest docker.io/$DOCKER_HUB_USERNAME/py-hello Push adding a specific tag, e.g. dev TAG=dev podman push py-hello docker.io/$DOCKER_HUB_USERNAME/py-hello:$TAG
+``` Tools: Dive : Explore image layers Skopeo : Work with container images Trivy : Security scanner Optional: For Windows, see WSL 2 with Docker getting started
+
+---
+

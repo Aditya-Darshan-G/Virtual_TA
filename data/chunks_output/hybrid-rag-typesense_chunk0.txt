@@ -1,0 +1,10 @@
+Hybrid Retrieval Augmented Generation (Hybrid RAG) with TypeSense Hybrid RAG combines semantic (vector) search with traditional keyword search to improve retrieval accuracy and relevance. By mixing exact text matches with embedding-based similarity, you get the best of both worlds: precision when keywords are present, and semantic recall when phrasing varies. TypeSense makes this easy with built-in hybrid search and automatic embedding generation. Below is a fully self-contained Hybrid RAG tutorial using TypeSense, Python, and the command line. Install and run TypeSense Install TypeSense . ```bash
+mkdir typesense-data docker run -p 8108:8108 \
+ -v typesense-data:/data typesense/typesense:28.0 \
+ --data-dir /data \
+ --api-key=secret-key \
+ --enable-cors
+``` docker run : spins up a containerized TypeSense server on port 8108 -p 8108:8108 maps host port to container port. -v typesense-data:/data mounts a Docker volume for persistence. --data-dir /data points TypeSense at that volume.
+
+---
+

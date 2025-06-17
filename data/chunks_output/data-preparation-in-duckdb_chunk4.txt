@@ -1,0 +1,9 @@
+conversion ensures your cleaned data reaches every stakeholder in their preferred format, enabling faster decision-making across departments without forcing everyone to learn SQL. sql
+COPY (SELECT * FROM orders) TO 'orders.json' (FORMAT JSON);
+COPY (SELECT * FROM orders) TO 'orders.parquet' (FORMAT PARQUET); Reading Messy CSV We need to handle corrupted files that would normally crash your data pipeline. Real-world CSV files from vendors, legacy systems, or manual exports often contain malformed rows that break standard parsers. Instead of spending hours manually fixing files or losing critical business data, DuckDB's error handling lets you salvage usable records while identifying problem areas for follow-up with data providers. sql
+-- Skip bad lines while loading
+SELECT *
+FROM read_csv_auto('messy_orders.csv', ignore_errors=true); Handling Missing Values It's important to address incomplete data that could lead to wrong business conclusions.
+
+---
+

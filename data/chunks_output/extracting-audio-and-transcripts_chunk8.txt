@@ -1,0 +1,4 @@
+y are intelligent. That enables a few powerful workflows. Here are some examples: Transcribe into other languages . Gemini will handle the transcription and translation in a single step. Summarize audio transcripts . For example, convert a podcast into a tutorial, or a meeting recording into actions. Legal Proceeding Analysis . Extract case citations, dates, and other details from a legal debate. Medical Consultation Summary . Extract treatments, medications, details of next visit, etc. from a medical consultation. Here's how to use Gemini to transcribe audio files. Get a Gemini API key from Google AI Studio. Set the GEMINI_API_KEY environment variable to the API key. Set the MP3_FILE environment variable to the path of the MP3 file you want to transcribe.
+
+---
+

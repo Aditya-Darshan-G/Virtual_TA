@@ -1,0 +1,34 @@
+the equivalent of calling a function inside another in programming languages. We'll use sort to sort these IP addresses. That puts the same IP addresses next to each other. ```python Preview the SORTED IP addresses from the logs !cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | head -n 5
+``` 100.20.65.50
+100.43.111.139
+101.100.145.51
+101.115.156.11
+101.115.205.68 There are no duplicates there... maybe we need to go a bit further? Let's check the top 25 lines. ```python Preview the SORTED IP addresses from the logs !cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | head -n 25
+``` 100.20.65.50
+100.43.111.139
+101.100.145.51
+101.115.156.11
+101.115.205.68
+101.126.25.225
+101.132.248.41
+101.166.40.221
+101.166.6.221
+101.183.40.167
+101.185.221.147
+101.188.225.246
+101.200.218.166
+101.201.66.35
+101.2.187.83
+101.2.187.83
+101.2.187.83
+101.2.187.83
+101.2.187.83
+101.2.187.83
+101.2.187.83
+101.44.160.158
+101.44.160.158
+101.44.160.177
+101.44.160.177 OK, there are some duplicates.
+
+---
+

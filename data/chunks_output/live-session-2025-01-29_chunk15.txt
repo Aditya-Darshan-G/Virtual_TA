@@ -1,0 +1,4 @@
+n I get the code for this? A23: He will... didn't he provide that in a Discourse post? Someone has pasted it on Discourse. If not, we can always ask him to provide it. Q24: I've taken one more course, something on business BA or something like that. There is no GA at all for this. There is a GA, but you don't submit here. These two courses are somewhat different. A24: Right, right. Q25: When I joined (late), an ngrok error was being shown by someone. I'm also getting a very similar error. I couldn't follow the discussion at all. I joined towards the end. Shall I share my screen? A25: Just before you share your screen, was it giving you a Cloudflare error? (The student describes the error.) You can share your screen. I think your problem is slightly different. (The instructor then guides the student through troubleshooting steps, including checking the ngrok URL and restarting the Lama server.
+
+---
+

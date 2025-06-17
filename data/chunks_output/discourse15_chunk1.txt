@@ -1,0 +1,16 @@
+d data of which columns are but the dataset provided has no column named “Item”
+
+Thanks a lot for pointing out and sorry it’s my bad missed it.
+
+Item is there in other sheet we might have to join them to get items.
+
+We have to extract all id’s and their respective item from other sheet and add in first sheet with respect to id’s .
+
+@carlton Sir I don’t have Microsoft PowerPoint. What should I do ?
+
+Use the free version on Microsoft 365
+
+Below items don’t have prices. PCU3254123254127111 Anticoagulants, hemostatics, and digitalis preparations PCU3254123254127114 Calcium channel blockers PCU325412325412MM Miscellaneous receipts PCU325412325412D112OC Other digestive or genito-urinary preparations, over-the-counter PCU325412325412D113 Antacids PCU325412325412SS Secondary products PCU3254123254127112 ACE inhibitors Some items don’t have prices for all 24 months.
+
+---
+

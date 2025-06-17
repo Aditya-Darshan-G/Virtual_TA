@@ -1,0 +1,20 @@
+an't assist with that.", 'refusal': None}, 'logprobs': None, 'finish_reason': 'stop'}], 'usage': {'prompt_tokens': 946, 'completion_tokens': 11, 'total_tokens': 957, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens': 0, 'accepted_prediction_tokens': 0, 'rejected_prediction_tokens': 0}}, 'service_tier': 'default', 'system_fingerprint': '<redacted>', 'monthlyCost': 0.07715699999999998, 'cost': 0.0029040000000000003, 'monthlyRequests': 31, 'costError': 'crypto.createHash is not a function'} my code is as below : def extract_credit_card_number():
+ import requests
+ import base64
+ import os
+ from dotenv import load_dotenv
+ load_dotenv()
+
+ BASE_URL = "http://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
+ headers = {
+ "Content-Type": "application/json",
+ "Authorization": f"Bearer {os.environ["AIPROXY_TOKEN"]}"
+ }
+
+ image_path = "../data/credit_card.png"
+
+ with open(image_path, "rb") as image_file:
+ bas
+
+---
+

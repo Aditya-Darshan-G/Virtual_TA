@@ -1,0 +1,4 @@
+Live Session: 07 Feb 2025 Q1: How difficult are the TDS assignments? A1: The first assignment was easy, the second was hard, the third was average, and the fourth seems easy. However, the instructor notes that the first assignment was only easy for those with a technical background; for most students, it was very difficult. The difficulty level of subsequent assignments will decrease. Q2: Where can I find the recording of yesterday's session? A2: It's already uploaded to your calendar associated with your IIT-DS ID. It takes Google about an hour or two to process the video. Q3: How do I use the BBC Weather API to get weather data for a specific location? A3: First, use the BBC location service API to get the location ID for your city (e.g., Delhi). You can use the Thunder Client extension or Postman to send the API request. The instructor demonstrates using Postman. Once you have the location ID, use it in the BBC Weather API endpoint.
+
+---
+

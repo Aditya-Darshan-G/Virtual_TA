@@ -1,0 +1,4 @@
+ll share updates and address queries here. Email support@study.iitm.ac.in cc: discourse-staff1@study.iitm.ac.in if you can't access Discourse. People who help you Faculty (who design the course) Anand S , root.node@gmail.com | @s.anand Instructors (who teach the course) Carlton D'Silva. 22f3001919@ds.study.iitm.ac.in | @carlton Prasanna S , prasanna@study.iitm.ac.in | @iamprasna Teaching assistants (who help you with your doubts) Jivraj Singh, 22f3002542@ds.study.iitm.ac.in | @Jivraj | LinkedIn Profile Suchintika Sarkar, 21f3002441@ds.study.iitm.ac.in | @21f3002441 Hritik Roshan Maurya, 22f3002460@ds.study.iitm.ac.in | @HritikRoshan_HRM Saransh Saini, 22f1001123@ds.study.iitm.ac.in | @Saransh_Saini | LinkedIn Profile Virtual TA ( GPT Instructions ) Their job is to help you. Trouble them for your slightest doubts! Course Links TDS: Discourse - Ask questions, get help, and discuss with your peers.
+
+---
+

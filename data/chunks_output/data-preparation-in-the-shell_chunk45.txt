@@ -1,0 +1,4 @@
+with space as the delimiter. But when I did that, I faced another problem. Some of the lines had extra columns. That's because the "User Agent" values sometimes contain a quote. CSV files are supposed to escape quotes with "" -- two double quotes. But Apache uses \" instead. I'll leave it as an exercise for you to fix that. More commands We've covered the commands most often used to process data before analysis. Here are a few more that you'll find useful. cat concatenates multiple files. You can join multiple log files with this, for example awk is almost a full-fledged programming interface. It's often used for summing up values less lets you open and read files, scrolling through it You can read the book Data Science at the Command Line for more tools and examples.
+
+---
+

@@ -1,0 +1,4 @@
+send API requests and view the JSON response. Q8: What is Postman and how does it work? A8: Postman is a tool that acts as an intermediary between you and an API. It sends API calls and retrieves the data. Alternatively, the Thunder Client extension in VS Code can be used for the same purpose. Q9: What are CSS selectors and combinators? A9: The instructor explains CSS selectors and combinators, focusing on basic selectors and the direct child combinator ( > ) which selects only direct children of an element. More advanced combinators are mentioned but not covered in detail. Q10: How to handle large JSON objects or datasets? A10: For large datasets, copying and pasting is impractical. Instead, use Python and API calls to fetch and process the data programmatically. This avoids overwhelming the browser and allows for automation.
+
+---
+

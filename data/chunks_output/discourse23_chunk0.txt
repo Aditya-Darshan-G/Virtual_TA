@@ -1,0 +1,12 @@
+Sir, The License file is present in the github repository however i received a mail that said that it was absent. image 1145×673 33.8 KB image 633×336 7.1 KB Sir I thought that the ‘LICENSE’ file had to be renamed to ‘MIT LICENSE’. Can you please look into it. Thankyou!
+
+Hi @22f3000585 Standard MIT License naming criteria is to be named as LICENSE or LICENSE.md(all caps). Adding a license to a repository - GitHub Docs Kind regards
+
+image 931×108 3.89 KB Sir, this is why i renamed it to ‘MIT LICENSE’. Sir can you please consider it. Thank you!
+
+Same here. I also added and saved the file as MIT license because of the following message. I request you to please consider evaluating the project. Screenshot 2025-04-02 at 4.49.23 PM 1776×228 15.5 KB
+
+@24ds2000125 @22f3000585 I completely appreciate that you feel these are minor issues. But the team has decided that we cannot allow students to make changes to their repos. Because someone else might have another minor issue they want to fix.
+
+---
+

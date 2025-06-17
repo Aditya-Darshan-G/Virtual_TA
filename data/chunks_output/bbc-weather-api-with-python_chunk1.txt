@@ -1,0 +1,4 @@
+that accepts a city name, constructs the API call, and returns the location ID. To open the browser Developer Tools on Chrome, Edge, or Firefox, you can: Right-click on the page and select "Inspect" to open the developer tools OR: Press F12 OR: Press Ctrl+Shift+I on Windows OR: Press Cmd+Opt+I on Mac Here are links and references: BBC Location ID scraping - Notebook BBC Weather - Palo Alto (location ID: 5380748) BBC Locator Service - Los Angeles Learn about the requests package . Watch Python Requests Tutorial: Request Web Pages, Download Images, POST Data, Read JSON, and More BBC Weather data with Python You'll learn how to scrape the live weather data of a city from the BBC Weather API, covering: Introduction to Web Scraping : Understand the basics of web scraping and its legality. Libraries Overview : Learn the importance of requests and BeautifulSoup . Fetching HTML : Use requests to fetch HTML content from a web page.
+
+---
+

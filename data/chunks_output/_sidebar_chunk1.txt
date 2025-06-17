@@ -1,0 +1,4 @@
+modeling Vector databases RAG with the CLI) Hybrid RAG with TypeSense Function Calling LLM Agents LLM Image Generation LLM Speech LLM Evals Project 1 4. Data Sourcing Scraping with Excel Scraping with Google Sheets Crawling with the CLI BBC Weather API with Python Scraping IMDb with JavaScript Nominatim API with Python Wikipedia Data with Python Scraping PDFs with Tabula Convert PDFs to Markdown Convert HTML to Markdown LLM Website Scraping LLM Video Screen-Scraping Web Automation with Playwright Scheduled Scraping with GitHub Actions Scraping emarketer.com Scraping: Live Sessions 5. Data Preparation Data Cleansing in Excel Data Transformation in Excel Splitting Text in Excel Data Aggregation in Excel Data Preparation in the Shell Data Preparation in the Editor Data Preparation in DuckDB Cleaning Data with OpenRefine Parsing JSON Data Transformation with dbt Transforming Images Extracting Audio and Transcripts 6.
+
+---
+

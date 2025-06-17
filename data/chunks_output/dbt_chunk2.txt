@@ -1,0 +1,4 @@
+bt Documentation - Comprehensive guides and references Jaffle Shop - Example dbt project for learning dbt Slack Community - Active community for support and discussions Watch this dbt Fundamentals Course (90 min):
+
+---
+

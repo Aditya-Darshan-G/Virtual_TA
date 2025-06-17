@@ -1,0 +1,6 @@
+lts viewer on port 8080 npx -y promptfoo view -p 8080
+``` PromptFoo caches API responses by default (TTL 14 days). You can disable it with --no-cache or clear it. ```bash Disable cache for this run echo y | promptfoo eval --no-cache -c promptfooconfig.yaml Clear all cache echo y | promptfoo cache clear
+```
+
+---
+

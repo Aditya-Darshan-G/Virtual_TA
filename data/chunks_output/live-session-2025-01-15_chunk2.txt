@@ -1,0 +1,4 @@
+extra skills. I only want to complete this course and leave. What should I do? A6: The course has changed significantly since two terms ago. The instructors will consider adding more support sessions to help students catch up. Q7: The deadline for GA1 is the 26th, and help was only provided after the deadline last term. Will this happen again? A7: The TAs will hold sessions before the GA deadline to help you learn how to use the tools. Q8: The graded assignments (GAs) are practical, but the end-of-term exam is theory-based. Where can I learn the theory? A8: The end-of-term exam format is changing. The instructors will provide a mock exam before the actual exam. Focus on familiarizing yourself with the tools. Q9: I solved almost all the GA1 questions but my score is zero. Is this a glitch? A9: Your answers are likely saved. If you added a question, re-enter all answers and save again. The instructors are working on a backend fix to prevent this.
+
+---
+

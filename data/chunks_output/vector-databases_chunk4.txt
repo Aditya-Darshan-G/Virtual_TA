@@ -1,0 +1,23 @@
+ng = model.encode(query)
+ results = table.search(query_embedding).limit(n_results).to_list()
+ return [{"id": r["id"], "text": r["text"], "distance": float(r["_distance"])} for r in results] async def main():
+ table, model = await setup_vector_db() # Add some documents
+documents = ["Apple is a fruit", "Orange is citrus", "Computer is electronic"]
+embeddings = model.encode(documents)
+
+table.add(data=[
+ {"id": str(i), "text": text, "vector": embedding}
+ for i, (text, embedding) in enumerate(zip(documents, embeddings), 1)
+])
+
+# Search
+results = await search_similar(table, model, "fruit")
+print(results) if name == " main ":
+ import asyncio
+ asyncio.run(main())
+``` DuckDB Here's the same example using DuckDB: ```python /// script requires-python = "==3.12" dependencies = [ "duckdb", "sentence-transformers", ] /// import duckdb
+from sentence_transformers import SentenceTransformer async def setup_vector_db() -> tuple[duckdb.DuckDBPyConnection, SentenceTransformer]:
+ """Initialize DuckDB with
+
+---
+

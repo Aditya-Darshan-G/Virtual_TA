@@ -1,0 +1,4 @@
+matching. Q1: How can I use the find command to locate files for processing with sed ? A21: The find command can locate files based on various criteria, such as name, type, and location. You can use the -exec option to execute a command, like sed , on each file found. For example, find . -type f -exec sed -i 's/IITM/IIT Madras/gI' {} \; will find all files in the current directory and its subdirectories and replace "IITM" with "IIT Madras" (case-insensitive) in each file. Q22: Why am I getting an "authentication failed" error when pushing to GitHub? A22: This could be because GitHub no longer supports password authentication for Git operations. You need to use a personal access token or set up SSH keys for authentication.
+
+---
+

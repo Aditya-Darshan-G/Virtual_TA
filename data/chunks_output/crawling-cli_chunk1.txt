@@ -1,0 +1,14 @@
+nternet connection The most commonly used tool for fetching websites is wget . It is pre-installed in many UNIX distributions and easy to install. To crawl the IIT Madras Data Science Program website for example, you could run: bash
+wget \
+ --recursive \
+ --level=3 \
+ --no-parent \
+ --convert-links \
+ --adjust-extension \
+ --compression=auto \
+ --accept html,htm \
+ --directory-prefix=./ds \
+ https://study.iitm.ac.in/ds/ Here's what each option does: --recursive : Enables recursive downloading (following links) --level=3 : Limits recursion depth to 3 levels from the initial URL --no-parent : Restricts crawling to only URLs below the initial directory --convert-links : Converts all links in downloaded documents to work locally --adjust-extension : Adds proper extensions to files (.html, .jpg, etc.) based on MIME types --compression=auto : Automatically handles compressed content (gzip, deflate) --accept html,htm : Only downloads files with these extensions --directory-prefix=./ds : Saves
+
+---
+

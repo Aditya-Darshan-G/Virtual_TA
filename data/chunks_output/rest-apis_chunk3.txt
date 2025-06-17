@@ -1,0 +1,4 @@
+d documentation Swagger/OpenAPI : API documentation HTTPie : Modern command-line HTTP client JSON Schema : API request/response validation Learn more about REST APIs: REST API Design Best Practices Microsoft REST API Guidelines Google API Design Guide
+
+---
+

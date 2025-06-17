@@ -1,0 +1,4 @@
+ike Python). Q5: How does the IMPORTHTML function automatically find the table? A5: It finds the table based on the index you provide. If there are multiple tables, you'll need to adjust the index accordingly. Q6: How can I extract data from a webpage that doesn't use a JSON object? A6: There are three ways: Method 1: If the webpage uses a JSON object, you can extract it directly. Method 2: Use query selectors in the browser's console to extract the data. This involves finding a common element (class) in the HTML and using JavaScript to extract the data. The $$ operator establishes a connection between the console and the elements tab. The . prefix selects elements by class, and # selects by ID. Method 3: Sometimes, the data is embedded in JavaScript code within the webpage itself. You can find this in the browser's "Sources" tab. You can then use this JavaScript object to extract the data.
+
+---
+

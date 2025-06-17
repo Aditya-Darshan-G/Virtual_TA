@@ -1,0 +1,8 @@
+ply effects
+ img.sharpen(radius=0, sigma=3)
+
+ # Save with compression
+ img.save(filename='output.jpg') ``` Note: Always install ImageMagick before using the Wand Python binding.
+
+---
+

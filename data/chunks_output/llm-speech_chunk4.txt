@@ -1,0 +1,18 @@
+"MP3",
+ "speakingRate": 1.2,
+ "pitch": 2.0,
+ "volumeGainDb": 1.0
+ }
+ }' | jq -r .audioContent | base64 --decode > gemini-options.mp3 SSML support Both APIs support Speech Synthesis Markup Language (SSML) for fine-grained control: bash
+curl -X POST "https://texttospeech.googleapis.com/v1/text:synthesize?key=$GOOGLE_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{
+ "input": {
+ "ssml": "<speak>Hello <break time=\"1s\"/> This text has a pause and <emphasis level=\"strong\">emphasized words</emphasis>.</speak>"
+ },
+ "voice": { "languageCode": "en-US", "name": "en-US-Neural2-A" },
+ "audioConfig": { "audioEncoding": "MP3" }
+ }' | jq -r .audioContent | base64 --decode > gemini-ssml.mp3 Costs and optimization Pricing (per character): Standard voices: $0.000004 Neural voices: $0.000016 Neural2 voices: $0.000024 To optimize: Use standard voices for development Cache common phrases Batch process where possible Choose appropriate audio quality Python implementation Here's a simple Python wr
+
+---
+

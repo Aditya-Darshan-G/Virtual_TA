@@ -1,0 +1,5 @@
+ushing it to GitHub, creating a Docker file, and submitting it through a Google form. However, the course is designed to bridge the technical gap for non-technical participants, preparing them for industry standards. The instructors will provide support through dedicated sessions, and students are encouraged to use resources like ChatGPT and YouTube videos. Q3: What are the main components of the TDS project, and what tools are involved? A3: The TDS project has three main parts: GitHub: For version control and code storage. Docker Hub: For containerizing and deploying the application. LLM (Large Language Model): For the core functionality of the application.
+ The project involves using Fast API or similar frameworks to create the application, Podman to run the Docker image, and a form to submit the GitHub and Docker file details.
+
+---
+

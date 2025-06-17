@@ -1,0 +1,5 @@
+n handling complex PDF structures. bash
+PYTHONUTF8=1 uv run --with pymupdf4llm python -c 'import pymupdf4llm; h = open("pymupdf4llm.md", "w"); h.write(pymupdf4llm.to_markdown("$FILE.pdf"))' PYTHONUTF8=1 : Forces Python to use UTF-8 encoding regardless of system locale uv run --with pymupdf4llm : Uses uv package manager to run Python with the pymupdf4llm package python -c '...' : Executes Python code directly from the command line import pymupdf4llm : Imports the PDF-to-Markdown module h = open("pymupdf4llm.md", "w") : Creates a file to write the markdown output h.write(pymupdf4llm.to_markdown("$FILE.pdf")) : Converts the PDF to markdown and writes to file Markitdown Markitdown is Microsoft's tool for converting various document formats to Markdown, including PDFs, DOCX, XLSX, PPTX, and ZIP files. It's a versatile multi-format converter that handles PDFs via PDFMiner, DOCX via Mammoth, XLSX via Pandas, and PPTX via Python-PPTX. Good for batch processing of mixed document types.
+
+---
+

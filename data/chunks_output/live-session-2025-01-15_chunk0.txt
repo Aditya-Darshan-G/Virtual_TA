@@ -1,0 +1,4 @@
+Live Session: 15 Jan 2025 Q1: Where can I find the uploaded documents? A1: The uploaded documents are added as part of a YouTube playlist. You should be able to see them on YouTube. Q2: How should I approach TDS? A2: The best way to learn TDS is through practice. The course is designed to handle day-to-day data science problems. It introduces everyday development tools (from VS Code to npm) and provides hands-on experience solving problems. The graded assignments (GAs) are practical exercises designed to reinforce theoretical concepts. Focus on working through the examples and familiarizing yourself with the tools. Q3: I'm new to this field and struggling with basic concepts. What should I do? A3: GA0 is a self-assessment. If you scored above 50%, you have a good foundation. If not, consider additional learning before proceeding. The course is hands-on, and the TAs will hold sessions to help you understand the tools.
+
+---
+

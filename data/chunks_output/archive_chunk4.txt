@@ -1,0 +1,5 @@
+first is, what are the different sources of data sets? Where can you find them? The second is, what are the different kinds of data sets? Structured, unstructured and semi-structured. Third, in each data set, what are the different kinds of values that you will find? This will give you a sense of locating the kind of data set that you want, either on the internet
+or within your organization or even within your phones. Sources of Data Awesome public datasets Google dataset search Kaggle datasets Data.gov and Data.gov.in Datameet Types of datasets Structured data has a schema: Databases, Spreadsheets, Forms, Shapefiles Semi-structured data has a flexible schema: JSON, HTML, Email Unstructured data has no schema: Text, Images, Audio, Video DBF opener MapShaper lets you view Shapefiles Types of values Categorical values may be: Boolean: True or False Unordered: No order, like colors Ordered: Order, like ratings Cyclical: Like days of the week Unstructured: Like names, images Numerical val
+
+---
+

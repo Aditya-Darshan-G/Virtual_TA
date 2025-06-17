@@ -1,0 +1,5 @@
+s. These derived metrics power executive dashboards, sales team performance tracking, and automated business rules without requiring manual calculations or separate reporting tools. sql
+SELECT *, amount * 0.1 AS tax, UPPER(region) AS region_code FROM orders; Summaries and Pivots A big part of data preparation is to transform detailed transaction data into executive-level insights that inform strategic decisions. Converting thousands of individual orders into regional sales summaries, customer segment performance, and product category trends enables quick identification of growth opportunities, underperforming markets, and inventory optimization needs. These aggregations become the foundation for board presentations, budget planning, and strategic initiatives.
+
+---
+

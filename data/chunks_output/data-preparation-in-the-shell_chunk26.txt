@@ -1,0 +1,14 @@
+OK,
+ 1 if minor problems (e.g., cannot access subdirectory),
+ 2 if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation' ```python By default, it just lists all file names !ls
+``` sample_data s-anand.net-Apr-2024.gz ```python If we want to see the size of the file, use -l for the long-listing format !ls -l
+``` total 5672
+drwxr-xr-x 1 root root 4096 Jun 6 14:21 sample_data
+-rw-r--r-- 1 root root 5801198 Jun 9 05:18 s-anand.net-Apr-2024.gz Uncompress the log file gzip is the most popular compression format on the web. It's fast and pretty good. ( xz is much better but slower.) Since the file has a .gz extension, we know it's compressed using gzip . We can use gzip -d FILE.gz to decompress the file. It'll replace FILE.gz with FILE . (Compression works the opposite way.
+
+---
+

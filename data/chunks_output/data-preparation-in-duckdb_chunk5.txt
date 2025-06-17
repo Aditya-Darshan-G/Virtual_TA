@@ -1,0 +1,6 @@
+uto('messy_orders.csv', ignore_errors=true); Handling Missing Values It's important to address incomplete data that could lead to wrong business conclusions. Missing customer names prevent personalized marketing, absent transaction amounts skew revenue calculations, and incomplete addresses block shipping. Rather than excluding entire records and losing valuable information, strategic imputation preserves data for analysis while clearly marking assumptions made during the cleaning process. sql
+-- Replace null customer names
+SELECT COALESCE(customer, 'Unknown') AS customer FROM orders; String Operations It's common to standardize text data that comes from multiple sources with inconsistent formatting. Product names from different suppliers use varying cases, customer entries have extra spaces, and imported data contains mixed formatting.
+
+---
+

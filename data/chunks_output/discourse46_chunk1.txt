@@ -1,0 +1,4 @@
+st later. Kind regards, TDS Team Update 4 27/02/2025 7:18pm Dear Learner, Please find the link to Mock ROE 3 below. Note the datasets links are present inside the given document (there are more than 1): drive.google.com MOCK ROE 3.pdf Google Drive file. The estimated time for this Mock ROE 3 is 45 mins. All the best, TDS Team Update 3 26/02/2025 8:11 pm Dear Learner Please access the Mock ROE 2 at this link: exam.sanand.workers.dev Technical Assessment There is no time limit for this Mock. The expected time to solve this ROE is 45 mins. Set an alarm and try it. After the session at 9pm there will be a session where we will show you the solutions step by step (not like the previous session which was a demo of ROE). To check your answers you will need to run the following script in the console.
+
+---
+

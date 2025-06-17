@@ -1,0 +1,4 @@
+prettier@3.4.2 , updating the file in-place A3 . The file /data/dates.txt contains a list of dates, one per line. Count the number of Wednesdays in the list, and write just the number to /data/dates-wednesdays.txt A4 . Sort the array of contacts in /data/contacts.json by last_name , then first_name , and write the result to /data/contacts-sorted.json A5 . Write the first line of the 10 most recent .log file in /data/logs/ to /data/logs-recent.txt , most recent first A6 . Find all Markdown ( .md ) files in /data/docs/ . For each file, extract the first occurrance of each H1 (i.e. a line starting with # ). Create an index file /data/docs/index.json that maps each filename (without the /data/docs/ prefix) to its title (e.g. {"README.md": "Home", "path/to/large-language-models.md": "Large Language Models", ...} ) A7 . /data/email.txt contains an email message.
+
+---
+

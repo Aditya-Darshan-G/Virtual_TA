@@ -1,0 +1,8 @@
+Cell Dependencies Keep cells focused and atomic Use clear variable names Document data flow between cells Interactive Elements python
+ # Add interactive widgets
+ slider = mo.ui.slider(1, 100)
+ # Create dynamic Markdown
+ mo.md(f"{slider} {"🟢" * slider.value}") Version Control Keep notebooks are Python files Use Git to track changes Publish on marimo.app for collaboration
+
+---
+

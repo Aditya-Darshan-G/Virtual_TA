@@ -1,0 +1,8 @@
+------------------- |
+| Privacy | High | Dependent on provider |
+| Cost | High setup, low after that | Pay-as-you-go |
+| Scale | Limited by local resources | Easily scales with demand |
+| Quality | Varies by model | Typically high | The Massive Text Embedding Benchmark (MTEB) provides comprehensive comparisons of embedding models. These models are compared on several parameters, but here are some key ones to look at: Rank . Higher ranked models have higher quality. Memory Usage . Lower is better (for similar ranks). It costs less and is faster to run. Embedding Dimensions . Lower is better. This is the number of numbers in the array. Smaller dimensions are cheaper to store. Max Tokens . Higher is better. This is the number of input tokens (words) the model can take in a single input. Look for higher scores in the columns for Classification, Clustering, Summarization, etc. based on your needs.
+
+---
+

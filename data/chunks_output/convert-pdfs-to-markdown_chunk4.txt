@@ -1,0 +1,5 @@
+n content to pass to LLMs. Strong community support and actively maintained. GROBID If you specifically need to parse references from text-native PDFs or reliably OCR'ed ones, GROBID remains the de facto choice. It excels at extracting structured bibliographic information with high accuracy. ```bash Start GROBID service docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2 Process PDF with curl curl -X POST -F "input=@paper.pdf" localhost:8070/api/processFulltextDocument > references.tei.xml
+``` Mistral OCR API Mistral OCR offers an end-to-end cloud API that preserves both text and layout, making it easier to isolate specific sections like References. It shows the most promise currently, though it requires post-processing. Azure Document Intelligence API For enterprise users already in the Microsoft ecosystem, Azure Document Intelligence provides excellent raw OCR with enterprise SLAs.
+
+---
+

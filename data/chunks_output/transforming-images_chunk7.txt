@@ -1,0 +1,11 @@
+"
+``` Batch Processing: ```bash Convert all images in a directory mogrify -format jpg *.png Resize multiple images mogrify -resize 800x600 -path output/ *.jpg Add watermark to images for f in *.jpg; do
+ convert "$f" -gravity southeast -draw "text 10,10 'Copyright'" "watermarked/$f"
+done
+``` Advanced Features: ```bash Apply image effects convert input.jpg -blur 0x3 blurred.jpg
+convert input.jpg -sharpen 0x3 sharp.jpg
+convert input.jpg -edge 1 edges.jpg Create image montage montage *.jpg -geometry 200x200+2+2 montage.jpg Extract image channels convert input.jpg -separate channels_%d.jpg Composite images composite overlay.png -gravity center base.jpg output.jpg
+``` Watch this ImageMagick tutorial (16 min): Tools: Fred's ImageMagick Scripts : Useful script collection ImageMagick Online Studio : Visual command builder Tips: Use -strip to remove metadata and reduce file size Monitor memory usage with -limit memory 1GB Use -define for format-specific options Process in parallel with -parallel
+
+---
+

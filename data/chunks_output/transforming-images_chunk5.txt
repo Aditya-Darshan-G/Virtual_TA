@@ -1,0 +1,14 @@
+) for filename in os.listdir(input_dir):
+ if not filename.lower().endswith(('.png', '.jpg', '.jpeg')):
+ continue
+
+ input_path = os.path.join(input_dir, filename)
+ output_path = os.path.join(output_dir, filename)
+
+ with Image.open(input_path) as img:
+ # Process in chunks using thumbnail
+ img.thumbnail(max_size)
+ img.save(output_path, optimize=True) ``` Practice with these resources: Pillow Documentation : Complete API reference Python Image Processing Tutorial : In-depth guide Sample Images Dataset : Test images for practice Watch these tutorials for hands-on demonstrations: Image Processing with ImageMagick ImageMagick is a powerful command-line tool for image manipulation, offering features beyond what's possible with Python libraries.
+
+---
+

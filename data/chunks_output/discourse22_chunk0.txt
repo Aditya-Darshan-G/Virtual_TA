@@ -1,0 +1,33 @@
+Can anyone share the link to project 1 solution github repo.
+
+The repo has not been made public. But until that happens, we are allowed to share the solution. Just name the script app.py, build the docker image according to test environment. This also happened to be the highest scoring script getting 19 tasks correct. # /// script
+# requires-python = ">=3.11"
+# dependencies = [
+# "fastapi",
+# "httpx",
+# "uvicorn",
+# ]
+# ///
+
+from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+import os
+import httpx
+import re
+import asyncio
+
+app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+token = os.environ["LLMFOUNDRY_TOKEN"]
+
+async def llm(system_prompt: str, user_prompt: str) -> str:
+ """Call GPT-4o-Mini via AI Proxy."""
+ async with httpx.AsyncClient(timeout=30.0) as client:
+ response = await client.post(
+ "https://llmfoundry.straive.com/v1/chat/completions",
+ headers={"Authorization":
+
+---
+

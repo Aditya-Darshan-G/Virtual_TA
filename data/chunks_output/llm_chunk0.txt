@@ -1,0 +1,6 @@
+LLM CLI: llm llm is a command-line utility for interacting with large language models—simplifying prompts, managing models and plugins, logging every conversation, and extracting structured data for pipelines. Basic Usage Install llm . Then set up your OPENAI_API_KEY environment variable. See Getting started . TDS Students : See Large Language Models for instructions on how to get and use OPENAI_API_KEY . ```bash Run a simple prompt llm 'five great names for a pet pelican' Continue a conversation llm -c 'now do walruses' Start a memory-aware chat session llm chat Specify a model llm -m gpt-4.1-nano 'Summarize tomorrow’s meeting agenda' Extract JSON output llm 'List the top 5 Python viz libraries with descriptions' \
+ --schema-multi 'name,description'
+``` Or use llm without installation using uvx : ```bash Run llm via uvx without any prior installation uvx llm 'Translate "Hello, world" into Japanese' Specify a model uvx llm -m gpt-4.1-nano 'Draft a 200-word blog post on data ethics' Use
+
+---
+

@@ -1,0 +1,4 @@
+ing Windows, but many questions require Ubuntu. I copied the downloaded files to my WSL home folder, but I'm not getting the correct answers. Is it possible to install a Windows system in Linux? A14: You can use WSL. The instructor asks for a screenshot to debug the issue. The student explains that they copied the files (a.txt and b.txt) to a TDS folder in their Ubuntu WSL environment. The diff command shows 40 lines of difference, but the submission is not accepted. The instructor suggests posting this on the Discourse forum. Q15: Question 16 in GA1 (rename files) is not accepting my answer, even though I've tried using ChatGPT. What's wrong? A15: The instructor suggests posting this on the Discourse forum with your email ID.
+
+---
+

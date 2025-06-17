@@ -1,0 +1,4 @@
+the pandas module and video Learn about the matplotlib module and video Learn about the statsmodels module and video Data classification with Python Jupyter Notebook Understand machine learning Understand decision trees Learn about the pandas module and video Learn about the scikit-learn module and video Learn about the matplotlib module and video Optional: R, RStudio and Rattle R is a language and environment for statistical computing and graphics. It is open source and extremely popular for statistical analysis. In recent years, Python has become the de facto standard for data modeling. However, R still plays an important role for many analysts.
+
+---
+

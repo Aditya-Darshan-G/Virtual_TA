@@ -1,0 +1,26 @@
+(date: str, time: str, meeting_room: str) -> Dict[str, Any]:
+ # Mock response for illustration purposes
+ return {"date": date, "time": time, "meeting_room": meeting_room, "status": "scheduled"}
+
+def get_expense_balance(employee_id: int) -> Dict[str, Any]:
+ # Mock response for illustration purposes
+ return {"employee_id": employee_id, "balance": 1000.0}
+
+def calculate_performance_bonus(employee_id: int, current_year: int) -> Dict[str, Any]:
+ # Mock response for illustration purposes
+ return {"employee_id": employee_id, "current_year": current_year, "bonus": 500.0}
+
+def report_office_issue(issue_code: int, department: str) -> Dict[str, Any]:
+ # Mock response for illustration purposes
+ return {"issue_code": issue_code, "department": department, "status": "reported"}
+import re
+
+def extract_parameters(query: str) -> Dict[str, Any]:
+ """Extract parameters from the query string."""
+ # Convert the query to lowercase for case-insensitive matching
+ query = query.strip().lower()
+
+ if match := re.
+
+---
+

@@ -1,0 +1,4 @@
+rm. You'll use the requests instead of using the curl command. You just use the requests and send the inputs to it. Q14: In question 5, I've enabled it, but I'm getting an "unexpected end of JSON input" error. I'm not sure why. I've tried different structures for the JSON. A14: Copy this JSON to VS Code and save it as a JSON file. VS Code will parse it so you can see it better. At the bottom, you have an extra required address and additional properties that are not necessary. That shouldn't cause it to be invalid JSON. Try without that. Just remove that extra bit and try without it. Q15: One more thing: in FastAPI question 9, I'm giving the URL, but it's giving me the whole data. Even when I add conditions, it shows the whole data. I'll show you. Should I run this first? A15: Add /api at the end of that. That's some logic error in your code. It should not fetch all of it. There's some logic error. You're getting a Cloudflare error.
+
+---
+

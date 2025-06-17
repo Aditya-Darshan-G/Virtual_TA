@@ -1,0 +1,14 @@
+- name: Run scraper
+ run: | # python
+ uv run --with httpx,lxml,cssselect python scrape.py
+
+ - name: Commit and push changes
+ run: |
+ git config --local user.email "github-actions[bot]@users.noreply.github.com"
+ git config --local user.name "github-actions[bot]"
+ git add *.json
+ git commit -m "Update IMDb Top 250 data [skip ci]" || exit 0
+ git push ``` Best Practices Cache Dependencies : Use GitHub's caching to speed up package installation Handle Errors : Implement retries and error logging Rate Limiting : Add delays between requests to avoid overwhelming servers Data Validation : Verify scraped data structure before saving Monitoring : Set up notifications for workflow failures Tools and Resources httpx : Async HTTP client GitHub Actions Marketplace GitHub Actions Documentation Video Tutorials
+
+---
+

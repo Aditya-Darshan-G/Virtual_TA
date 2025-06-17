@@ -1,0 +1,5 @@
+e shur to giv me a anser?? (Reason: Poor spelling and unclear instructions.) GOOD : Explain what a wireless network does. Please provide a detailed, step-by-step explanation. (Reason: Proper spelling and clarity lead to a more coherent response.) If your question sounds like gibberish, expect a messy answer. Speak cleanly.
+When you do, the response will be much clearer. Video Tutorials Watch Prompt Engineering Tutorial – Master ChatGPT and LLM Responses (41 min) . It covers: Basics of AI and large language models . How to write clear and detailed prompts to improve answers. Tips for creating interactive and personalized AI responses. Advanced topics like AI mistakes (hallucinations) and text embeddings (how AI understands words).
+
+---
+

@@ -1,0 +1,4 @@
+JSON JSON (JavaScript Object Notation) is the de facto standard format for data exchange on the web and APIs. Its human-readable format and widespread support make it essential for data scientists working with web services, APIs, and configuration files. For data scientists, JSON is essential when: Working with REST APIs and web services Storing configuration files and metadata Parsing semi-structured data from databases like MongoDB Creating data visualization specifications (e.g., Vega-Lite) Watch this comprehensive introduction to JSON (15 min): Key concepts to understand in JSON: JSON only supports 6 data types: strings, numbers, booleans, null, arrays, and objects You can nest data. Arrays and objects can contain other data types, including other arrays and objects Always validate. Ensure JSON is well-formed.
+
+---
+

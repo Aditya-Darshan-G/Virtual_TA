@@ -1,0 +1,4 @@
+references: BBC Weather scraping - Notebook BBC Locator Service - Mumbai BBC Weather - Mumbai (location ID: 1275339) BBC Weather API - Mumbai (location ID: 1275339) Learn about the json package . Watch Python Tutorial: Working with JSON Data using the json Module Learn about the BeautifulSoup package . Watch Python Tutorial: Web Scraping with BeautifulSoup and Requests Learn about the pandas package . Watch Python Pandas Tutorial (Part 1): Getting Started with Data Analysis - Installation and Loading Data Python Pandas Tutorial (Part 2): DataFrame and Series Basics - Selecting Rows and Columns Learn about the re package . Watch Python Tutorial: re Module - How to Write and Match Regular Expressions (Regex) Learn about the datetime package .
+
+---
+

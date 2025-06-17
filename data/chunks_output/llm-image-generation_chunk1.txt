@@ -1,0 +1,6 @@
+ndscape of rolling hills at sunrise, digital art" }] }],
+ "generationConfig": { "responseModalities": ["TEXT", "IMAGE"] }
+ }' | jq -r '.candidates[].content.parts[] | select(.inlineData) | .inlineData.data' | base64 --decode > image.png Replace $GEMINI_API_KEY with your key. ( Gemini API | Google AI for Developers ) Generation options You can tweak the output with these generationConfig parameters: responseModalities : Modalities to return ( TEXT , IMAGE ). temperature (0.0–2.0): Controls randomness (default 1.0). topP (0.0–1.0): Nucleus sampling threshold. topK : Token selection cutoff. maxOutputTokens : Max tokens for text parts. stopSequences : Sequences to end generation. seed : For reproducibility.
+
+---
+

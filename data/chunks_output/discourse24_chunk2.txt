@@ -1,0 +1,10 @@
+--root ./data here --root option defines the folder where you want to store generated data. by default it would try to create a folder in root directory of operating system. Kind regards Jivraj
+
+getting this issue : openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}}
+
+Hi Aishik, Pls add context to your query, without that we won’t be able to understand, where exactly you are facing problem. 23f2005325: openai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}} Possible reasons for this issue: Not using anand sir’s proxy url for sending requests. Token not being correct.
+
+yes I was not setting the base url to the proxy.
+
+---
+

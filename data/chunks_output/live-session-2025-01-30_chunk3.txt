@@ -1,0 +1,4 @@
+You can have many more types of ideas and execute them using Flask API. Q8: Currently, I'm not in the directory that contains the Vercel file (vercel.json). A8: I'm just demonstrating how to create the requirements.txt file. Q9: If I'm running a virtual environment with uv , will it only copy out the tools that are in the virtual environment? A9: Exactly. That's a downside of uv . When using uv , you are not installing those libraries. If they are not installed, they won't be present in your virtual environment, and therefore won't be in your requirements.txt file. For minor projects that you don't need to deploy, uv is fine. Otherwise, create a virtual environment and install the libraries there. Q10: Now it's showing nothing. I don't know why. A10: Your server is not running. Run vercel deploy --prod again. I'm not a big fan of Vercel CLI; I usually push to GitHub and then establish a connection between Vercel and GitHub.
+
+---
+

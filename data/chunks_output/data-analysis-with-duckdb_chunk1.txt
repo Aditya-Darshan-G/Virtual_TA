@@ -1,0 +1,4 @@
+compute metrics such as the number of unique flight routes delayed by certain time intervals. Memory Efficiency : Understand how DuckDB performs analytics without loading entire datasets into memory, making it highly efficient for large-scale data analysis. Mixing DuckDB and Pandas : Learn to interleave DuckDB and Pandas operations, leveraging the strengths of both tools to perform complex queries like correlations and aggregations. Ranking and Filtering Data : Use SQL and Pandas to rank arrival delays by distance and extract key insights, such as the earliest flight arrival for each route. Joining Data : Create a cost analysis by joining datasets and calculating total costs of flight delays, demonstrating DuckDB's speed in joining and aggregating large datasets.
+
+---
+

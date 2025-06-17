@@ -1,0 +1,33 @@
+",
+ "Content-Type": "application/json",
+ },
+ json={
+ "model": "gpt-4o-mini",
+ "messages": [{"role": "user", "content": user_input}],
+ "tools": tools,
+ "tool_choice": "auto",
+ },
+ )
+ return response.json()["choices"][0]["message"] WEATHER_TOOL = {
+ "type": "function",
+ "function": {
+ "name": "get_weather",
+ "description": "Get the current weather for a location",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "location": {"type": "string", "description": "City name or coordinates"}
+ },
+ "required": ["location"],
+ "additionalProperties": False,
+ },
+ "strict": True,
+ },
+} if name == " main ":
+ response = query_gpt("What is the weather in San Francisco?", [WEATHER_TOOL])
+ print([tool_call["function"] for tool_call in response["tool_calls"]])
+``` How to define functions The function definition is a JSON schema with a few OpenAI specific properties.
+See the Supported schemas .
+
+---
+

@@ -1,0 +1,7 @@
+of gravitational lensing to a high school student who understands basic physics, including how it’s observed and its significance in astronomy. (Reason: Specifies the audience, scope, and focus.) When you ask a question, don’t be vague. Spell it out. Give every detail the listener needs.
+The clearer you are, the better the answer you’ll get.
+For example, don't just say, Explain Gravitation Lensing.
+Say, Explain the concept of gravitational lensing to a high school student who understands basic physics, including how it’s observed and its significance in astronomy. Anthropic | OpenAI | Google Give examples Provide 2-3 relevant examples to guide the model on the style, structure, or format you expect. This helps the model produce outputs consistent with your desired style. BAD : Explain how to tie a bow tie. (Reason: No examples or reference points given.) GOOD : Explain how to tie a bow tie. For example: To tie a shoelace, you cross the laces and pull them tight...
+
+---
+

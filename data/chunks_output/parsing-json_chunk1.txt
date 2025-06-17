@@ -1,0 +1,8 @@
+| JSON in Python | Handle complex queries with a clean syntax |
+| ijson | JSON streams in Python | Parse streaming/large JSON files memory-efficiently |
+| Pandas | JSON columns in Python | Fast analysis of structured data |
+| SQL JSON | JSON in databases | Combine structured and semi-structured data |
+| DuckDB | JSON anywhere | Fast analysis of JSON files / databases without loading to memory | Examples: Use Pandas when you need to transform API responses into a DataFrame for further analysis. Leverage ijson when dealing with huge JSON logs where memory is at a premium. Apply jq for quick, iterative exploration directly in your terminal. Practice with these resources: JSONPath Online Evaluator : Test JSON queries jq play : Interactive jq query testing DuckDB JSON Tutorial : Learn DuckDB JSON functions Command-line JSON Processing with jq jq is a versatile command-line tool for slicing, filtering, and transforming JSON.
+
+---
+

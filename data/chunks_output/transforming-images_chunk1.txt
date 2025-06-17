@@ -1,0 +1,19 @@
+nce(1.2))
+
+ return img.filter(ImageFilter.SHARPEN) if name == " main ":
+ import asyncio
+ img = asyncio.run(process_image("input.jpg"))
+ img.save("output.jpg", quality=85)
+``` Key features and techniques you'll learn: Image Loading and Saving : Handle various formats with automatic conversion Basic Operations : Resize, rotate, crop, and flip images Color Manipulation : Adjust brightness, contrast, and color balance Filters and Effects : Apply blur, sharpen, and other visual effects Drawing : Add text, shapes, and overlays to images Batch Processing : Handle multiple images efficiently Memory Management : Process large images without memory issues Basic Image Operations Common operations for resizing, cropping, and rotating images: ```python
+from PIL import Image async def transform_image(
+ path: str,
+ size: tuple[int, int],
+ rotation: float = 0
+) -> Image.Image:
+ """Transform image with basic operations."""
+ with Image.open(path) as img:
+ # Resize with anti-aliasing
+ img = img.resize(si
+
+---
+

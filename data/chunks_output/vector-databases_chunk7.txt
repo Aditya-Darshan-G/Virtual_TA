@@ -1,0 +1,18 @@
+el.encode(documents).tolist()
+
+# Insert documents and vectors
+conn.executemany("""
+ INSERT INTO documents (id, text, vector)
+ VALUES (?, ?, ?)
+""", [(str(i), text, embedding)
+ for i, (text, embedding) in enumerate(zip(documents, embeddings), 1)])
+
+# Search similar documents
+results = await search_similar(conn, model, "fruit")
+print(results) if name == " main ":
+ import asyncio
+ asyncio.run(main())
+```
+
+---
+

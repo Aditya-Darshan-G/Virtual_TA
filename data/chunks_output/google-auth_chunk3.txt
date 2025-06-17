@@ -1,0 +1,4 @@
+you logged in with. Instead of displaying the email, you can show different content based on the user. For example: Allow access to specfic users and not others Fetch the user's personalized information Display different content based on the user
+
+---
+

@@ -1,0 +1,25 @@
+ponses
+ -0, --http1.0 Use HTTP 1.0
+ --http1.1 Use HTTP 1.1
+ --http2 Use HTTP 2
+ --http2-prior-knowledge Use HTTP 2 without HTTP/1.1 Upgrade
+ --http3 Use HTTP v3
+ --ignore-content-length Ignore the size of the remote resource
+ -i, --include Include protocol response headers in the output
+ -k, --insecure Allow insecure server connections
+ --interface <name> Use network INTERFACE (or address)
+ -4, --ipv4 Resolve names to IPv4 addresses
+ -6, --ipv6 Resolve names to IPv6 addresses
+ -j, --junk-session-cookies Ignore session cookies read from file
+ --keepalive-time <seconds> Interval time for keepalive probes
+ --key <key> Private key file name
+ --key-type <type> Private key file type (DER/PEM/ENG)
+ --krb <level> Enable Kerberos with security <level>
+ --libcurl <file> Dump libcurl equivalent code of this command line
+ --limit-rate <speed> Limit transfer speed to RATE
+ -l, --list-only List only mode
+ --local-port <num/range> Force use of RANGE for local port numbers
+ -L, --location Follow redir
+
+---
+

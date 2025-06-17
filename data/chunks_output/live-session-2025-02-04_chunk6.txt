@@ -1,0 +1,4 @@
+ed to use the command prompt for some tasks. Q21: I used Docker Desktop, but I don't remember exactly what I did. A21: That's okay. Let's focus on the current assignment. Q22: What will be the description for the FastAPI part of the assignment? A22: The description will include the three lines of code you've already seen. These will be part of the request parameters. Q23: Why can't I just pass an ID instead of the whole string? A23: There might be other tasks that require different inputs. Q24: How are we restricting access to data from other servers? A24: We use the Allow-Origin header to specify which servers are allowed to access the data. The header contains information about where the request is coming from and the type of request (GET, POST, etc.). If you use * , any server can access it. Restricting access is a security measure. Q25: What is the trigger point for this assignment? A25: The trigger point is the same as before: a REST API POST call.
+
+---
+

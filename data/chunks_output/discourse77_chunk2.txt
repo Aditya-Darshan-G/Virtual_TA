@@ -1,0 +1,47 @@
+rameters": {
+ "type": "object",
+ "properties": {
+ "contacts_file_path": {
+ "type": "string",
+ "description": "The relative path to the input JSON file containing the contacts."
+ },
+ "output_file_path": {
+ "type": "string",
+ "description": "The relative path to the output JSON file to store the sorted contacts."
+ }
+ },
+ "required": ["contacts_file_path", "output_file_path"],
+ "additionalProperties": False
+ },
+ "strict": True
+ },
+}
+
+tools = [bakecake, a1_tool, a2_tool, a3_tool, a4_tool, a5_tool, a6_tool, a7_tool, a8_tool, a9_tool, a10_tool]
+
+def query_gpt(user_input: str, tools: list[dict] = tools) -> dict:
+ response = requests.post(
+ url="https://aiproxy.sanand.workers.dev/openai/v1/chat/completions",
+ headers={
+ "Content-Type": "application/json",
+ "Authorization": f"Bearer {AIPROXY_TOKEN}"
+ },
+ json={
+ "model": "gpt-4o-mini",
+ "messages": [
+ {
+ "role": "user",
+ "content": user_input
+ }
+ ],
+ "tools": tools,
+ "tool_choice": "auto"
+ }
+ )
+ return response.json()
+
+@app.get("/")
+def home():
+
+---
+

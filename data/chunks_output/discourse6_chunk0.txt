@@ -1,0 +1,9 @@
+Please post any questions related to Project 2 - TDS Solver . Deadline: Monday, March 31, 2025 6:29 PM
+
+If someone Scrapes the GA Questions with Answers , Can you Please Send them , All of us have might have different GAs (a lil bit maybe), so more data more helpful. PLEASE HELP… Project 2 - TDS Solver - Shared Data Pool Tools in Data Science Project 2 - TDS Solver - Discussion Thread Creating this Thread to share answers and questions from your respective assignments Why? If we can Train the LLM with these Questions already, we can easily do well? Too many Questions for LLM True we can use embeddings, map that stored in-system dictionary and use relevant questions from in-system data to send as context with answer What We need from YOU 🫵🏽
+Get to scraping your respective Gra… @all
+
+is it possible to have written solutions to all 5 assignments , instead of just live sessions.
+
+---
+

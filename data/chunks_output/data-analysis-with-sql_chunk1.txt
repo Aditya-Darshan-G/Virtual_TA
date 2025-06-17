@@ -1,0 +1,4 @@
+calculations on large datasets by fetching aggregated values from the database rather than entire datasets. Statistical Analysis in SQL : Use SQL as a tool for statistical analysis, demonstrating its power beyond simple data retrieval. Leveraging AI : Use ChatGPT to generate SQL queries and Python code, enhancing productivity and accuracy. Here are the links used in the video: Data analysis with databases - Notebook SQLZoo has simple interactive tutorials to learn SQL Stats database that has an anonymized dump of stats.stackexchange.com Pandas read_sql SQLAlchemy docs
+
+---
+

@@ -1,0 +1,12 @@
+mentioned in the question."
+ },
+ {
+ "url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/3",
+ "text": "My understanding is that you just have to use a tokenizer, similar to what Prof. Anand used, to get the number of tokens and multiply that by the given rate."
+ }
+ ]
+} The response must be sent within 30 seconds. Evaluate your application Here are a few sample questions and evaluation parameters . These are indicative . The actual evaluation could ask any realistic student question. To run this: Edit project-tds-virtual-ta-promptfoo.yaml to replace providers[0].config.url with your API URL. Run this script: bash
+ npx -y promptfoo eval --config project-tds-virtual-ta-promptfoo.yaml Deploy your application Deploy your application to a public URL that can be accessed by anyone. You may use any platform.
+
+---
+

@@ -1,0 +1,4 @@
+re's a CSS issue. I generated the JSON, but it's not being accepted. Should I refresh? A16: We'll cover this in a later session. Q17: There was mention of a debrief session on the project. I couldn't find the video. Is there one? A17: Yes, at the beginning of this session, we discussed the requirements for Project One. We'll upload this video in a few hours or early tomorrow. Q18: Will there be support for those not well-versed in Git and GitHub? A18: Yes, we'll provide support. We'll also go through a working prototype in future sessions. Q19: Is the week two content completely covered in the sessions? A19: Yes, but the way we covered it is a bit different. We went through the important parts. Referencing past sessions will give you a concise idea of the important parts. Q20: I have a question about GA1, questions 10 and 11. I posted them on Discourse, but haven't received a reply. In question 10, the hash button is showing an error.
+
+---
+

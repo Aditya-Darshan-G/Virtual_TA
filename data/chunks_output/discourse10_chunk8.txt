@@ -1,0 +1,4 @@
+erformance D. Application Answer : C. Performance Q23: Excel Data Import - Scientific Notation Issue You import a CSV file where product IDs like "1E10" are being interpreted as scientific notation in Excel. What is the best way to preserve these IDs as text? A. Format the column as General B. Use =TEXT(A1, "0") after import C. Set column format to Text during import or Text-to-Columns D. Change regional settings Answer : C. Set column format to Text during import or Text-to-Columns Module: Everyday Tools Q1: Spreadsheet Functions You have a dataset in Excel where column A contains full names in the format “Last Name, First Name”. Which function can you use to extract the first name into a separate column? A. =LEFT(A1, FIND(",", A1)-1) B. =RIGHT(A1, LEN(A1) - FIND(",", A1)) C. =MID(A1, FIND(",", A1)+2, LEN(A1)) D. =SPLIT(A1, ",") Answer : C — The MID function extracts text from the middle of a string.
+
+---
+

@@ -1,0 +1,4 @@
+Tools in Data Science 1. Development Tools Editor: VS Code AI Code Editors: GitHub Copilot Python tools: uv JavaScript tools: npx Unicode Browser: DevTools CSS Selectors JSON Terminal: Bash AI Terminal Tools: llm Spreadsheet: Excel, Google Sheets Database: SQLite Version Control: Git, GitHub 2. Deployment Tools Markdown Images: Compression Static hosting: GitHub Pages Notebooks: Google Colab Serverless hosting: Vercel CI/CD: GitHub Actions Containers: Docker, Podman DevContainers: GitHub Codespaces Tunneling: ngrok CORS REST APIs Web Framework: FastAPI Authentication: Google Auth Local LLMs: Ollama 3. Large Language Models Prompt engineering TDS TA Instructions TDS GPT Reviewer LLM Sentiment Analysis LLM Text Extraction Base 64 Encoding Vision Models Embeddings Multimodal Embeddings Topic modeling Vector databases RAG with the CLI) Hybrid RAG with TypeSense Function Calling LLM Agents LLM Image Generation LLM Speech LLM Evals Project 1 4.
+
+---
+

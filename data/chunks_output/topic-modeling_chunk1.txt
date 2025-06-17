@@ -1,0 +1,4 @@
+he cost of generating embeddings using OpenAI's API. Embedding Range : Understanding the range of values in embeddings and their significance. Here are the links used in the video: Jupyter Notebook Tensorflow projector Embeddings guide Embeddings reference Clustering on scikit-learn Massive text embedding leaderboard (MTEB) gte-large-en-v1.5 embedding model Embeddings similarity threshold
+
+---
+

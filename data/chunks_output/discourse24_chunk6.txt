@@ -1,0 +1,28 @@
+ge_url": {
+ "url": f"data:image/png;base64,{base64_image}"
+ }
+ }
+ ]
+ }
+ ],
+ }
+
+ 
+ response = requests.post(BASE_URL, headers=headers, json=payload)
+
+ 
+ if response.status_code == 200:
+ result = response.json()
+ print("RESULT:", result)
+ cno = result["choices"][0]["message"]["content"]
+ print("CREDIT CARD NUMBER:", cno)
+ else:
+ print(f"Error: {response.status_code}")
+ print(response.text) please guide @Jivraj @Saransh_Saini
+
+do we have to do these tasks in the linux? As in some of the GA1, the linux answers only accepted. Please tell me that, do we can do it in the desktop or we have to use linux? @Jivraj @carlton
+
+The bash commands are usually run in a linux machine, but you can easily run those commands in VSCode without installing any virtual machines. Download the WSL extension in VSCode and you will get a WSL terminal to work with. For more information watch this video https://youtu.be/q74CP4fB7cY?si=M_zw8WzpmMCyVQat or watch TDS Live Sessions.
+
+---
+

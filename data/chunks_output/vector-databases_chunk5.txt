@@ -1,0 +1,28 @@
+ansformers", ] /// import duckdb
+from sentence_transformers import SentenceTransformer async def setup_vector_db() -> tuple[duckdb.DuckDBPyConnection, SentenceTransformer]:
+ """Initialize DuckDB with VSS extension and embedding model."""
+ # Initialize model
+ model = SentenceTransformer("BAAI/bge-base-en-v1.5")
+ vector_dim = model.get_sentence_embedding_dimension() # Setup DuckDB with VSS extension
+conn = duckdb.connect(":memory:")
+conn.install_extension("vss")
+conn.load_extension("vss")
+
+# Create table with vector column
+conn.execute(f"""
+ CREATE TABLE documents (
+ id VARCHAR,
+ text VARCHAR,
+ vector FLOAT[{vector_dim}]
+ )
+""")
+
+# Create HNSW index for vector similarity search
+conn.execute("CREATE INDEX vector_idx ON documents USING HNSW (vector)")
+return conn, model async def search_similar(conn: duckdb.DuckDBPyConnection, model: SentenceTransformer,
+ query: str, n_results: int = 3) -> list[dict]:
+ """Search for documents similar to query using vector similarity."""
+ # Encode query to
+
+---
+

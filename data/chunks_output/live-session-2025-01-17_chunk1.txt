@@ -1,0 +1,4 @@
+nesday and iterate using a while loop, but this is less efficient. Q3: How to extract a CSV file from a zip file? A3: This is considered a basic task. Use a file explorer or command-line tools. The instructor skips this question. Q4: What is JSON and how is it used? A4: JSON (JavaScript Object Notation) is a way to store data, like names and ages of students or employees. It uses key-value pairs. The instructor demonstrates creating a JSON object in Python, showing how to access elements using indexing and nested structures. JSON can also be used in JavaScript and browser consoles. Q5: How can I access data from a JSON object? A5: The instructor shows how to access elements within a JSON object using indexing in Python. For example, to access the name of the third student in a list, you would use students[2][name] . JSON allows hierarchical data storage, making it easy to retrieve specific values.
+
+---
+

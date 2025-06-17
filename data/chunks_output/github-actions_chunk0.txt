@@ -1,0 +1,4 @@
+CI/CD: GitHub Actions GitHub Actions is a powerful automation platform built into GitHub. It helps automate your development workflow - running tests, deploying applications, updating datasets, retraining models, etc. Understand the basics of YAML configuration files Explore the pre-built actions from the marketplace How to handle secrets securely Triggering a workflow Staying within the free tier limits Caching dependencies to speed up workflows Here is a sample .github/workflows/iss-location.yml that runs daily, appends the International Space Station location data into iss-location.json , and commits it to the repository.
+
+---
+

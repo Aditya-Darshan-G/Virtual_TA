@@ -1,0 +1,4 @@
+Live Session: 16 Jan 2025 Q1: What will be covered in this session? A1: This session will cover concepts from Week 1 of the graded assignment in Tools in Data Science (TDS). The focus is on guiding students toward solutions, not providing exact answers. Week 2 will be covered in the next session. Q2: Is it possible to reschedule the TDS session? A2: The instructor will check if rescheduling is possible. If not, recordings will be available on YouTube. Q3: The first question in the graded assignment is about VS Code. What's involved? A3: The question focuses on installing VS Code and running a specific command in the terminal, then pasting the output into an input box. There's no significant technical component to this question. Q4: What are the benefits of using the UV command-line tool? A4: UV eliminates the need to create virtual environments. You include small portions of code and run the application with minimal setup.
+
+---
+

@@ -1,0 +1,17 @@
+/json" \
+ -H "Authorization: Bearer $AIPIPE_TOKEN" \
+ -d '{
+ "model": "google/gemini-2.0-flash-lite-001",
+ "messages": [{ "role": "user", "content": "What is 2 + 2?"} }]
+ }' curl https://aipipe.org/openai/v1/embeddings \
+ -H "Content-Type: application/json" \
+ -H "Authorization: Bearer $AIPIPE_TOKEN" \
+ -d '{ "model": "text-embedding-3-small", "input": "What is 2 + 2?" }'
+``` Or using llm : ```bash
+llm keys set openai --value $AIPIPE_TOKEN export OPENAI_BASE_URL=https://aipipe.org/openrouter/v1
+llm 'What is 2 + 2?' -m openrouter/google/gemini-2.0-flash-lite-001 export OPENAI_BASE_URL=https://aipipe.org/openai/v1
+llm embed -c 'What is 2 + 2' -m 3-small
+``` For a 50% discount (but slower speed), use Flex processing by adding service_tier: "flex" to your JSON request. AI Proxy - Jan 2025 For the Jan 2025 batch, we had created API keys for everyone with an iitm.ac.in email to use gpt-4o-mini and text-embedding-3-small . Your usage is limited to $1 per calendar month for this course.
+
+---
+

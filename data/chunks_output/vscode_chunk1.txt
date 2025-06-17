@@ -1,0 +1,4 @@
+make it yours with themes. (2 min) Extensions : Add features, themes, and more to VS Code with extensions! (4 min) Debugging : Get started with debugging in VS Code. (6 min) Version Control : Learn how to use Git version control in VS Code. (3 min) Customize : Learn how to customize your settings and keyboard shortcuts in VS Code. (6 min)
+
+---
+

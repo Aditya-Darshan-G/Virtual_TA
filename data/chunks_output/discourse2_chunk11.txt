@@ -1,0 +1,10 @@
+n to the last question, we can get our Ai Proxy key
+
+@nilaychugh @22f3002034 The API key is available at https://aiproxy.sanand.workers.dev/ The instructions on how to use the token is given at GitHub - sanand0/aiproxy: Authorizing proxy for LLMs You cannot use this token directly with Open AI or any other gpt. These are only valid via the API exposed by the above instructions. You get a limit of $1. Use with care. Kind regards
+
+but the embedding model that is said to be used is text embedding 3 small, which is the model of OpenAI
+
+Hi Nilay, Yes you would need to use text-embedding-3-small model of openai for embedding questions.
+
+---
+

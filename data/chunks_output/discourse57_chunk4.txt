@@ -1,0 +1,6 @@
+e session ROE was solved but while taking reference for Q1 from live session from TAs to see how this question might be solved as i was getting wrong answer, but TA also didnt solved that question in correct manner he got wrong, I think we should have at least 1 standard ref for all the questions of this mock roe to understand our mistakes in solving this questions pls understand thanks, also when i went throught live session recording i can see only 1 screen of 1 ta
+
+Hi @shubhamatkal , For question1 provided answer is wrong. Regarding yesterday’s ROE we will send out ipynb with snippets of code that’s requried to solve questions. For Today’s ROE you will be able to check answers immediately For Thrusday’s ROE as well there will be some mechanism for checking answers.
+
+---
+

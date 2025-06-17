@@ -1,0 +1,4 @@
+g the FastAPI question, there's a logic error in your code. It shouldn't fetch all of it. Your query actually says class (CLASSS) without an underscore. If you put an underscore there, it will probably give you the correct response. Q9: I'm getting an error in question 10 of GA2. (Student shares screen.) A9: Please close the picture-in-picture; it won't disconnect the session. (The instructor then guides the student through troubleshooting steps, including copying the error and posting it on Discourse and tagging Anand. The instructor suggests using the ngrok URL (the one in front of forwarding in the terminal). The error is a Cloudflare error. The instructor suggests copying the error and sending it on Discourse and tagging Anand.) Q10: I wanted to say that while installing ngrok with the terminal, I wasn't able to do that, so I installed it in a different directory using the app. Is it doing anything? When I run it from here...
+
+---
+

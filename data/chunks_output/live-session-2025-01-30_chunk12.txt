@@ -1,0 +1,4 @@
+ations on Google Colab? A33: Not exactly, but we can make API calls and get embeddings for words. For example, let's say we have the word "Anand". Q34: Sorry for interrupting, but is Hugging Face part of the TDS course? A34: I think it's been removed, probably because it's too heavy for the course. Q35: My next question is why are these vectors (embeddings) so long? It's just a word. For a paragraph, it must be thousands of variables. A35: It won't be. We're getting embeddings from OpenAI. We'll always get embeddings of the same length. It uses 1,536 numbers to represent a word. These are different features of the word. It might involve the shape of a bicycle. Does it involve SVD? It must be doing SVD. Q36: Can we use wrongly spelled words and get embeddings for them? A36: You can try. It should work. Anything similar to "bicycle" should work.
+
+---
+

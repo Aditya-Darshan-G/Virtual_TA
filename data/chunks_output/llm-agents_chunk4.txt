@@ -1,0 +1,4 @@
+ices Clear instructions : Define the agent's capabilities and limitations Effective tool design : Create tools that are specific and reliable Robust error handling : Agents should recover gracefully from failures Memory management : Balance context retention with token efficiency User feedback : Allow users to correct or guide the agent Limitations and Challenges Current LLM agents face several challenges: Hallucination : Agents may generate false information or tool calls Planning limitations : Complex tasks require better planning capabilities Tool integration complexity : Each new tool adds implementation overhead Context window constraints : Limited memory for long-running tasks Security concerns : Tool access requires careful permission management
+
+---
+

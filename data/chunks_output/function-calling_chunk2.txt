@@ -1,0 +1,32 @@
+nition is a JSON schema with a few OpenAI specific properties.
+See the Supported schemas . Here's an example of a function definition for scheduling a meeting: python
+MEETING_TOOL = {
+ "type": "function",
+ "function": {
+ "name": "schedule_meeting",
+ "description": "Schedule a meeting room for a specific date and time",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "date": {
+ "type": "string",
+ "description": "Meeting date in YYYY-MM-DD format"
+ },
+ "time": {
+ "type": "string",
+ "description": "Meeting time in HH:MM format"
+ },
+ "meeting_room": {
+ "type": "string",
+ "description": "Name of the meeting room"
+ }
+ },
+ "required": ["date", "time", "meeting_room"],
+ "additionalProperties": False
+ },
+ "strict": True
+ }
+} How to define multiple functions You can define multiple functions by passing a list of function definitions to the tools parameter.
+
+---
+

@@ -1,0 +1,8 @@
+is filename#chunkIndex tee chunks.json : writes the resulting JSON array to chunks.json while printing it to stdout. You'll now have a chunks.json that has one {id, content} JSON object per line. 3. Generate embeddings bash
+llm embed-multi typescript-book --model 3-small --store --format nl chunks.json embed-multi : computes embeddings for each entry in chunks.json . typescript-book : a namespace or collection name for storage. --model 3-small : selects the embedding model. --store : save embeddings in the default backend. --format nl : input is newline‑delimited JSON. llm CLI embed-multi This stores the embeddings in a collection called typescript-book . bash
+llm collections path # shows where the collections are stored
+llm collections delete typescript-book # deletes the typescript-book collection 4. Find similar topics bash
+llm similar typescript-book -n 3 -c "What does the author affectionately call the => syntax?" This returns the 3 chunksmost similar to the question posed.
+
+---
+

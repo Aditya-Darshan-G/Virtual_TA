@@ -1,0 +1,4 @@
+ologies (REST APIs, JavaScript, HTML, CSS) haven't changed much in 30 years. Learning these will give you a foundation to learn other tools more easily. The course will also spend significant time on LLMs and how they fit into the workflow.
+
+---
+

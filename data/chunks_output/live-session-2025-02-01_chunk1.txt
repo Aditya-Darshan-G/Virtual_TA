@@ -1,0 +1,4 @@
+that the application understands. A real-world application would have a more robust interface (website or local app) with precisely crafted inputs to map to functions, preventing such errors. Q3: How can I avoid manually managing virtual environments and dependencies when deploying my application? A3: Use uv . uv is similar to Docker in that it handles dependencies without requiring manual management of virtual environments. You just specify your dependencies at the top of your code, and uv handles everything else, including creating and disposing of the virtual environment. This is especially useful when dealing with many submissions with different package requirements, as seen in a previous project with nearly 700 submissions. Q4: How does the application know which function to run based on the user's request? A4: You send the user's natural language request (prompt) and a list of your application's capabilities to GPT.
+
+---
+

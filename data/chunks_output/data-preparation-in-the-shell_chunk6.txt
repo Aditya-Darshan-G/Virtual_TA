@@ -1,0 +1,24 @@
+p the IP address for PASV
+ --ftp-ssl-ccc Send CCC after authenticating
+ --ftp-ssl-ccc-mode <active/passive> Set CCC mode
+ --ftp-ssl-control Require SSL/TLS for FTP login, clear for transfer
+ -G, --get Put the post data in the URL and use GET
+ -g, --globoff Disable URL sequences and ranges using {} and []
+ --happy-eyeballs-timeout-ms <milliseconds> Time for IPv6 before trying IPv4
+ --haproxy-protocol Send HAProxy PROXY protocol v1 header
+ -I, --head Show document info only
+ -H, --header <header/@file> Pass custom header(s) to server
+ -h, --help <category> Get help for commands
+ --hostpubmd5 <md5> Acceptable MD5 hash of the host public key
+ --hostpubsha256 <sha256> Acceptable SHA256 hash of the host public key
+ --hsts <file name> Enable HSTS with this cache file
+ --http0.9 Allow HTTP 0.9 responses
+ -0, --http1.0 Use HTTP 1.0
+ --http1.1 Use HTTP 1.1
+ --http2 Use HTTP 2
+ --http2-prior-knowledge Use HTTP 2 without HTTP/1.1 Upgrade
+ --http3 Use HTTP v3
+ --ignore-content-length Ignore the siz
+
+---
+

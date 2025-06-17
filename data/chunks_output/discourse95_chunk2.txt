@@ -1,0 +1,4 @@
+dependencies. Portability – You can share a project with others (or deploy it) without worrying about system-wide package versions interfering. Installing with pip individually (pip install package-name) • Good for quick experimentation and testing. • Not ideal for long-term project management because dependencies might update and break compatibility over time. Using requirements.txt • Best for reproducibility and collaboration since others can install the exact same dependencies using pip install -r requirements.txt. • Avoids issues where one developer uses an updated library that breaks compatibility with another developer’s setup. Specifying Versions in requirements.txt • If you don’t specify a version , pip install -r requirements.txt will install the latest available versions, which might introduce unexpected breaking changes.
+
+---
+

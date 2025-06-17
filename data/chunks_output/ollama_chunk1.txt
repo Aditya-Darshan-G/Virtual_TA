@@ -1,0 +1,5 @@
+, world!"}'
+``` Key Features Model management : list / pull — Install and switch among Llama 3.3, DeepSeek-R1, Gemma 3, Mistral, Phi-4, and more. Local inference : run — Execute prompts entirely on-device for privacy and zero latency beyond hardware limits. Persistent server : serve — Expose a local REST API for multi-session chats and integration into scripts or apps. Version pinning : pull model:tag — Pin exact model versions for reproducible demos and experiments. Resource control : --threads / --context — Tune CPU/GPU usage and maximum context window for performance and memory management. Real-World Use Cases Quick prototyping . Brainstorm slide decks or blog outlines offline, without worrying about API quotas: ollama run gemma-3 'Outline a slide deck on Agile best practices' Data privacy . Summarize sensitive documents on-device, retaining full control of your data: cat financial_report.pdf | ollama run phi-4 'Summarize the key findings' CI/CD integration .
+
+---
+

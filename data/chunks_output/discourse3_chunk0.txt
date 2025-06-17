@@ -1,0 +1,13 @@
+@carlton @s.anand dear sir i have taken tds in this term. after the first assignment there was no checkbox provided to any graded assignment .for this reason i just saved the assignment at the portal link .and now after the deadline its showing my assignment had not been submitted. pls do something please do it fast.
+
+GA2 - Deployment Tools - Discussion Thread [TDS Jan 2025] Tools in Data Science We have removed that button, cause it was causing confusion among the students. 
+If you have saved your answers on the TDS portal then you need not worry, you will be marked. The button was just there to ensure you saw the assignment on the TDS portal. 
+Regards, 
+TDS TA Read this
+
+I saved that too but right now scores of GA2 isn’t visible for me. And in score section it’s showing assignment not submitted. @Saransh_Saini
+
+Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal.
+
+---
+

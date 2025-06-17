@@ -1,0 +1,21 @@
+the AST called?" Answer: trivia Q="Which operator converts any value into an explicit boolean?" Answer: !! ``` You can implement RAG entirely from your terminal, without writing a single line of application code. Below is a step‑by‑step example using the TypeScript book as a data source. 1. Clone the repository bash
+git clone --depth 1 https://github.com/basarat/typescript-book
+cd typescript-book --depth 1 fetches only the latest commit to minimize download size. cd typescript-book moves into the project folder. You'll now be in a new folder typescript-book containing the repo. 2. Split Markdown files into chunks bash
+(
+ shopt -s globstar
+ for f in **/*.md; do
+ uvx --from split_markdown4gpt mdsplit4gpt "$f" --model gpt-4o --limit 4096 --separator "===SPLIT===" \
+ | sed '1s/^/===SPLIT===\n/' \
+ | jq -R -s -c --arg file "$f" '
+ split("===SPLIT===")[1:]
+ | to_entries
+ | map({
+ id: ($file + "#" + (.key | tostring)),
+ content: .value
+ })[]
+ '
+ done
+) | tee chunks.json shopt -s globstar : l
+
+---
+

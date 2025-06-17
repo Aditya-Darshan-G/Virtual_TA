@@ -1,0 +1,4 @@
+ermissions to use ngrok? A7: ngrok is a command-line tool that forwards requests to your local host. It doesn't need to be installed in your virtual environment. However, you might need administrator privileges to forward requests through a port. If you encounter permission issues, try running PowerShell as administrator. Q8: What is ngrok and how does it work? A8: ngrok creates a public URL that forwards requests to your locally running application. This allows anyone on the internet to access your application, even though it's running on your local machine. Your computer acts as a server. Note that ngrok only works while your local server is running. For a permanent solution, deploy to a platform like Vercel or Netlify. Q9: What is a virtual environment and why is it useful? A9: A virtual environment creates a separate, isolated environment for your project. This prevents conflicts between different project dependencies.
+
+---
+

@@ -1,0 +1,6 @@
+image collections Complex image transformations High-quality format conversion Creating image thumbnails Adding text and watermarks Basic Operations: ```bash Format conversion convert input.png output.jpg Resize image (maintains aspect ratio) convert input.jpg -resize 800x600 output.jpg Compress image quality convert input.jpg -quality 85 output.jpg Rotate image convert input.jpg -rotate 90 output.jpg
+``` Common Data Science Tasks: ```bash Create thumbnails for dataset preview convert input.jpg -thumbnail 200x200^ -gravity center -extent 200x200 thumb.jpg Normalize image for ML training convert input.jpg -normalize -strip output.jpg Extract dominant colors convert input.jpg -colors 5 -unique-colors txt: Generate image statistics identify -verbose input.jpg | grep -E "Mean|Standard|Kurtosis"
+``` Batch Processing: ```bash Convert all images in a directory mogrify -format jpg *.png Resize multiple images mogrify -resize 800x600 -path output/ *.jpg Add watermark to images for f in *.jpg; d
+
+---
+

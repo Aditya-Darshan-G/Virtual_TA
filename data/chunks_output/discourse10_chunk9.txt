@@ -1,0 +1,4 @@
+D(",", A1)+2, LEN(A1)) D. =SPLIT(A1, ",") Answer : C — The MID function extracts text from the middle of a string. By finding the position of the comma and adding 2 (to skip the comma and space), it extracts the first name. Option A extracts the last name, Option B results in an error due to incorrect syntax, and Option D is not a valid Excel function. Module: Data Sourcing Q2: Web Scraping Ethics When performing web scraping to collect data, which of the following practices is considered unethical? A. Respecting the website’s robots.txt file. B. Sending requests at a rate that mimics human browsing behavior. C. Scraping data from a website that requires login without permission. D. Citing the source of the data collected. Answer : C — Scraping data from a website that requires login without permission violates the site’s terms of service and user privacy. Options A, B, and D are ethical practices that respect the website’s policies and data ownership.
+
+---
+

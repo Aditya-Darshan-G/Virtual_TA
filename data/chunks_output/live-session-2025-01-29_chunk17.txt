@@ -1,0 +1,4 @@
+g is wrong. It's generating null, null, which is wrong. Just try to check for... can you go back to the question once? It is sending some URL-encoded parameter. There might be a mistake while reading those parameters. Just changing that code will help. There's a problem with my code where it's fetching null for all the data, which it should not. You can either ask on Discourse or try to fix it yourself.
+
+---
+

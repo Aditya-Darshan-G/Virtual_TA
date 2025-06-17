@@ -1,0 +1,5 @@
+of values Categorical values may be: Boolean: True or False Unordered: No order, like colors Ordered: Order, like ratings Cyclical: Like days of the week Unstructured: Like names, images Numerical values may be: Integer: You can add or subtract Real: You can multiply or divide Composite values have an internal structure Temporal: Date, Time Spatial: Latitude, Longitude, Shapefiles Structured: JSON, XML with schema Specialized: IP addresses, URLs, Email addresses, Phone numbers, etc. Week Summary Based on what you have learnt in this module, you should be able to do two things: find data and understand what type of data it is. Both of these are powerful skills. The more data you are able to find, the more analysis that you will be able to do that others are unable to.
+Therefore, discovering new sources of data is a competitive advantage and a skill that is well worth building.
+
+---
+

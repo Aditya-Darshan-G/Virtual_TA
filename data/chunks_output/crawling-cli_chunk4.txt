@@ -1,0 +1,4 @@
+Respects website owners' rights to control access to their content Ethical web citizenship : Shows respect for website administrators' wishes How to override robots.txt restrictions : wget, wget2 : Use -e robots=off httrack : Use -s0 wpull : Use --no-robots When to override robots.txt (use with discretion) : Only bypass robots.txt when: You have explicit permission from the website owner You're crawling your own website The content is publicly accessible and your crawling won't cause server issues You're conducting authorized security testing Remember that bypassing robots.txt without legitimate reason may: Violate terms of service Lead to IP banning Result in legal consequences in some jurisdictions Cause reputation damage to your organization Always use the minimum necessary crawling speed and scope, and consider contacting website administrators for permission when in doubt.
+
+---
+

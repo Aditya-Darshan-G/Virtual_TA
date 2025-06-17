@@ -1,0 +1,4 @@
+except blocks Q19: Understanding Statistical Power If a study has low statistical power , what is most likely to occur? A. False positive (Type I error) B. False negative (Type II error) C. Confounding D. Multicollinearity Answer : B. False negative (Type II error) Q20: Git Basics - Staging Area Which Git command moves modified files to the staging area ? A. git push B. git add C. git fetch D. git init Answer : B. git add Q21: Chrome DevTools - Local Storage Where can you inspect local storage items (e.g. tokens, preferences) in Chrome DevTools? A. Console B. Application > Local Storage C. Elements D. Sources Answer : B. Application > Local Storage Q22: Chrome DevTools - JS Performance Which DevTools feature helps measure execution time of scripts and CPU usage? A. Console B. Network C. Performance D. Application Answer : C.
+
+---
+

@@ -1,0 +1,4 @@
+instructor explains how to use the find_all function to locate specific tags and attributes (e.g., span elements with a specific class) and extract the text content. The instructor also shows how to convert string prices to numerical values. The instructor notes that the order of elements is preserved when using Beautiful Soup, ensuring that data is correctly associated.
+
+---
+

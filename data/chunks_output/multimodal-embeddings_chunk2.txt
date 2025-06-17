@@ -1,0 +1,19 @@
+tials :
+ 👉 https://console.cloud.google.com/apis/credentials ( Google Cloud ) Click Create credentials → API key , then copy the key. Set in your shell: bash
+export GOOGLE_API_KEY="your-google-api-key"
+export PROJECT_ID="your-gcp-project-id" Example Requests Below are fully-workable snippets that: Embed two texts (“A cute cat”, “A cardboard box”) Embed two images ( cat.jpg , box.png ) Send them to the respective API Replace variables ( $NOMIC_API_KEY , $JINA_API_KEY , $GOOGLE_API_KEY , $PROJECT_ID ) before running. 1. Nomic Atlas Text Embeddings bash
+curl -X POST "https://api-atlas.nomic.ai/v1/embedding/text" \
+ -H "Authorization: Bearer $NOMIC_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{
+ "model": "nomic-embed-text-v1.5",
+ "task_type": "search_document",
+ "texts": ["A cute cat", "A cardboard box"]
+ }' Image Embeddings bash
+curl -X POST "https://api-atlas.nomic.ai/v1/embedding/image" \
+ -H "Authorization: Bearer $NOMIC_API_KEY" \
+ -F "model=nomic-embed-vision-v1.5" \
+ -F "i
+
+---
+

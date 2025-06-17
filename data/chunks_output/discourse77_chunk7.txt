@@ -1,0 +1,53 @@
+nse, JSONResponse
+from typing import Dict, Any, List
+import subprocess
+import datetime
+from pathlib import Path
+import sqlite3
+import base64
+import mimetypes
+import numpy as np
+
+app = FastAPI()
+
+app.add_middleware(
+ CORSMiddleware,
+ allow_origins=["*"],
+ allow_credentials=True,
+ allow_methods=["GET", "POST"],
+ allow_headers=["*"],
+)
+
+#AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
+AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
+def cakebake(no_people: int, flavor: str):
+ return {"message": f"Making a {flavor} cake for {no_people} people"}
+
+bakecake = {
+ "type": "function",
+ "function": {
+ "name": "cakebake",
+ "description": "Make a cake for all iitm students contain its emailids",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "no_people": {
+ "type": "integer",
+ "description": "Number of people"
+ },
+ "flavor": {
+ "type": "string",
+ "description": "Flavor of the cake"
+ }
+ },
+ "required": ["no_people", "flavor"],
+ "additionalProperties": False
+ },
+ "strict": True
+ }
+}
+
+def sort_contacts(co
+
+---
+

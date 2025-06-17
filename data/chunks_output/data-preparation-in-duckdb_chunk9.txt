@@ -1,0 +1,7 @@
+parquet_orders AS SELECT * FROM read_parquet('orders.parquet');
+SELECT * FROM orders UNION ALL SELECT * FROM parquet_orders; Processing in Chunks We handle massive datasets that exceed available memory by processing them in manageable segments. When analyzing years of transaction logs, customer behavior data, or sensor readings, loading everything at once crashes systems. Chunk processing enables analysis of terabyte-scale datasets on standard hardware, making enterprise-level data analysis accessible for fraud detection, customer lifetime value calculations, and operational analytics. sql
+SELECT * FROM read_csv_auto('big.csv') LIMIT 1000 OFFSET 0;
+SELECT * FROM read_csv_auto('big.csv') LIMIT 1000 OFFSET 1000; Filtering Rows and Dropping Columns We'll focus analysis on relevant data subsets while removing sensitive or unnecessary information.
+
+---
+

@@ -1,0 +1,19 @@
+s"]
+ 
+ # Call the function dynamically based on func_name
+ if func_name == "get_ticket_status":
+ response = get_ticket_status(**arguments)
+ elif func_name == "schedule_meeting":
+ response = schedule_meeting(**arguments)
+ elif func_name == "get_expense_balance":
+ response = get_expense_balance(**arguments)
+ elif func_name == "calculate_performance_bonus":
+ response = calculate_performance_bonus(**arguments)
+ elif func_name == "report_office_issue":
+ response = report_office_issue(**arguments)
+ 
+ # Return the response in the requested format
+ return JSONResponse(content={"name": func_name, "arguments": arguments}, status_code=200)
+
+---
+

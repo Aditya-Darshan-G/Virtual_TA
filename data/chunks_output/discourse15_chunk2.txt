@@ -1,0 +1,12 @@
+127112 ACE inhibitors Some items don’t have prices for all 24 months. Although the assignment says 24 months (I assumed 2023 January to 2024 December) data, many items have prices for 2025 Jan as well. Monthly Price Indices for Segments (Two-year data) Shall I delete the records for which price is not available? image 1290×648 53.1 KB @carlton @Jivraj
+
+How to give the access to power point slides with the edit option ?
+
+@carlton Can you please advise regarding the ga.7.2 as the The current top 5 countries by GDP in 2014 from the dataset are actually aggregated economic groups (not individual countries). can i proceed with that or I need to filter only the individual countries
+
+once i submitted the answers. but when i clicked on edit response and it deleted all the submitted answers. What to do in this case @carlton @Jivraj @Saransh_Saini
+
+Hi Tanya, Both you responses have been recorded. So it has not been deleted.
+
+---
+

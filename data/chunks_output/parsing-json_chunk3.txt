@@ -1,0 +1,11 @@
+from nested JSON structures without needing verbose code. It's a neat alternative when you want to quickly pull out specific values or filter collections based on conditions. Example: Extracting user emails or filtering out inactive records from a complex JSON payload received from a cloud service. ```python
+import jmespath Example queries data = {
+ "locations": [
+ {"name": "Seattle", "state": "WA", "info": {"population": 737015}},
+ {"name": "Portland", "state": "OR", "info": {"population": 652503}}
+ ]
+} Find all cities with population > 700000 cities = jmespath.search("locations[?info.population > 700000 ].name", data)
+``` Streaming with ijson Loading huge JSON files all at once can quickly exhaust system memory. ijson lets you stream and process JSON incrementally. This method is ideal when your JSON file is too large or when you only need to work with part of the data.
+
+---
+

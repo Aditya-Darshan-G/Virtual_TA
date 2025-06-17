@@ -1,0 +1,15 @@
+error -i input.mp4 2>&1 | grep -A2 "Error"
+``` Media tools: yt-dlp yt-dlp is a feature-rich command-line tool for downloading audio/video from thousands of sites. It's particularly useful for extracting audio and transcripts from videos. Install using your package manager: ```bash macOS brew install yt-dlp Linux curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
+chmod a+rx ~/.local/bin/yt-dlp Windows winget install yt-dlp
+``` Common operations for extracting audio and transcripts: ```bash Download audio only at lowest quality suitable for speech yt-dlp -f "ba[abr<50]/worstaudio" \
+ --extract-audio \
+ --audio-format mp3 \
+ --audio-quality 32k \
+ "https://www.youtube.com/watch?v=VIDEO_ID" Download auto-generated subtitles yt-dlp --write-auto-sub \
+ --skip-download \
+ --sub-format "srt" \
+ "https://www.youtube.com/watch?v=VIDEO_ID" Download both audio and subtitles with custom output template yt-dlp -f "ba[abr<50]/worstaudio" \
+ --extract-audi
+
+---
+

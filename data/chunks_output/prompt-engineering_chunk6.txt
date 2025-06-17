@@ -1,0 +1,6 @@
+res to produce structured, easily readable answers. BAD : Give me the steps in plain text. (Reason: No specific formatting instructions, less readable.) GOOD : Provide the steps in a markdown-formatted list with ### headings for each section and numbered bullet points. (Reason: Directly instructs to use Markdown formatting, making output more structured and clear.) BAD : Correct the spelling and show the corrections. (Reason: No specific formatting instructions) GOOD : Correct the spelling, showing <ins>additions</ins> and <del>deletions</del>. (Reason: Directly instructs to use HTML formatting, making output more structured and clear.) Markdown is a simple formatting language that all models understand.
+You can have them add neat headings, sections, bold highlights, and bullet points.
+These make complex documents more scannable and easy on the eyes. Use JSON for machine-readable output When you need structured data, ask for a JSON-formatted response.
+
+---
+

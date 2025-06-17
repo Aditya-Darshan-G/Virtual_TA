@@ -1,0 +1,4 @@
+Interactive Notebooks: Marimo Marimo is a new take on notebooks that solves some headaches of Jupyter. It runs cells reactively - when you change one cell, all dependent cells update automatically, just like a spreadsheet. Marimo's cells can't be run out of order. This makes Marimo more reproducible and easier to debug, but requires a mental shift from the Jupyter/Colab way of working. It also runs Python directly in the browser and is quite interactive. Browse the gallery of examples . With a wide variety of interactive widgets, It's growing popular as an alternative to Streamlit for building data science web apps.
+
+---
+

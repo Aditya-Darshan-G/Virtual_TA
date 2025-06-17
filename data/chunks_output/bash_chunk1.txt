@@ -1,0 +1,27 @@
+ill -9 PID # Force kill process
+top # Monitor processes
+htop # Interactive process viewer Network curl url # HTTP requests
+wget url # Download files
+nc -zv host port # Test connectivity
+ssh user@host # Remote login Count unique values in CSV column cut -d',' -f1 data.csv | sort | uniq -c Quick data analysis awk -F',' '{sum+=$2} END {print sum/NR}' data.csv # Average
+sort -t',' -k2 -n data.csv | head # Top 10 Monitor log in real-time tail -f log.txt | grep --color 'ERROR'
+``` Bash Scripting Essentials: ```bash !/bin/bash Variables NAME="value"
+echo $NAME Loops for i in {1..5}; do
+ echo $i
+done Conditionals if [ -f "file.txt" ]; then
+ echo "File exists"
+fi Functions process_data() {
+ local input=$1
+ echo "Processing $input"
+}
+``` Productivity Tips: Command History bash
+ history # Show command history
+ Ctrl+R # Search history
+ !! # Repeat last command
+ !$ # Last argument Directory Navigation bash
+ pushd dir # Push directory to stack
+ popd # Pop directory from stack
+ cd - # Go to previous
+
+---
+

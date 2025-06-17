@@ -1,0 +1,4 @@
+Prompt Engineering Prompt engineering is the process of crafting effective prompts for large language models (LLMs). One of the best ways to approach prompt engineering is to think of LLMs as a smart colleague (with amnesia) who needs explicit instructions. The most authoritative guides are from the LLM providers themselves: Anthropic Google OpenAI Here are some best practices: Use prompt optimizers They rewrite your prompt to improve it. Explore: Anthropic Prompt Optimizer OpenAI Prompt Generation Google AI-powered prompt writing tools Be clear, direct, and detailed Be explicit and thorough. Include all necessary context, goals, and details so the model understands the full picture. BAD : Explain gravitation lensing. (Reason: Vague and lacks context or detail.) GOOD : Explain the concept of gravitational lensing to a high school student who understands basic physics, including how it’s observed and its significance in astronomy.
+
+---
+

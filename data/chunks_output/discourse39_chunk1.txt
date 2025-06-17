@@ -1,0 +1,20 @@
+udent feedback on the ROE exam preparation and attempt. This will be available till Sunday, March 2, 2025 11:30 AM All the best, TDS Team
+
+Would we be able to start work on the questions 1 hour before the exam start time?
+
+@bhashwar_sengupta No that will not be possible. It will go live only at 1 pm.
+
+Got it. Thank you. Also, are there any standard set of instructions that we need to follow during the ROE, like in OPPEs?
+
+Is it 45 minutes long?
+
+No, it is 45 minutes ‘short’
+
+@carlton will exam take place on the IITM Exam Portal (like other JAVA, Python OPPE) or will it take place on the TDS course portal like we had for Weekly GA?
+
+Hello @carlton sir, I could only find one live session of ROE in youtube. Can you please point out where are the other recordings?
+
+All week 7 sessions are ROE mock solving questions. Only the 4th session was a special session and was labelled as such, but it also has a mock solving component.
+
+---
+

@@ -1,0 +1,4 @@
+you elaborate? A17: It sounds like you may have had issues with Docker push and tagging. Let's review your process. Q18: I only gave myself 5 hours for this assignment, which wasn't enough. GA2 took a lot of time, especially the last question (running a local server on a different API). A18: Five hours is often insufficient for these assignments. GA2, in particular, can be time-consuming. Q19: For question 9, I'm trying to write a string that will make the AI say "yes," but it's not working. Can you give me some hints? A19: That's something you'll have to figure out on your own. Try different prompts. You can also look at previous Discourse posts for ideas. Q20: Can I do this using the command prompt, or is there a way to do it from the website? A20: You can use the website, but you may need to use the command prompt for some tasks. Q21: I used Docker Desktop, but I don't remember exactly what I did. A21: That's okay. Let's focus on the current assignment.
+
+---
+

@@ -1,0 +1,7 @@
+pen('unknown.txt', 'rb') as f:
+ result = chardet.detect(f.read())
+print(result['encoding'])
+```
+
+---
+

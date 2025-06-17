@@ -1,0 +1,4 @@
+ng. Can you scroll down? You're using CORS. You've used a lot of complexity; you've made it a lot more complex. You took help from ChatGPT. That explains the comments. It's not directing you somewhere. The JSON file is not present in the API folder. Let's go to line 5 of your code. Add ../ before q to include the parent directory. Save and redeploy. Q13: Should I remove the .vercel folder and redeploy? A13: No, that won't work. Vercel CLI created that folder; it contains build instructions. Q14: Are the vercel.json and everything inside the API file? A14: No, they are in the vercel-python/api directory. Q15: I don't know how to use class as a variable name in question 9. A15: class is a keyword in Python. You can't use it as a variable name. I'll explain how to handle this. You need a different variable name. I used an alias. I'll explain what that means. Q16: When passing multiple parameters with the same name, how do I handle it? A16: You need to use lists.
+
+---
+

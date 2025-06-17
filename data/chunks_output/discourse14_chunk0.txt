@@ -1,0 +1,12 @@
+Please post any questions related to Graded Assignment 6 - Data Analysis Please use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test. Deadline 2025-03-15T18:30:00Z
+
+The answer choices for questions 1 and 2 in graded assignment 6 are quite confusing. Both questions are single-select, yet three out of the four options are correct in each case. I’m unsure whether to choose one of the correct options or if the question is actually asking for the incorrect one. Could someone please clarify? @carlton
+
+@Jivraj @Saransh_Saini I have similar concern For Q1, I used the following code: print(f'Pearson correlation for Karnataka between price retention and column')
+kk = df[df['State'] == 'Karnataka']
+for col in ['Mileage (km/l)', 'Avg Daily Distance (km)', 'Engine Capacity (cc)']:
+ pearson_corr = kk['price_retention'].corr(kk[col])
+ print(f'\t{col:25} : {pearson_corr:.2f}') And got the following output: Pearson corr
+
+---
+

@@ -1,0 +1,4 @@
+At the end, it's also using the requests module. Q41: My next question is why are the vectors (embeddings) so long? A41: That's the dimension it uses to represent a word. A higher dimension means better representation, but it requires more storage. You can think of them as a vector space, like a 3D space. Instead of representing a word in 3D, we're representing it in 1,536 dimensions. These are different features of the word. One might represent shape. Q42: Does it involve SVD? A42: I don't know the exact algorithm OpenAI uses to calculate embeddings. You can search on Google or ask ChatGPT. You can also ask ChatGPT for code completion. Q43: Question 9: Three different documents. For example, these are three different documents. You can think of them as paragraphs or words. The purpose is to figure out which word is related to the query word. One could be cat, one could be dog, and the other could be elephant. The query word could be kitten.
+
+---
+

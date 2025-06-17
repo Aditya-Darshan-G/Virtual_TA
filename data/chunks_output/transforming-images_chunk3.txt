@@ -1,0 +1,29 @@
+n)
+ ] for Enhancer, factor in enhancers:
+ if factor != 1.0:
+ img = Enhancer(img).enhance(factor)
+
+return img ``` Filters and Effects Apply visual effects and filters to images: ```python
+from PIL import ImageFilter def apply_effects(img: Image.Image) -> Image.Image:
+ """Apply various filters and effects."""
+ effects = {
+ 'blur': ImageFilter.GaussianBlur(radius=2),
+ 'sharpen': ImageFilter.SHARPEN,
+ 'edge': ImageFilter.FIND_EDGES,
+ 'emboss': ImageFilter.EMBOSS
+ } return {name: img.filter(effect)
+ for name, effect in effects.items()} ``` Drawing and Text Add text, shapes, and overlays to images: ```python
+from PIL import Image, ImageDraw, ImageFont async def add_watermark(
+ img: Image.Image,
+ text: str,
+ font_size: int = 30
+) -> Image.Image:
+ """Add text watermark to image."""
+ draw = ImageDraw.Draw(img)
+ font = ImageFont.truetype("arial.ttf", font_size) # Calculate text size and position
+text_bbox = draw.textbbox((0, 0), text, font=font)
+text_width = text_bbox[2] - text_bbox[0]
+text_heig
+
+---
+

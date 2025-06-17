@@ -1,11 +1,8 @@
----
-title: TDS PROJECT 1 GEMINI TRIAL2
-emoji: 🔥
-colorFrom: indigo
-colorTo: red
-sdk: docker
-pinned: false
-license: mit
----
+# Gemini Semantic Search App
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+This is a FastAPI-based semantic search app using Gemini embeddings. Deployable via Docker or Hugging Face Spaces.
+
+### Endpoints
+
+- `POST /query` – Ask questions using Gemini + semantic search.
+- `GET /health` – Check if embeddings are loaded.

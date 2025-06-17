@@ -1,0 +1,4 @@
+Embeddings: OpenAI and Local Models Embedding models convert text into a list of numbers. These are like a map of text in numerical form. Each number represents a feature, and similar texts will have numbers close to each other. So, if the numbers are similar, the text they represent mean something similar. This is useful because text similarity is important in many common problems: Search . Find similar documents to a query. Classification . Classify text into categories. Clustering . Group similar items into clusters. Anomaly Detection . Find an unusual piece of text. You can run embedding models locally or using an API. Local models are better for privacy and cost. APIs are better for scale and quality.
+
+---
+

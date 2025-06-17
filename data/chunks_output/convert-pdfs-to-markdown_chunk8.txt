@@ -1,0 +1,8 @@
+# For scanned documents, run OCR first
+ ocrmypdf --force-ocr input.pdf ocr_ready.pdf
+ PYTHONUTF8=1 uvx markitdown ocr_ready.pdf > markitdown.md Consider post-processing for better results: bash
+ # Simple post-processing example
+ sed -i 's/\([A-Z]\)\./\1\.\n/g' output.md # Add line breaks after sentences
+
+---
+

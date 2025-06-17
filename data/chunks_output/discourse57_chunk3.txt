@@ -1,0 +1,10 @@
+ter the live session has finished. 23f1002382: will the solutions be available for later reference with the questions? We will provide an answer script for Mock ROE1 23f1002382: will the live solving video lecture be recorded? Yes our live sessions will be recorded.
+
+thanks for the prompt response! Cheers . Also to my understanding at sharp 7:00 we get email with form link and questions dataset?
+
+Hi @carlton , I will not be able to solve the mock in the given time due to other commitments. The grading document says 2 marks bonus for mocks. Will this be a part of that? If yes, is there any other way? As you have mentioned, I will keep a timer and try to solve it in 45 minutes.
+
+carlton: No, we do not provide solutions as a notebook. The ROE will be solved during the live session.
+
+---
+

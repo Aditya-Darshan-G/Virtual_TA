@@ -1,0 +1,4 @@
+'s not directly available in a convenient form that you can query or download. But it is, in fact, on a web page. It's available on a PDF file. It's available in a Word document. It's available on an Excel file. It's kind of structured, but you will have to figure out that structure and extract it from there. In this module, we will be looking at the tools that will help you either download from a data source or query from an API or from a database or from a library. And finally, how you can scrape from different sources. Here are links used in the video: The Movies Dataset IMDb Datasets Download the IMDb Datasets Explore the Internet Movie Database What does the world search for? HowStat - Cricket statistics Cricket Strike Rates
+
+---
+

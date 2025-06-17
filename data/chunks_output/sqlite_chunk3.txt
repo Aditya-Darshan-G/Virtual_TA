@@ -1,0 +1,9 @@
+ser_id
+ ORDER BY date
+ ROWS BETWEEN 3 PRECEDING AND CURRENT ROW
+ ) as moving_avg
+ FROM transactions;
+ ``` Tools to work with SQLite: SQLiteStudio : Lightweight GUI DBeaver : Full-featured GUI sqlite-utils : CLI tool Datasette : Web interface
+
+---
+

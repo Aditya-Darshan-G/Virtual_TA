@@ -1,0 +1,9 @@
+how can i run A1 task can elaborate a little bit. do i have to create data folder manually or using this code by giving query taskA1 it will generate that folder ?
+
+simply give task=“task” task: copy the task a_1 from project document
+
+it is showing INFO: Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+{'id': 'chatcmpl-B0uvU556EOCy6HOPHV9ni7YJY403i', 'object': 'chat.completion', 'created': 1739558524, 'model': 'gpt-4o-mini-2024-07-18', 'choices': [{'index': 0, 'message': {'role': 'assistant', 'content': None, 'tool_calls': [{'id': 'call_JXkfp14QEEo6M2zdgBXKduqi', 'type': 'function', 'function': {'name': 'install_uv_and_run_datagen', 'arguments': '{"email":"24f2006749@ds.study.iitm.ac.in"}'}}], 'refusal': None}, 'logprobs': None, 'finish_reason': 'tool_calls'}], 'usage': {'prompt_tokens': 732, 'completion_tokens': 30, 'total_tokens': 762, 'prompt_tokens_details': {'cached_tokens': 0, 'audio_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 0, 'audio_tokens':
+
+---
+

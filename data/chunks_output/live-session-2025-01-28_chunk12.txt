@@ -1,0 +1,4 @@
+. The payload includes the model, messages, and response format. The response format should be strictly defined to avoid unexpected output. Q39: Can you share the notebook file? A39: No, we don't typically share the notebook file itself, as it prevents you from fully grasping the concepts. However, a sample file is available. Q40: What about function calling? A40: We'll cover function calling in a later session. It's a key part of the project. Function calling allows your LLM to decide which function to call based on the prompt. We'll use last term's Project Two to demonstrate. Q41: What about embeddings? A41: Embeddings are another important topic. They reduce the cost of using tokens by an order of magnitude. You can download embeddings from Hugging Face. We'll demonstrate this in a future session. Q42: What about text extraction? A42: We'll cover this in a future session. Q43: What about Base64 encoding? A43: We'll cover this in a future session.
+
+---
+

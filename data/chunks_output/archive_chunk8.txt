@@ -1,0 +1,4 @@
+rome Web Scraper Extension (Video) Chrome Web Scraper Extension (Video) Scraping: Sample questions Read the Hacker News API docs . Now, when was the post with ID 2921983 posted? Specifically, What is the timestamp? (ANS: 1314211127) Using PokeAPI , in the sun-moon version, find out how many moves ivysaur has that bulbasaur does not. (ANS: 1: leech-seed). How many images ( <img> tags) does this White House page snapshot have inside a link ( <a> element)? (ANS: 15) What is the westernmost point (highest longitude) on the bounding box of Baghdad, Iraq , according to the Nominatim API? If there are multiple matches, get the highest longitude across all bounding boxes.
+
+---
+

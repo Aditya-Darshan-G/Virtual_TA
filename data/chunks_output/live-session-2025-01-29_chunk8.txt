@@ -1,0 +1,4 @@
+I'm giving the URL, but when I run the file, it shows the whole data. When I add conditions, it also shows the whole data. I'll show you that. Should I run this first? A13: Before we do that, let's see what error comes out. You haven't put the actual correct URL, right? Just add /api . It's because this particular Flask module is not installed on Vercel. You should use the requests module instead of the curl command. You just use the requests and send the inputs to it. Because the proxy has its own method of doing some of these functions that don't match OpenAI's. It might have been a coincidence that it worked for 3.5. If you use the documentation that Anand has provided, then that might help. If you go back to where you get the token... You'll have to provide the documentation in this form. You'll use the requests instead of using the curl command. You just use the requests and send the inputs to it.
+
+---
+

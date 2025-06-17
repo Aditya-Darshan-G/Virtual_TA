@@ -1,0 +1,4 @@
+chat : llm chat — Keep the model in memory across multiple interactions. Plugin ecosystem : llm install PLUGIN — Add support for new models, data sources, or workflows. ( Language models on the command-line - Simon Willison's Weblog ) Practical Uses Automated coding . Generate code scaffolding, review helpers, or utilities on demand. For example, after running llm install llm-cmd , run llm cmd 'Undo the last git commit' . Inspired by Simon’s post on using LLMs for rapid tool building . Transcript processing . Summarize YouTube or podcast transcripts using Gemini. See Putting Gemini 2.5 Pro through its paces . Commit messages . Turn diffs into descriptive commit messages, e.g. git diff | llm 'Write a concise git commit message explaining these changes' . \ Data extraction . Convert free-text into structured JSON for automation.
+
+---
+

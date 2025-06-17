@@ -1,0 +1,16 @@
+ject just about finding which question is asked and accordingly match the answer send the answer as response?
+
+image 935×173 6.54 KB Hello Sir, I understand that we can deploy on vercel. Can it be deployed on Heroku as well? I believe both serve the same purpose. Wanted to know your thoughts on the same sir. Thanks and Regards Shalini
+
+If you use ngrok, ensure that it is running continuously until you get your results
+
+Any question from first 5 Ga’s can be there and you would need to analyze which question it is, you can use function calling or prompting as well. Function calling is better approach here.
+
+Hi @24f2006531 You can deploy it anywhere, just test how it works on Heroku, if it works(send request to api endpoint to your application and it should respond with answer) Kind regards
+
+will the asked question be same which was asked in my GAs (i mean there were variations in problem statements for diff-diff students.) @Jivraj sir
+
+Was the variation because of the datasets? Or even t
+
+---
+

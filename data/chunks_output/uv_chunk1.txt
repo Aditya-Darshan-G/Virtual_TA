@@ -1,0 +1,12 @@
+ution : The uv run command allows for the execution of scripts and applications within the managed environment, streamlining development workflows. Here are some commonly used commands: ```bash Replace python with uv. This automatically installs Python and dependencies. uv run script.py Run a Python script directly from the Internet uv run https://example.com/script.py Run a Python script without installing uvx ruff Use a specific Python version uv run --python 3.11 script.py Add dependencies to your script uv add httpx --script script.py Create a virtual environment at .venv uv venv Install packages to your virtual environment uv pip install httpx
+``` Here are some useful tools you can run with uvx without installation: bash
+uvx --from jupyterlab jupyter-lab # Jupyter notebook
+uvx marimo # Interactive notebook
+uvx llm # Chat with LLMs from the command line
+uvx openwebui # Chat with LLMs via the browser
+uvx httpie # Make HTTP requests
+uvx datasette # Browse SQLite databases
+uvx markitd
+
+---
+

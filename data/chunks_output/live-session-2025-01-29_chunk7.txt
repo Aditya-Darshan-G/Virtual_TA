@@ -1,0 +1,4 @@
+orning with Anand. There was a slight bug in the random generator for the file that you use. I believe it's been fixed now. That's why you're not getting an error at the moment. If you come across this problem again, notify us on Discourse. It shouldn't give you a problem anymore. Q12: One more thing: in the FastAPI question, I'm pushing the website, but it's not taking the conditions (API class equals 1A or class equals 1B) mentioned in the question. It's also giving the whole JSON file. What should I do? A12: The issue is likely in your code's logic. You should try to fix the code. The word class itself is a keyword in Python, so you'll have to find a workaround that enables you to use a query called class (CLASSS) without the underscore. Q13: One more question: in question 9 (FastAPI), I'm giving the URL, but when I run the file, it shows the whole data. When I add conditions, it also shows the whole data. I'll show you that.
+
+---
+

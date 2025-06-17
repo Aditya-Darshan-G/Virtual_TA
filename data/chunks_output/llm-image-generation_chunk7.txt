@@ -1,0 +1,4 @@
+ewer images ( n:1 ). Use response_format:"url" to reduce payload. Cache frequent prompts or images.
+
+---
+

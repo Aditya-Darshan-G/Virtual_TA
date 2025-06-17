@@ -1,0 +1,7 @@
+ed? (Reason: No prompt for structured reasoning.) GOOD : Given this transcript, is the customer satisfied? Think step by step. (Reason: Directly instructs the model to break down reasoning into steps.) Ask the model to think step by step. Don’t ask the model to just give the final answer right away.
+That's like asking someone to answer with the first thing that pops into their head.
+Instead, ask them to break down their thought process into simple moves — like showing each rung of a ladder as they climb.
+For example, when thinking step by step, the model could, A, list each customer question, B, find out if it was addressed, and C, decide that the agent answered only 2 out of the 3 questions. Anthropic | OpenAI | Google Assign a role Specify a role or persona for the model. This provides context and helps tailor the response style. BAD : Explain how to fix a software bug. (Reason: No role or perspective given.) GOOD : You are a seasoned software engineer.
+
+---
+

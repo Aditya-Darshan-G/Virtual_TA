@@ -1,0 +1,4 @@
+ized TypeSense server on port 8108 -p 8108:8108 maps host port to container port. -v typesense-data:/data mounts a Docker volume for persistence. --data-dir /data points TypeSense at that volume. --api-key=secret-key secures your API. --enable-cors allows browser-based requests. Expected output: Docker logs showing TypeSense startup messages, such as Started Typesense API server . Listening on http://0.0.0.0:8108 . Embed and import documents into TypeSense Follow the steps in the RAG with the CLI tutorial to create a chunks.json that has one {id, content} JSON object per line. TypeSense supports automatic embedding of documents . We'll use that capability. Save the following as addnotes.py and run it with uv run addnotes.py .
+
+---
+

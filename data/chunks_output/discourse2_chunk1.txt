@@ -1,0 +1,13 @@
+ip times in milli-seconds:
+ Minimum = 8ms, Maximum = 9ms, Average = 8ms Visit this link for more details: Extended Syntax | Markdown Guide . A friendly suggestion: kindly go through Discourse Docs ! Deadline: Sunday, February 2, 2025 6:29 PM @carlton @Jivraj @Saransh_Saini
+
+how to get the dummy API key?
+
+Hi Nilay, In order to make a api call to openai chat completions you are required to send authentication information(openai key) in headers. For first question of GA3 you don’t have to send actual(working) api key, any dummy api key would work(you can put your name, or tds anything works) kind regards
+
+which API should i use in 7th question
+
+need help in question 4th.
+
+---
+

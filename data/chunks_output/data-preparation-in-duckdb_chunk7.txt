@@ -1,0 +1,8 @@
+month FROM orders; Conditional Logic and Binning A common task is to categorize continuous data into meaningful business segments that drive decision-making. Converting exact dollar amounts into price tiers enables targeted marketing (premium vs budget customers), inventory classification (high/medium/low value items), and commission structures. This segmentation forms the foundation for personalized pricing, customer targeting, and performance analysis. sql
+SELECT
+ order_id,
+ CASE WHEN amount > 700 THEN 'high' WHEN amount > 300 THEN 'medium' ELSE 'low' END AS price_band
+FROM orders; Regex Search and Replace We often need to clean complex text patterns that simple string operations can't handle. Product descriptions contain multiple spaces, phone numbers have inconsistent formatting, and addresses mix abbreviations with full words.
+
+---
+

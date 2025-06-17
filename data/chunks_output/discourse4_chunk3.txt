@@ -1,0 +1,12 @@
+ion. You would have to inspect the DOM to find it.
+
+Screenshot 2025-01-11 at 10.29.41 PM 1440×900 160 KB @s.anand please guide me through this question, my answer is showing incorrect
+
+Hello Sir. I am unable to install uv in my windows system. Whenever I run the code provided at the reference link in Powershell, my anti-virus system sends a message that it was blocked. Even after blocking Real-time security, uv does not display. What am I doing wrong?
+
+Hi, I’m unable to view assignments. below is the screenshot for your reference. Screenshot 2025-01-12 150511 963×632 14.5 KB Please suggest me a way to view it. I have allowed third-party cookies as well. Thanks
+
+Hi manmeet, I don’t know about solution to this. Some network setting might be causing problem. Alternatively you can make use of GitHub codespaces which provides 120 hours of free run time in a month. With GitHub codespaces you can use Ubuntu os, and visually it gives you feel of vs code.
+
+---
+

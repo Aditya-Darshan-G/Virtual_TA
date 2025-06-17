@@ -1,0 +1,4 @@
+Live Session: 31 Jan 2025 Q1: In today's session, what will be covered? A1: We will be discussing the function calling part of OpenAI. We will create a program that takes user prompts in English, identifies which function to call based on the prompt, and then calls that function. Q2: What is the first step in the process? A2: First, we import the requests library. Then, we'll get the headers and URL for the request, and finally, we'll create a JSON body for the request. Q3: What is the goal of the program? A3: The program aims to automate the process of ordering something from an online store. It will take a user's order in plain English, understand the request, and place the order. It will also include a feature for updating existing orders. Q4: How will the program understand the user's prompt? A4: The program will send the user's prompt to OpenAI.
+
+---
+

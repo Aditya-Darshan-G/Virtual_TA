@@ -1,0 +1,35 @@
+```bash or ```python code fences.
+"""
+
+@app.post("/run")
+async def run_task(task: str):
+ """Execute a plain-English automation task."""
+ response = await llm(system_prompt, task)
+ print(f"\n🟡 Running task:\n{task.strip()}\n")
+ print(f"\n🟡 {response}\n")
+
+ results = []
+ for language, code in re.findall(r"```(python|bash)\n(.*?)\n```", response, re.DOTALL):
+ print(f"\n🟡 Running {language} code:\n{code}\n")
+ if language == "python":
+ result = await execute_python(code)
+ else: # bash
+ result = await execute_bash(code)
+ results.append({"lang": language, **result})
+
+ print(f"\n🟡 Results:\n{results}\n")
+ return {"response": response, "results": results}
+
+@app.get("/read")
+async def read_file(path: str):
+ """Read contents of a file."""
+ # Validate path is within /data
+ path = os.path.normpath(path)
+ if not path.startswith("/data/"):
+ raise HTTPException(status_code=400, detail="Invalid path")
+ if not os.path.exists(path):
+ raise HTTPException(status_code=404, detail="File not found")
+ return
+
+---
+

@@ -1,0 +1,13 @@
+TY CPI
+WINNER_VOTES 5000.0
+RUNNER_UP 2 MUSTAK MASIH
+RUNNER_UP_PARTY INC
+RUNNER_UP_VOTES 1115.0
+MARGIN_PERCENTAGE 50.599114 which is 50.60 , but answer is 62.64 pls guide where i might be wrong, thanks
+
+shubhamatkal: df_gobindpur = df[df["AC"].str.contains("SRI GOBINDPUR|SRIHARGOBINDPUR|SRI HARGOBINDPUR", case=False, na=False)] For this kind of name difference you can use Openrefine software shubhamatkal: which is 50.60 , but answer is 62.64 That answer is wrong, we will be releasing a script with correct python snippets. Kind regards.
+
+@Jivraj @carlton “SATHUPALLE” and “NILANGA” were two of the four constituencies which were assigned to me. However, even with phonetic match, I couldn’t find any data for these. Closest I could find to SATHUPALLE is “Sattenapalle”, however, two are different locations 150km+ apart as per google maps.
+
+---
+

@@ -1,0 +1,4 @@
+Live Session: 22 Jan 2025 Q1: What are the essential base technologies to learn for the TDS course? A1: Focus on these three areas: 1) Bash and shell scripting; 2) Git; 3) CSS, HTML, and JavaScript. Also, learn REST APIs. Other tools can be learned on the go once you have a basic understanding of these core technologies. Q2: Regarding the tools and techniques needed for the TDS course, are Bash and shell scripting, Git, CSS, HTML, JavaScript, and REST APIs the only essential ones? A2: Yes, those are the core technologies. Other tools are supplementary and can be learned as needed throughout the course. The instructor suggests a three-part approach to learning: 1) Define the purpose; 2) Determine the technique; 3) Select the tools. Q3: In short, is it sufficient to learn the listed technologies to a certain depth, not necessarily to the level of a diploma? A3: Yes, learning to a certain depth is sufficient. The learning process should always be purpose-driven.
+
+---
+

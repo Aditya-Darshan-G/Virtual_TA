@@ -1,0 +1,4 @@
+BBC Weather location ID with Python You'll learn how to get the location ID of any city from the BBC Weather API -- as a precursor to scraping weather data -- covering: Understanding API Calls : Learn how backend API calls work when searching for a city on the BBC weather website. Inspecting Web Interactions : Use the browser's inspect element feature to track API calls and understand the network activity. Extracting Location IDs : Identify and extract the location ID from the API response using Python. Using Python Libraries : Import and use requests, json, and urlencode libraries to make API calls and process responses. Constructing API URLs : Create structured API URLs dynamically with constant prefixes and query parameters using urlencode. Building Functions : Develop a Python function that accepts a city name, constructs the API call, and returns the location ID.
+
+---
+

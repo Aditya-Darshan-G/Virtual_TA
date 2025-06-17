@@ -1,0 +1,4 @@
+leaning Data with OpenRefine Parsing JSON Data Transformation with dbt Transforming Images Extracting Audio and Transcripts 6. Data Analysis Correlation with Excel Regression with Excel Forecasting with Excel Outlier Detection with Excel Data Analysis with Python Data Analysis with SQL Data Analysis with Datasette Data Analysis with DuckDB Data Analysis with ChatGPT Geospatial Analysis with Excel Geospatial Analysis with Python Geospatial Analysis with QGIS Network Analysis in Python Project 2 7. Data Visualization Visualizing Forecasts with Excel Visualizing Animated Data with PowerPoint Visualizing Animated Data with Flourish Visualizing Network Data with Kumu Visualizing Charts with Excel Data Visualization with Seaborn Data Visualization with ChatGPT Actor Network Visualization RAWgraphs Data Storytelling Narratives with LLMs Interactive Notebooks: Marimo HTML Slides: RevealJS Markdown Presentations: Marp
+
+---
+

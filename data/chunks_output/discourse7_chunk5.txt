@@ -1,0 +1,10 @@
+were working perfectly fine. Please help me out. Roll no. 23f1002056
+
+My evaluation log file is missing in report provided. It says tasksA was not found. but I have submitted tasksA in my project file. Also it says server didnt start for 5 mins but for me image was working fine. please kindly help me out. I have made submissions correctly. I request for re evaluation of my project. my roll no is 22f1000703
+
+Respected, I haven’t received any mail yet regarding the TDS Project 1 marks. Please look into it. Regards, Soham
+
+My evaluation log file is missing. The 2 other log files i’m given doesnt have my email inside it listed. the Image id which is given in the MAIL is not present in my docker desktop, my project’s docker image is listed in docker desktop, which doesnot matches the image id given in the MAIL, What was evaluated? How it was evaluated? This is the id of the docker image that was evaluated: 0ade87d1bf07 My terminal shows 2 images as last, with respective image ids.
+
+---
+

@@ -1,0 +1,4 @@
+py as fetch" to get the request. Essential Keyboard Shortcuts Ctrl+Shift+I (Windows) / Cmd+Opt+I (Mac): Open DevTools Ctrl+Shift+C : Select element to inspect Ctrl+L : Clear console $0 : Reference currently selected element $$('selector') : Query selector all (returns array) Videos from Chrome Developers (37 min total): Fun & powerful: Intro to Chrome DevTools (5 min) Different ways to open Chrome DevTools (5 min) Faster DevTools navigation with shortcuts and settings (3 min) How to log messages in the Console (6 min) How to speed up your workflow with Console shortcuts (6 min) HTML vs DOM? Let’s debug them (5 min) Caching demystified: Inspect, clear, and disable caches (7 min) Console message logging (6 min) Console workflow shortcuts (6 min) HTML vs DOM debugging (5 min) Cache inspection and management (7 min)
+
+---
+

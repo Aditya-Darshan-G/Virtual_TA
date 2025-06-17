@@ -1,0 +1,9 @@
+lt = client.post(
+ "http://localhost:8108/collections/notes/documents/import?action=emplace",
+ headers={**headers, "Content-Type": "text/plain"},
+ data="\n".join(json.dumps(chunk) for chunk in chunks),
+)
+print(result.text) ``` httpx.Client : an HTTP client for Python. Collection schema : id and content fields plus an embedding field with auto-generated embeddings from OpenAI. Auto-embedding : the embed block instructs TypeSense to call the specified model for each document. GET /collections/notes : checks existence. POST /collections : creates the collection. POST /collections/notes/documents/import?action=emplace : bulk upsert documents, embedding them on the fly. Expected output: A JSON summary string like {"success": X, "failed": 0} indicating how many docs were imported. (On timeouts, re-run until all chunks are processed.) 4.
+
+---
+

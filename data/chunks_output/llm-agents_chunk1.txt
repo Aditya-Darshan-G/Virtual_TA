@@ -1,0 +1,6 @@
+imal command-line agent called llm-cmd-agent.py that: Takes a task description from the command line Generates code to accomplish the task Automatically extracts and executes the code Passes the results back to the LLM Provides a final answer or tries again if the execution fails Here's how it works: bash
+uv run llm-cmd-agent.py "list all Python files under the current directory, recursively, by size"
+uv run llm-cmd-agent.py "convert the largest Markdown file to HTML" The agent will: Generate a shell script to list files with their sizes Execute the script in a subprocess Capture the output (stdout and stderr) Pass the output back to the LLM for interpretation Present a final answer to the user Under the hood, the agent follows this workflow: Initial prompt to generate a shell script Code extraction from the LLM response Code execution in a subprocess Result interpretation by the LLM Error handling and retry logic if needed This demonstrates the core agent loop of: Planning (generating
+
+---
+

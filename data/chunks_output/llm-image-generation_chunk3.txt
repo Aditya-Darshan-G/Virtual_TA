@@ -1,0 +1,9 @@
+xt": "Replace the background with a starry night sky"},
+ {"inline_data": {"mime_type":"image/jpeg", "data": "'$(base64 -w 0 cat.jpg)'"}}
+ ]
+ }],
+ "generationConfig": {"responseModalities": ["TEXT", "IMAGE"]}
+ }' | jq -r '.candidates[].content.parts[] | select(.inlineData) | .inlineData.data' | base64 --decode > image.png Image Editing Docs Editing options Editing requests support: inlineData : Embed raw image bytes. fileData : Reference public URLs. All generationConfig options listed above. safetySettings : Per-request safety rules. Multi-turn edits by repeating contents in conversation history. Costs and optimization Gemini 2.0 Flash Experimental uses token-based billing: Input (text/image/video): free tier, then $0.10 per 1M tokens. Output (text/image): free tier, then $0.40 per 1M tokens. Per-image flat cost for Pro models: ~$0.001315 /image ( Gemini Developer API Pricing | Gemini API | Google AI for Developers , Solved: Re: Outdated Gemini Pro image pricing? By tile, or... ).
+
+---
+

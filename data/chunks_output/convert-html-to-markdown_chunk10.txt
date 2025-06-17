@@ -1,0 +1,4 @@
+wler with these options: -t 5 : Sets 5 threads for parallel crawling -d 3 : Limits crawl depth to 3 levels -b ./markdown : Sets the base output directory Final argument is the starting URL
+
+---
+

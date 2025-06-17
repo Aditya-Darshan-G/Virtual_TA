@@ -1,0 +1,7 @@
+Containers: Docker, Podman Docker and Podman are containerization tools that package your application and its dependencies into a standardized unit for software development and deployment. Docker is the industry standard. Podman is compatible with Docker and has better security (and a slightly more open license). In this course, we recommend Podman but Docker works in the same way. Initialize the container engine: bash
+podman machine init
+podman machine start Common Operations. (You can use docker instead of podman in the same way.) ```bash Pull an image podman pull python:3.11-slim Run a container podman run -it python:3.11-slim List containers podman ps -a Stop container podman stop container_id Scan image for vulnerabilities podman scan myapp:latest Remove container podman rm container_id Remove all stopped containers podman container prune
+``` You can create a Dockerfile to build a container image. Here's a sample Dockerfile that converts a Python script into a container image.
+
+---
+

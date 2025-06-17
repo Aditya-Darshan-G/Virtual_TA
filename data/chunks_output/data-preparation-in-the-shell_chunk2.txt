@@ -1,0 +1,22 @@
+en uploading
+ --aws-sigv4 <provider1[:provider2[:region[:service]]]> Use AWS V4 signature authentication
+ --basic Use HTTP Basic Authentication
+ --cacert <file> CA certificate to verify peer against
+ --capath <dir> CA directory to verify peer against
+ -E, --cert <certificate[:password]> Client certificate file and password
+ --cert-status Verify the status of the server cert via OCSP-staple
+ --cert-type <type> Certificate type (DER/PEM/ENG)
+ --ciphers <list of ciphers> SSL ciphers to use
+ --compressed Request compressed response
+ --compressed-ssh Enable SSH compression
+ -K, --config <file> Read config from a file
+ --connect-timeout <fractional seconds> Maximum time allowed for connection
+ --connect-to <HOST1:PORT1:HOST2:PORT2> Connect to host
+ -C, --continue-at <offset> Resumed transfer offset
+ -b, --cookie <data|filename> Send cookies from string/file
+ -c, --cookie-jar <filename> Write cookies to <filename> after operation
+ --create-dirs Create necessary local directory hierarchy
+ --cr
+
+---
+

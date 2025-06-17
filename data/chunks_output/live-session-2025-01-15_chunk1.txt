@@ -1,0 +1,4 @@
+er additional learning before proceeding. The course is hands-on, and the TAs will hold sessions to help you understand the tools. The course content is available on the course introduction page, not just in the GA modules. Q4: The YouTube videos are not clear enough. Can we have personalized videos? A4: The TAs will hold dedicated sessions to address this learning curve. These sessions will cover the tools in detail and will be recorded and uploaded. Q5: I'm not from a science background and find the course difficult. What can I do? A5: The course is not an intro to programming. Focus on the practical exercises and use the TAs' sessions to get help. The instructors will consider adding more introductory sessions to address the skill gap. Q6: I took TDS two terms ago and haven't gained any extra skills. I only want to complete this course and leave. What should I do? A6: The course has changed significantly since two terms ago.
+
+---
+

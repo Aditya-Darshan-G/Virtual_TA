@@ -1,0 +1,11 @@
+tional databases.
+These are implemented by most popular databases, including SQLite , PostgreSQL , and MySQL .
+This is especially handy when you have a hybrid data model, combining structured tables with semi-structured JSON columns. Example: An application that stores user settings or application logs as JSON in a SQLite database, enabling quick lookups and modifications without external JSON parsing libraries. sql
+SELECT
+ json_extract(data, '$.name') as name,
+ json_extract(data, '$.details.age') as age
+FROM users
+WHERE json_extract(data, '$.active') = true DuckDB JSON Processing DuckDB shines when analyzing JSON/JSONL files directly, making it a powerful tool for data analytics without the overhead of loading entire datasets into memory. Its SQL-like syntax simplifies exploratory analysis on nested data. Example: Performing ad-hoc analytics on streaming JSON logs from a web service, such as calculating average response times or aggregating user behavior metrics.
+
+---
+

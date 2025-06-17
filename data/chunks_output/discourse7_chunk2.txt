@@ -1,0 +1,8 @@
+ave to see the logs for that. We have shared the logs. Everyone was graded by the exact same code, so there is no partiality. Your code did not produce consistent results.
+
+I have noticed that my image was run on a x86_64 architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is ARM . This is why I can see that my docker image never ran properly and threw the exec format error . This was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine.
+
+My evaluation log file is missing, although I followed all the steps to generate the docker image correctly, it’s showing the server didn’t start for 5 minutes but when I uploaded it, it was working fine. Please help me out sir, I worked hard on the project. I’ll get a zero, but I made the submissions correctly.
+
+---
+

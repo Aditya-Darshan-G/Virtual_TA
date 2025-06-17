@@ -1,0 +1,10 @@
+s on nested data. Example: Performing ad-hoc analytics on streaming JSON logs from a web service, such as calculating average response times or aggregating user behavior metrics. sql
+SELECT
+ json_extract_string(data, '$.user.name') as name,
+ avg(json_extract_float(data, '$.metrics.value')) as avg_value
+FROM read_json_auto('data/*.jsonl')
+GROUP BY 1
+HAVING avg_value > 100
+
+---
+

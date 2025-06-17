@@ -1,0 +1,12 @@
+Please post any questions related to Graded Assignment 2 - Deployment Tools . Important Instruction Please use markdown code formatting (fenced code blocks) when sharing code in Discourse posts. This makes the code much easier to read and differentiate from non-code text. It also makes it easier for people to copy code snippets and run it themselves. Visit this link for more details: Extended Syntax | Markdown Guide . A friendly suggestion: kindly go through Discourse Docs ! Deadline: Sunday, February 2, 2025 6:29 PM @carlton @Jivraj
+
+Screenshot 2025-01-12 223630 1727×195 27.1 KB i have included the email address still its giving error
+
+Screenshot 2025-01-12 223956 1674×158 12.8 KB that website is working fine . just write the parameters after /api
+
+Hi Guddu, Can you share your GitHub repo. For GitHub pages question.
+
+Check your browser console most probably CORS is causing problem. Try adding CORS to your code it might work.
+
+---
+

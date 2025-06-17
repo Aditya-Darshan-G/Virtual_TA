@@ -1,0 +1,10 @@
+sure JSON is well-formed. Comm errors: Trailing commas, missing quotes, and escape characters JSON Lines is a format that allows you to store multiple JSON objects in a single line.
+It's useful for logging and streaming data. Tools you could use with JSON: JSONLint : Validate and format JSON JSON Editor Online : Visual JSON editor and formatter JSON Schema : Define the structure of your JSON data jq : Command-line JSON processor Common Python operations with JSON: ```python
+import json Parse JSON string json_str = '{"name": "Alice", "age": 30}'
+data = json.loads(json_str) Convert to JSON string json_str = json.dumps(data, indent=2) Read JSON from file with open('data.json') as f:
+ data = json.load(f) Write JSON to file with open('output.json', 'w') as f:
+ json.dump(data, f, indent=2) Read JSON data a Pandas DataFrame. JSON data is typically stored as an array of objects. import pandas as pd
+df = pd.read_json('data.json') Read JSON lines from file into a DataFrame.
+
+---
+

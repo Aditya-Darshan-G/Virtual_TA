@@ -1,0 +1,6 @@
+@Jivraj @carlton sir please help When I am downloading the data folder after processing datagen.py , it is trying to download in root folder and it is facing permission error . how can we overcome this ? needs sudo permission all the time… image 2100×216 100 KB
+
+Hi Vikram, This is because (if you watched the session, or examined the code, you would have realised that) datagen.py was designed to run inside your docker container. And datagen.py (or a similar named file which we will not tell you ahead of time and will be provided as the query parameter in task A1) will normally be called by evaluate.py Inside the docker container, permission for the data folder is set by the Dockerfile which then allows your application to access the root folder inside your docker image and create the /data folder.
+
+---
+

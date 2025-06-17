@@ -1,0 +1,14 @@
+ese structures lets you analyze and visualize the data using familiar DataFrame operations. Example: Flattening customer records stored as nested JSON in a CSV file to extract demographic details and spending patterns. ```python
+import pandas as pd Parse JSON strings in a column df = pd.DataFrame({'json_col': ['{"name": "Alice", "age": 30}', '{"name": "Bob", "age": 25}']})
+df['parsed'] = df['json_col'].apply(pd.json_normalize) Normalize nested JSON columns df = pd.read_csv('data.csv')
+df_normalized = pd.json_normalize(
+ df['nested_json'].apply(json.loads),
+ record_path=['items'], # List of nested objects to unpack
+ meta=['id', 'timestamp'] # Keep these columns from parent
+)
+``` SQL JSON Functions SQL supports built-in JSON functions allow you to query and manipulate JSON stored within relational databases.
+These are implemented by most popular databases, including SQLite , PostgreSQL , and MySQL .
+This is especially handy when you have a hybrid data model, combining structured tables w
+
+---
+

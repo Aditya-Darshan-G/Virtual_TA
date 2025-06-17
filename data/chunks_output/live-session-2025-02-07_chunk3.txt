@@ -1,0 +1,4 @@
+re the number of values in different lists doesn't match? A8: If the lengths of lists (e.g., product names, prices, links) don't match, it usually means there's an extra value. The instructor shows how to handle this by checking the lengths of the lists and potentially removing extra values. Q9: How do I save the extracted data to a CSV file? A9: The instructor demonstrates using the pandas library to create a DataFrame from the extracted data and then saving it to a CSV file using the to_csv method. Q10: How do I scrape data from multiple pages of a website? A10: Many websites allow scraping, but you should always check their terms and conditions. If a website allows scraping, you can often use a page parameter in the URL to access subsequent pages (e.g., page=2 for the second page). You can use a for loop to iterate through multiple pages.
+
+---
+

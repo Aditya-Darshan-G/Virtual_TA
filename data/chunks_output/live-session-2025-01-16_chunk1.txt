@@ -1,0 +1,4 @@
+4: UV eliminates the need to create virtual environments. You include small portions of code and run the application with minimal setup. Q5: How does UV integrate with VS Code? A5: There's no integration; UV is used in the command prompt, similar to pip (Python), npm (JavaScript), or Node.js. Q6: Are there examples demonstrating UV usage and integration with VS Code? A6: No specific VS Code integration is needed. UV is used in the command line, like pip or npm. A previous project (Project 2) used UV to automate running 687 student Python submissions, each with unique requirements. Students added metadata to their Python files specifying the Python version and required libraries. UV dynamically handled these requirements for each submission. Q7: In the RWE exam, what will the format be like? A7: The format will be similar to the graded assignments: questions and answer boxes. You can use any tools you want. It's a non-proctored exam.
+
+---
+

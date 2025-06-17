@@ -1,0 +1,4 @@
+ndows. You can get Linux in Windows now using the Windows Subsystem for Linux (WSL). You need at least 8 GB of RAM to run it with reasonable performance. Anything less won't work or will work poorly. If you can, install WSL; it's worth it. Then these tools will work out of the box. Q10: What is CI/CD? A10: Continuous Integration/Continuous Deployment. It automates tasks such as compiling, running, and sending code to devices. It reduces the time lag between finding a bug, fixing it, and pushing the fix to the devices that need it. This is useful in data science when pulling data from various places and quickly integrating findings into a workflow. Q11: What is Vercel? A11: Vercel is a platform to deploy applications. You can deploy quickly and easily, and it automatically rebuilds when you push an update. You can deploy directly from your GitHub repo. Q12: What is the difference between Docker run and Docker compose? A12: Docker compose is for local testing.
+
+---
+

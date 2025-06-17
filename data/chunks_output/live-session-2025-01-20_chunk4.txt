@@ -1,0 +1,4 @@
+te and modify multiple files within a directory structure. Q9: How do I set up the connection between my local Git instance and a remote GitHub repository? A9: You can use the git remote add origin <repository URL> command to establish the connection. You can find the specific URL on the GitHub repository page. Q10: What if I encounter issues while trying to push changes to GitHub? A10: If you're using HTTPS, you'll need to use a personal access token instead of your password for authentication. If you encounter errors, ensure you have configured your Git username and email correctly using git config . You might also need to check the permissions granted to your personal access token or set up SSH keys for authentication. Q11: How many students are regularly attending the live sessions? A11: The attendance in the live sessions is lower than expected, with around 15-25 students at peak times, compared to the 400-500 enrolled in the current term.
+
+---
+

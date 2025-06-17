@@ -1,0 +1,4 @@
+w any anomalies Error Handling Request data in simple formats (CSV/JSON) Include validation in prompts Split long videos into segments Handle missing/partial data gracefully Use Cases Data Extraction Email content aggregation Dashboard metrics collection Protected web content Legacy system data Data Journalism Public records analysis Time-series data collection Interactive visualization data Government website scraping Business Intelligence Competitor pricing analysis Market research data Internal system migration Legacy report conversion Tools: Google AI Studio : Process videos with Gemini QuickTime Player : Screen recording (Mac) Screen2Gif : Screen recording (Windows) OBS Studio : Advanced screen recording (cross-platform) References: Simon Willison's Video Scraping Tutorial Gemini API Documentation
+
+---
+

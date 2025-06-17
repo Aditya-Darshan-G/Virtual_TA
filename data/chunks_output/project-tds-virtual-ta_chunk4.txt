@@ -1,0 +1,4 @@
+f the marks above. No normalization. What you get is what you get. Bonus: 1 mark if your GitHub repo includes a script that scrapes the Discourse posts across a date range from a Discourse course page like TDS 2 marks if we deploy your solution (with minimal modifications) as an official solution for students to use.
+
+---
+

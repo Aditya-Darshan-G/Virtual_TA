@@ -1,0 +1,6 @@
+dataset being the same. It WILL change. LLMs give different results each time they are called. Make sure: Your code gives correct results reliably (i.e. try a few times) Change the task in the evaluation script slightly to test variations Your AI Proxy usage resets on 1 Feb. You have a limited budget. Utilize what you can this month. For those who submit their code by Friday, I will run a sample evaluation and share the results. @carlton @Jivraj @Saransh_Saini - please socialize this during the live sessions.
+
+By clicking the project link ,I am getting the notes…but no project is available in my project 1
+
+---
+

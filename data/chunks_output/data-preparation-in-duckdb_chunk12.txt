@@ -1,0 +1,8 @@
+egion, COUNT(*) AS n_orders, SUM(amount) AS total FROM orders GROUP BY region; -- Pivot by region
+SELECT *
+FROM orders
+PIVOT(COUNT(*) FOR region IN ('US', 'EU'));
+``` Useful links: DuckDB Documentation SQL Functions DuckDB Extensions
+
+---
+

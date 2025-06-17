@@ -1,0 +1,12 @@
+upport shell commands. In this notebook , we'll explore log files with these shell-based commands. Download logs This file has Apache web server logs for the site s-anand.net in the month of April 2024. You can download files using wget or curl . One of these is usually available by default on most systems. We'll use curl to download the file from the URL https://drive.usercontent.google.com/uc?id=1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE&export=download ```python curl has LOTs of options. You won't remember most, but it's fun to geek out. !curl --help all
+``` Usage: curl [options...] <url>
+ --abstract-unix-socket <path> Connect via abstract Unix domain socket
+ --alt-svc <file name> Enable alt-svc with this cache file
+ --anyauth Pick any authentication method
+ -a, --append Append to target file when uploading
+ --aws-sigv4 <provider1[:provider2[:region[:service]]]> Use AWS V4 signature authentication
+ --basic Use HTTP Basic Authentication
+ --cacert <file> CA certificate to verify peer against
+
+---
+

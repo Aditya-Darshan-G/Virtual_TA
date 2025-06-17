@@ -1,0 +1,14 @@
+n relations\n### Military\n### Human rights\n### Corruption\n### Law and crime\n## Economy\n### Transport and energy\n### Agriculture and fishery\n### Science and technology\n#### Space exploration\n### Tourism\n## Demographics\n### Language\n### Religion\n### Education\n### Health\n## Culture\n### Holidays\n### Art and architecture\n### Music\n### Literature and philosophy\n### Cuisine\n### Mass media and cinema\n### Sports\n## See also\n## Notes\n## References\n## Sources\n## Further reading\n## External links"} error resolved
+
+in my output which is correct there are two \n instead of one .
+
+it should one(for newline), my code is working now
+
+Dear Sir, I was at 2/10 yesterday. After pasting JSON file of IMDB & reloading as suggested My marks updated to 3/10. Kindly confirm if I have got whole of IMDB question.
+
+Q4. How to handle the error ? @Jivraj Error: At 2025-02-05: Values don’t match
+
+There is no submit button is available in below screen. Is it fine to save the link url only.
+
+---
+

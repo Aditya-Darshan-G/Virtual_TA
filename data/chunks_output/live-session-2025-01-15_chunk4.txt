@@ -1,0 +1,4 @@
+lomas complement each other. Q13: What are some standard tools I should focus on? A13: Bash has been around since the 1970s. Focus on newer tools and techniques, such as LLMs and GPTs, which are powerful and in high demand. Q14: What if I want to learn the tools more deeply? A14: Learn by using the tools frequently in your workflows. The instructors will provide more support sessions. Q15: Can we have sessions on installing the Linux system? A15: The instructors will discuss this with the TAs and schedule sessions if needed. Note that you may not need to install a full Linux system; Google Colab provides a Linux environment. Q16: Will the sessions be added to the Google Calendar? A16: Yes, they will be added to a playlist on the Google Calendar. Bookmark the TDS channel to easily find the playlist. The videos themselves will be on YouTube.
+
+---
+

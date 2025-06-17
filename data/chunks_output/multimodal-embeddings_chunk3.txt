@@ -1,0 +1,22 @@
+", "A cardboard box"]
+ }' Image Embeddings bash
+curl -X POST "https://api-atlas.nomic.ai/v1/embedding/image" \
+ -H "Authorization: Bearer $NOMIC_API_KEY" \
+ -F "model=nomic-embed-vision-v1.5" \
+ -F "images=@cat.jpg" \
+ -F "images=@box.png" 2. Jina AI Jina’s unified /v1/embeddings endpoint accepts text strings and base64-encoded image bytes in one batch. ( Jina AI ) bash
+curl -X POST "https://api.jina.ai/v1/embeddings" \
+ -H "Authorization: Bearer $JINA_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d "{
+ \"model\": \"jina-clip-v2\",
+ \"input\": [
+ {\"text\":\"A cute cat\"},
+ {\"text\":\"A cardboard box\"},,
+ {\"image\":\"$(base64 -w 0 cat.jpg)\"},
+ {\"image\":\"$(base64 -w 0 box.png)\"}
+ ]
+ }" 3. Google Vertex AI Multimodal Embeddings Vertex AI’s multimodal model ( multimodalembedding@001 ) takes JSON instances combining text and base64 image data.
+
+---
+

@@ -1,0 +1,4 @@
+prompt? A4: The program will send the user's prompt to OpenAI. OpenAI will use its function calling capabilities to identify the appropriate function to call from a predefined set of functions within your application, and return the function name and parameters in a JSON format. Q5: What are the predefined functions? A5: The predefined functions are a set of tools your application provides. Examples include get_weather_info (which takes a location as a parameter) and best_hotels (which also takes a location). OpenAI will determine which function to call based on the user's prompt. Q6: How does OpenAI determine which function to call? A6: OpenAI analyzes the user's prompt and, based on its understanding of the context and semantics, selects the appropriate function from the predefined set. The response from OpenAI will include the function name and its required parameters in JSON format.
+
+---
+

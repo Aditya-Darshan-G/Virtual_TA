@@ -1,0 +1,8 @@
+a .gz extension, we know it's compressed using gzip . We can use gzip -d FILE.gz to decompress the file. It'll replace FILE.gz with FILE . (Compression works the opposite way. gzip FILE replaces FILE with FILE.gz ) link text ```python gzip -d is the same as gunzip. They both decompress a GZIP-ed file !gzip -d s-anand.net-Apr-2024.gz
+``` ```python Let's list the files and see the size !ls -l
+``` total 50832
+drwxr-xr-x 1 root root 4096 Jun 6 14:21 sample_data
+-rw-r--r-- 1 root root 52044491 Jun 9 05:18 s-anand.net-Apr-2024 In this case, a file that was ~5.8MiB became ~52MiB, roughly 10 times larger. Clearly, it's more efficient to store and transport compressed files -- especitally if they're plain text.
+
+---
+

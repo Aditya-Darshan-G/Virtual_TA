@@ -1,0 +1,9 @@
+he branch and machine specs (2–32 cores, 8–64 GB RAM), then click Create codespace . In Visual Studio Code Press Ctrl+Shift+P (or Cmd+Shift+P on Mac), choose Codespaces: Create New Codespace , and follow the prompts. Via GitHub CLI bash
+ gh auth login
+ gh codespace create --repo OWNER/REPO
+ gh codespace list # List all codespaces
+ gh codespace code # opens in your local VS Code
+ gh codespace ssh # SSH into the codepsace Features To Explore Dev Containers : Set up your environment the same way every time using a devcontainer.json or your own Dockerfile. Introduction to dev containers Prebuilds : Build bigger or more complex repos in advance so codespaces start up in a flash. About prebuilds Port Forwarding : Let Codespaces spot and forward the ports your web apps use automatically. Forward ports in Codespaces Secrets & Variables : Keep your environment variables safe in the Codespaces settings for your repo.
+
+---
+

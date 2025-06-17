@@ -1,0 +1,25 @@
+-image-generation:generateContent?key=$GEMINI_API_KEY" \
+ -H "Content-Type: application/json" \
+ -X POST \
+ -d '{
+ "contents": [{ "parts": [{ "text": "A futuristic city skyline at dusk, neon lights" }] }],
+ "generationConfig": {
+ "responseModalities": ["TEXT", "IMAGE"],
+ "temperature": 0.7,
+ "topP": 0.9,
+ "maxOutputTokens": 1024
+ }
+ }' | jq -r '.candidates[].content.parts[] | select(.inlineData) | .inlineData.data' | base64 --decode > image.png Image Generation Docs Simple image editing To edit an existing image, include it in the contents as inlineData (base64-encoded): bash
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp-image-generation:generateContent?key=$GEMINI_API_KEY" \
+ -H 'Content-Type: application/json' \
+ -d '{
+ "contents": [{
+ "parts":[
+ {"text": "Replace the background with a starry night sky"},
+ {"inline_data": {"mime_type":"image/jpeg", "data": "'$(base64 -w 0 cat.jpg)'"}}
+ ]
+ }],
+ "generationConfig": {"responseModalities": ["TEXT", "I
+
+---
+

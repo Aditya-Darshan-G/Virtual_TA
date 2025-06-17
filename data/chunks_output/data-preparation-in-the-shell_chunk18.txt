@@ -1,0 +1,13 @@
+FORMAT after completion
+ --xattr Store metadata in extended file attributes ```python We're using 3 curl options here: --continue-at - continues the download from where it left off. It won't download if already downloaded --location downloads the file even if the link sends us somewhere else --output FILE saves the downloaded output as !curl --continue-at - \
+ --location \
+ --output s-anand.net-Apr-2024.gz \
+ https://drive.usercontent.google.com/uc?id=1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE&export=download
+``` % Total % Received % Xferd Average Speed Time Time Time Current
+ Dload Upload Total Spent Left Speed
+ 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0
+100 5665k 100 5665k 0 0 3139k 0 0:00:01 0:00:01 --:--:-- 9602k List files ls lists files. It too has lots of options. python
+!ls --help Usage: ls [OPTION]...
+
+---
+

@@ -1,0 +1,14 @@
+/' \
+ | jq -R -s -c --arg file "$f" '
+ split("===SPLIT===")[1:]
+ | to_entries
+ | map({
+ id: ($file + "#" + (.key | tostring)),
+ content: .value
+ })[]
+ '
+ done
+) | tee chunks.json shopt -s globstar : lets **/*.md match Markdown files in all subdirectories. bash shopt manual uvx --from split_markdown4gpt mdsplit4gpt : a tool that splits Markdown into LLM‑sized chunks: --model gpt-4o : uses GPT‑4o token limits --limit 4096 : max tokens per chunk --separator "===SPLIT===" : custom split marker sed '1s/^/===SPLIT===\n/' : ensures the very first chunk starts with the separator (GNU sed manual) jq -R -s -c --arg file "$f" : uses jq to convert chunks to JSON -R : read raw input -s : slurp entire input into a single string -c : compact JSON output builds an array of objects {id, content} , where id is filename#chunkIndex tee chunks.json : writes the resulting JSON array to chunks.json while printing it to stdout. You'll now have a chunks.json that has one {id, content} JSON object per line.
+
+---
+

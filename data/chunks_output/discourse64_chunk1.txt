@@ -1,0 +1,10 @@
+is specifically said to filter the movies however, the evaluator is expecting a TV show there. Should we also include TV shows now? edit: This is an everchanging dataset, so will our answers be saved, as, this json might not be in this order tomorrow?
+
+@23f2000237 A good point. Yes, please include all titles. I’ve reworded the question accordingly. Thanks.
+
+Q3. How to handle the error ? @Jivraj TypeError: Cannot read properties of null (reading ‘0’) http://127.0.0.1:8000/api/outline?country=Russia
+
+{"outline":"## Contents\n# Russia\n## Etymology\n## History\n### Early history\n### Kievan Rus'\n### Grand Duchy of Moscow\n### Tsardom of Russia\n### Imperial Russia\n#### Great power and development of society, sciences, and arts\n#### Great liberal reforms and capitalism\n#### Constitutional monarchy and World War\n### Revolution and civil war\n### Soviet Union\n#### Command economy and Soviet society\n#### Stalinism and modernisation\n#### World War II and United Nations\n#### Superpowe
+
+---
+

@@ -1,0 +1,5 @@
+Comic narratives with Google Sheets & Comicgen Sample sheet Optional: Scaling hotstar.com for 25 million concurrent viewers Supplementary material Using Inspect element to find APIs Learn about the urllib.parse package . Video Learn about the os package and video Deployment Tools to anonymize data List of Tools Libraries to build web applications List of frameworks Code - Streamlit Notebook - Streamlit Services to host web applications List and comparison Heroku deployment Docker/Podman GitHub actions Glitch.me Data Discovery Before we begin the data science journey, you first need the data set. And to get the
+data set, you need to know where it is. This is what we will be covering in the first module. How do you discover data? There are three things that you will learn in this module. The first is, what are the different sources of data sets? Where can you find them? The second is, what are the different kinds of data sets? Structured, unstructured and semi-structured.
+
+---
+

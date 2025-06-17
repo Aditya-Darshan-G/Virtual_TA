@@ -1,0 +1,14 @@
+mlca.txt That means if digit is 9 then next digit should be 0. @carlton @Jivraj let me know if this is what is expected. since 9->10 or 209 → 210 is not working
+
+Hi anant, Question mentions every digit should be replaced by next one. In that case 209 would get replaced by 310
+
+Hello Sir, When I am following that logic to rename files, assessment check is giving error “Incorrect. Try again.”
+
+@21f2000370 Since you have managed to get all the answers correct, I presume there are no further issues w/ Q16.
+
+Hi, I am unable to access Graded Assignment 1. Every time I click on the given link, all I can see is this page. Please advise. tdsga1 1902×919 31.1 KB
+
+Possible reasons for this issue.
+
+---
+

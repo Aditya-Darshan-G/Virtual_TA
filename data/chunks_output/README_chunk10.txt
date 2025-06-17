@@ -1,0 +1,4 @@
+st how well you apply what you learnt in a real-world context. Bonus activities may be posted on Discourse . See previous bonus activities Evaluations are mostly automated . This course uses pre-computed (for objective) or LLMs (for subjective) evaluations. LLMs will evaluate you differently each time. Learn to prompt them robustly to get higher marks. Constantly check communications Check these three links regularly to keep up with the course. Seek Notifications for Course Notifications. Log into seek.onlinedegree.iitm.ac.in and click on the bell icon :bell: on the top right corner :arrow_upper_right:. Check notifications daily. Your email for Course Announcements. Seek Inbox are forwarded to your email. Check daily. Check spam folders too. TDS Discourse : Faculty, instructors, and TAs will share updates and address queries here. Email support@study.iitm.ac.in cc: discourse-staff1@study.iitm.ac.in if you can't access Discourse.
+
+---
+

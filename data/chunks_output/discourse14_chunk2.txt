@@ -1,0 +1,13 @@
+orr:.2f}') and got the following answers: Pearson correlation for Punjab and Yamaha between price retention and column
+ Mileage (km/l) : 0.24
+ Avg Daily Distance (km) : -0.06
+ Engine Capacity (cc) : -0.08 The options for Q2 are given below and 2 of them are correct (AvgDistance and Mileage). image 278×216 9.19 KB
+
+@24f2006061 We are looking into it. We will update based on our analysis. Thanks for letting us know. Kind regards
+
+I used a python script to get the solution to quesiton 1 of week 6 graded assignment. It matches three options. Is this a bug or like we then need to analyze using the pearson coefficient to determine which option is the correct one image 1383×263 25 KB
+
+Dear Sirs, Can we have some response on these issues related particularly to the questions 1 and 2 of Graded Assignment 6. It looks like multiple options are correct in the given options. Any guidance or hint, on how to arrive at the right answer will be helpful. Thanks and regards.
+
+---
+

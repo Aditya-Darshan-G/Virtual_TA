@@ -1,0 +1,30 @@
+/run")
+async def run(task: str):
+ query = query_gpt(task)
+ print(query) # Print the full response to inspect it.
+ 
+ if 'choices' not in query:
+ raise HTTPException(status_code=500, detail="Invalid response format from GPT API")
+ 
+ try:
+ tool_calls = query['choices'][0]['message'].get('tool_calls', [])
+ if tool_calls:
+ func_name = tool_calls[0]['function']['name']
+ args = json.loads(tool_calls[0]['function']['arguments'])
+ 
+ # Map function names to their respective functions
+ function_map = {
+ "cakebake": cakebake,
+ "install_uv_and_run_datagen": install_uv_and_run_datagen,
+ "format_markdown_file": format_markdown_file,
+ "count_wednesdays": count_wednesdays,
+ "sort_contacts": sort_contacts,
+ "extract_recent_logs": extract_recent_logs,
+ "create_markdown_index": create_markdown_index,
+ "extract_sender_email": extract_sender_email,
+ "extract_credit_card_number": extract_credit_card_number,
+ "find_similar_comments": find_similar_comments,
+ "calculate_gold_ticket_sales": calculate_gold_ticket
+
+---
+

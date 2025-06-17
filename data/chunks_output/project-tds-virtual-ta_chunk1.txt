@@ -1,0 +1,9 @@
+request, e.g. POST https://app.example.com/api/ with a student question as well as optional base64 file attachments as JSON. For example, here's how anyone can make a request: bash
+curl "https://app.example.com/api/" \
+ -H "Content-Type: application/json" \
+ -d "{\"question\": \"Should I use gpt-4o-mini which AI proxy supports, or gpt3.5 turbo?\", \"image\": \"$(base64 -w0 project-tds-virtual-ta-q1.webp)\"}" This is a real question and uses this screenshot : The response must be a JSON object like this: json
+{
+ "answer": "You must use `gpt-3.5-turbo-0125`, even if the AI Proxy only supports `gpt-4o-mini`.
+
+---
+

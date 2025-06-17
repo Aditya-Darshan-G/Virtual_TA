@@ -1,0 +1,4 @@
+Images: Compression Image compression is essential when deploying apps. Often, pages have dozens of images. Image analysis runs over thousands of images. The cost of storage and bandwidth can grow over time. Here are things you should know when you're compressing images: Image dimensions are the width and height of the image in pixels. This impacts image size a lot Lossless compression (PNG, WebP) preserves exact data Lossy compression (JPEG, WebP) removes some data for smaller files Vector formats (SVG) scale without quality loss WebP is the modern standard, supporting both lossy and lossless Here's a rule of thumb you can use as of 2025. Use SVG if you can (i.e.
+
+---
+

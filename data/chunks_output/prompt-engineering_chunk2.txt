@@ -1,0 +1,5 @@
+to tie a bow tie. (Reason: No examples or reference points given.) GOOD : Explain how to tie a bow tie. For example: To tie a shoelace, you cross the laces and pull them tight... To tie a necktie, you place it around the collar and loop it through... Now, apply a similar step-by-step style to describe how to tie a bow tie. (Reason: Provides clear examples and a pattern to follow.) Give examples to the model. If you want someone to build a house, show them a sketch. Don’t just say ‘build something.’
+Giving examples is like showing a pattern. It makes everything easier to follow. Anthropic | OpenAI | Google Think step by step Instruct the model to reason through the problem step by step. This leads to more logical, well-structured answers. BAD : Given this transcript, is the customer satisfied? (Reason: No prompt for structured reasoning.) GOOD : Given this transcript, is the customer satisfied? Think step by step.
+
+---
+

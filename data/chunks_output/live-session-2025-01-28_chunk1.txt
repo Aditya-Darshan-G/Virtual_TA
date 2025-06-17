@@ -1,0 +1,4 @@
+ed continuous integration pipeline. Data comes into a server, and various tasks are performed, many of which are repetitive. The goal is to automate some of this process to reduce errors and produce structured output. Your job is to build an API that handles these tasks using an LLM. Q5: What kind of tasks can I expect? A5: There are roughly 10 tasks in Phase A, which should be straightforward. In Phase B, the tasks are less well-defined, testing your system's ability to handle unexpected requests. The API should have two endpoints: "run" and "read". The "run" endpoint receives a task description (in plain English), processes it, and creates output files. The "read" endpoint retrieves the contents of a specified file. Q6: In GA1, the videos and questions aren't showing after the submission deadline. Can they be shown? A6: I'll inform Anand. The videos should still be available on the Tools in Data Science portal. They're from this section.
+
+---
+

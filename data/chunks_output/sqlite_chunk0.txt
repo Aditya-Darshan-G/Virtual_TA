@@ -1,0 +1,4 @@
+Database: SQLite Relational databases are used to store data in a structured way. You'll often access databases created by others for analysis. PostgreSQL, MySQL, MS SQL, Oracle, etc. are popular databases. But the most installed database is SQLite . It's embedded into many devices and apps (e.g. your phone, browser, etc.). It's lightweight but very scalable and powerful. Watch these introductory videos to understand SQLite and how it's used in Python (34 min): There are many non-relational databases (NoSQL) like ElasticSearch , MongoDB , Redis , etc. that you should know about and we may cover later.
+
+---
+

@@ -1,0 +1,16 @@
+whole of IMDB question.
+
+Q4. How to handle the error ? @Jivraj Error: At 2025-02-05: Values don’t match
+
+There is no submit button is available in below screen. Is it fine to save the link url only. Please clarify (unless we click submit button the log of Graded Assignment 4 remains red) image 1920×1080 337 KB
+
+I have a doubt regarding the bonus mark. Suppose someone were to get 10/10 in the assignment, would their mark be recored as 11/10 or just 10? (Assuming they have interacted in this thread)
+
+Anyone scoring 10/10 on GA4 and replying with a relevant message on this thread will get 11/10
+
+For me I just made filter of rating between 2 and 7 in site and typed in console as per video. with that data got in console worked fine. copy the coding and save in place use it for data extract when finally submit
+
+For question 2 getting Error: At [8].title: Values don’t match. Expected: “9. Un matrimonio di troppo”. Actual: “9.
+
+---
+

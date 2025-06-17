@@ -1,0 +1,23 @@
+, --kibibytes default to 1024-byte blocks for disk usage;
+ used only with -s and per directory totals
+ -l use a long listing format
+ -L, --dereference when showing file information for a symbolic
+ link, show information for the file the link
+ references rather than for the link itself
+ -m fill width with a comma separated list of entries
+ -n, --numeric-uid-gid like -l, but list numeric user and group IDs
+ -N, --literal print entry names without quoting
+ -o like -l, but do not list group information
+ -p, --indicator-style=slash
+ append / indicator to directories
+ -q, --hide-control-chars print ? instead of nongraphic characters
+ --show-control-chars show nongraphic characters as-is (the default,
+ unless program is 'ls' and output is a terminal)
+ -Q, --quote-name enclose entry names in double quotes
+ --quoting-style=WORD use quoting style WORD for entry names:
+ literal, locale, shell, shell-always,
+ shell-escape, shell-escape-always, c, escape
+ (overrides QUOTING_STYLE environment variab
+
+---
+

@@ -1,0 +1,4 @@
+Data Analysis with SQL You'll learn how to perform data analysis using SQL (via Python), covering: Database Connection : How to connect to a MySQL database using SQLAlchemy and Pandas. SQL Queries : Execute SQL queries directly from a Python environment to retrieve and analyze data. Counting Rows : Use SQL to count the number of rows in a table. User Activity Analysis : Query and identify top users by post count. Post Concentration : Determine if a small percentage of users contribute the majority of posts using SQL aggregation. Correlation Calculation : Calculate the Pearson correlation coefficient between user attributes such as age and reputation. Regression Analysis : Compute the regression slope to understand the relationship between views and reputation. Handling Large Data : Perform calculations on large datasets by fetching aggregated values from the database rather than entire datasets.
+
+---
+

@@ -1,0 +1,4 @@
+r a tool like Kumu ? A. Animating time series B. Designing deep learning models C. Visualizing stakeholder networks and system relationships D. Performing statistical analysis Answer : C. Visualizing stakeholder networks and system relationships Q10: DevTools Performance Diagnostics To diagnose a slow webpage, you want to analyze scripts, rendering times, and long tasks . Which DevTools panel provides a timeline-based view? A. Elements B. Performance C. Network D. Lighthouse Answer : B. Performance Q11: Git Configuration Which of the following files helps configure a Git project’s name, email, and default branch? A. .gitignore B. .gitattributes C. .git/config D. README.md Answer : C. .git/config Q13: Safe HTTP Method Which HTTP method is considered safe , meaning it is only used for retrieval and must not change server state? A. GET B. DELETE C. PATCH D. POST Answer : A.
+
+---
+

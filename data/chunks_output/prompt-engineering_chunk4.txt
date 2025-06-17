@@ -1,0 +1,6 @@
+ontext and helps tailor the response style. BAD : Explain how to fix a software bug. (Reason: No role or perspective given.) GOOD : You are a seasoned software engineer. Explain how to fix a software bug in legacy code, including the debugging and testing process. (Reason: Assigns a clear, knowledgeable persona, guiding the style and depth.) Tell the model who they are. Maybe they’re a seasoned software engineer fixing a legacy bug, or an experienced copy editor revising a publication.
+By clearly telling the model who they are, you help them speak with just the right expertise and style.
+Suddenly, your explanation sounds like it’s coming from a true specialist, not a random voice. Anthropic | OpenAI | Google Use XML to structure your prompt Use XML tags to separate different parts of the prompt clearly. This helps the model understand structure and requirements. BAD : Here’s what I want: Provide a summary and then an example.
+
+---
+

@@ -1,0 +1,17 @@
+tion": "Employee ID number"
+ },
+ "current_year": {
+ "type": "integer",
+ "description": "Year to calculate bonus for"
+ }
+ },
+ "required": ["employee_id", "current_year"],
+ "additionalProperties": False
+ },
+ "strict": True
+ }
+ }
+] Best Practices: Use Strict Mode Always set strict: True to ensure valid function calls Define all required parameters Set additionalProperties: False Use tool choice Set tool_choice: "required" to ensure that the model will always call one or more tools The default is tool_choice: "auto" which means the model will choose a tool only if appropriate Clear Descriptions Write detailed function and parameter descriptions Include expected formats and units Mention any constraints or limitations Error Handling Validate function inputs before execution Return clear error messages Handle missing or invalid parameters
+
+---
+

@@ -1,0 +1,16 @@
+\
+ --level=3 \
+ --no-parent \
+ --convert-links \
+ --adjust-extension \
+ --compression=auto \
+ --accept html,htm \
+ --directory-prefix=./ds \
+ https://study.iitm.ac.in/ds/ HTTrack HTTrack is dedicated website‐mirroring tool with rich filtering and link‐conversion options. bash
+httrack "https://study.iitm.ac.in/ds/" \
+ -O "./ds" \
+ "+*.study.iitm.ac.in/ds/*" \
+ -r3 Robots.txt robots.txt is a standard file found in a website's root directory that specifies which parts of the site should not be accessed by web crawlers. It's part of the Robots Exclusion Protocol, an ethical standard for web crawling.
+
+---
+

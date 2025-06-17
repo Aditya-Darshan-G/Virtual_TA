@@ -1,0 +1,11 @@
+Studio offers advanced text-to-speech capabilities with support for multiple languages, voices, and speaking styles. For this, you need a GOOGLE_API_KEY . You can: Go to the Google Cloud Console: https://console.cloud.google.com/apis/library/texttospeech.googleapis.com , select or create the project you want and click Enable . Create an API key . In the Console, navigate to APIs & Services → Credentials and click + Create Credentials → API key . Copy the generated key (it’ll look like AIza… ). Simple speech generation Generate speech using the Gemini API: bash
+curl -X POST "https://texttospeech.googleapis.com/v1/text:synthesize?key=$GOOGLE_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{
+ "input": { "text": "Hello, welcome to Gemini Speech Studio!" },
+ "voice": { "languageCode": "en-US", "name": "en-US-Neural2-A" },
+ "audioConfig": { "audioEncoding": "MP3" }
+ }' | jq -r .audioContent | base64 --decode > gemini-speech.mp3 Generation options Customize synthesis with these paramet
+
+---
+

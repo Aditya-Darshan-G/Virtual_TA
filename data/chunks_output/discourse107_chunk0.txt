@@ -1,0 +1,8 @@
+Despite saving multiple times, my score keeps resetting to zero. Should I refill the answers for all the questions before saving again? Could this issue also be caused by accessing the assignment from multiple devices?
+
+Hi Shalini, We are aware of the issue and @s.anand is working on a solution. The temporary fix is to just reenter all the answers before hitting the Save button. Thanks for the reminder, please bear with the inconvenience while its being fixed. The last submission is always saved. So please make sure that your last submission contains all the answers for all the questions. Kind regards
+
+Hello, I am also facing the same issue. In my last submission the score was 7.25. Right now it is showing 0. The problem is i had few questions remaining to solve and i dont know which ones now. All of them r showing empty in the solution box.
+
+---
+

@@ -1,0 +1,14 @@
+, etc.) based on MIME types --compression=auto : Automatically handles compressed content (gzip, deflate) --accept html,htm : Only downloads files with these extensions --directory-prefix=./ds : Saves all downloaded files to the specified directory wget2 is a better version of wget and supports HTTP2, parallel connections, and only updates modified sites. The syntax is (mostly) the same. bash
+wget2 \
+ --recursive \
+ --level=3 \
+ --no-parent \
+ --convert-links \
+ --adjust-extension \
+ --compression=auto \
+ --accept html,htm \
+ --directory-prefix=./ds \
+ https://study.iitm.ac.in/ds/ There are popular free and open-source alternatives to Wget: Wpull Wpull is a wget‐compatible Python crawler that supports on-disk resumption, WARC output, and PhantomJS integration.
+
+---
+

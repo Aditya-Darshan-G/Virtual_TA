@@ -1,0 +1,11 @@
+xposes an OpenAI compatible API. Here's how to use it in Python: ```python
+import requests response = requests.post(
+ "http://localhost:8080/v1/chat/completions",
+ headers={"Content-Type": "application/json"},
+ json={"messages": [{"role": "user", "content": "Write a haiku about coding"}]}
+)
+print(response.json()["choices"][0]["message"]["content"])
+``` Tools: OpenAI API compatibility : Use existing OpenAI code Creating your own llamafiles : Control output format
+
+---
+

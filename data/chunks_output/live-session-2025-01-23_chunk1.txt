@@ -1,0 +1,4 @@
+d the -exec option executes the mv command on each file found. The curly braces {} are placeholders for the filenames. Q4: Will knowing only six SQL commands (SELECT, FROM, GROUP BY, etc.) be enough to complete this course? A4: You'll only need basic SQL for this course, mainly for extracting data. We're not covering a full DBMS course. A good resource to learn more is SQLZoo. While you might not need more than six commands for this course, ChatGPT can help if you encounter more complex SQL queries. Q5: How can I deploy a Flask application to Vercel? A5: First, set up a git repository and connect it to your GitHub account. Then, create a virtual environment for your Python project using python -m venv <env_name> . Activate it using the appropriate script (e.g., .\env\Scripts\activate ). Install Flask using pip install flask . Create a .gitignore file to exclude the virtual environment folder. Then, create a vercel.json file with build instructions for Vercel.
+
+---
+

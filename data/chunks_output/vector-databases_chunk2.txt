@@ -1,0 +1,28 @@
+e_collection(
+ name="documents",
+ embedding_function=sentence_transformer_ef
+ )
+ return collection async def search_similar(collection, query: str, n_results: int = 3) -> list[dict]:
+ """Search for documents similar to the query."""
+ d = collection.query(query_texts=[query], n_results=n_results)
+ return [
+ {"id": id, "text": text, "distance": distance}
+ for id, text, distance in zip(d["ids"][0], d["documents"][0], d["distances"][0])
+ ] async def main():
+ collection = await setup_vector_db() # Add some documents
+collection.add(
+ documents=["Apple is a fruit", "Orange is citrus", "Computer is electronic"],
+ ids=["1", "2", "3"]
+)
+
+# Search
+results = await search_similar(collection, "fruit")
+print(results) if name == " main ":
+ import asyncio
+ asyncio.run(main())
+``` LanceDB Here's the same example using LanceDB: ```python /// script requires-python = "==3.12" dependencies = [ "lancedb", "pyarrow", "sentence-transformers", ] /// import lancedb
+import pyarrow as pa
+from sentence_transformer
+
+---
+

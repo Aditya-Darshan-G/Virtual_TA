@@ -1,0 +1,26 @@
+headers = {
+ "Content-Type": "application/json",
+ "Authorization": f"Bearer {os.environ["AIPROXY_TOKEN"]}"
+ }
+
+ image_path = "../data/credit_card.png"
+
+ with open(image_path, "rb") as image_file:
+ base64_image = base64.b64encode(image_file.read()).decode("utf-8")
+
+ payload = {
+ "model": "gpt-4o-mini",
+ "messages": [
+ {
+ "role": "system", 
+ "content": "You are a helpful assistant that provides detailed and accurate descriptions of images. Focus on describing the objects, colors, textures, the overall scene, and most importantly, the text and numbers in the image. Be concise but thorough."
+ },
+ {
+ "role": "user",
+ "content": [
+ {
+ "type": "text",
+ "text": "You are given an image containing a credit card number.
+
+---
+

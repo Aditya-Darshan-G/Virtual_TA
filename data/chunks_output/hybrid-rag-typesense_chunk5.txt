@@ -1,0 +1,4 @@
+score by both keyword and vector similarity. sort_by: "_text_match:desc" : boosts exact text hits. exclude_fields: "embedding" : keeps responses lightweight. curl -d : posts the search request. jq -r : extracts each hit’s content . See jq manual llm -s and uvx streamdown : generate and stream a grounded answer. Expected output: The raw matched snippets printed first. Then a concise, streamed LLM answer citing the note verbatim.
+
+---
+

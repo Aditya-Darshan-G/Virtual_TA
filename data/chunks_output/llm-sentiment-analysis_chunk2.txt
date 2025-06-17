@@ -1,0 +1,4 @@
+and cost. Zero-Shot, One-Shot, and Multi-Shot Learning : Understand different approaches to using LLMs for learning. Here are the links used in the video: Jupyter Notebook Movie reviews dataset OpenAI Playground OpenAI Pricing OpenAI Tokenizer OpenAI API Reference OpenAI Docs
+
+---
+

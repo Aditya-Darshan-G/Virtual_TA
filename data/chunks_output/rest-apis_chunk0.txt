@@ -1,0 +1,6 @@
+REST APIs REST (Representational State Transfer) APIs are the standard way to build web services that allow different systems to communicate over HTTP. They use standard HTTP methods and JSON for data exchange. Watch this comprehensive introduction to REST APIs (52 min): Key Concepts: HTTP Methods GET : Retrieve data POST : Create new data PUT/PATCH : Update existing data DELETE : Remove data Status Codes 2xx : Success (200 OK, 201 Created) 4xx : Client errors (400 Bad Request, 404 Not Found) 5xx : Server errors (500 Internal Server Error) Here's a minimal REST API using FastAPI. Run this server.py script via uv run server.py : ```python /// script requires-python = ">=3.13" dependencies = [ "fastapi", "uvicorn", ] /// from fastapi import FastAPI, HTTPException
+from typing import Dict, List app = FastAPI() Create a list of items that will act like a database items: List[Dict[str, float | int | str]] = [] Create a GET endpoint that returns all items @app.get("/items")
+async def get_item
+
+---
+

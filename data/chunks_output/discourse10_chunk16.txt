@@ -1,0 +1,4 @@
+ions C. Use system messages and JSON schema formatting D. Provide only one-word inputs Answer : C — System messages and structured output formats like JSON schemas guide the model to generate reliable and consistent structured responses. Module: Geospatial and Network Analysis Q13: Network Centrality In a social network graph of coworkers, which metric best identifies the person who connects the most groups together? A. Degree centrality B. Closeness centrality C. Betweenness centrality D. Eigenvector centrality Answer : C — Betweenness centrality measures how often a node appears on shortest paths between other nodes, highlighting connectors or “bridges” in the network. Module: Data Visualization Q14: Choosing the Right Chart You want to show how the composition of a marketing budget changes across three years. Which visualization is most appropriate? A. Pie charts for each year B. Scatter plots C. Stacked bar chart D.
+
+---
+

@@ -1,0 +1,21 @@
+hibit using EPSV
+ --disallow-username-in-url Disallow username in url
+ --dns-interface <interface> Interface to use for DNS requests
+ --dns-ipv4-addr <address> IPv4 address to use for DNS requests
+ --dns-ipv6-addr <address> IPv6 address to use for DNS requests
+ --dns-servers <addresses> DNS server addrs to use
+ --doh-cert-status Verify the status of the DoH server cert via OCSP-staple
+ --doh-insecure Allow insecure DoH server connections
+ --doh-url <URL> Resolve host names over DoH
+ -D, --dump-header <filename> Write the received headers to <filename>
+ --egd-file <file> EGD socket path for random data
+ --engine <name> Crypto engine to use
+ --etag-compare <file> Pass an ETag from a file as a custom header
+ --etag-save <file> Parse ETag from a request and save it to a file
+ --expect100-timeout <seconds> How long to wait for 100-continue
+ -f, --fail Fail silently (no output at all) on HTTP errors
+ --fail-early Fail on first transfer error, do not continue
+ --fail-with-body Fail on HTTP er
+
+---
+

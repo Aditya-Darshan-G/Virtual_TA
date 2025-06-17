@@ -1,0 +1,12 @@
+be able to submit the assignments, so you might have to self-evaluate.
+
+@22f2000559 – Good point. I’ve enabled access now. @parthpatel – nice workaround!
+
+@carlton @s.anand Sorry to bother you again, but there is another issue about inactive download buttons for required files for the problems. Also it will be nice if the evaluations are turned on too.
+
+Good point. Fixed now.
+
+@s.anand Sir, Can you please enable the evaluations for all GAs who have crossed the deadlines?
+
+---
+

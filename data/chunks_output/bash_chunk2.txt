@@ -1,0 +1,18 @@
+d history
+ Ctrl+R # Search history
+ !! # Repeat last command
+ !$ # Last argument Directory Navigation bash
+ pushd dir # Push directory to stack
+ popd # Pop directory from stack
+ cd - # Go to previous directory Job Control bash
+ command & # Run in background
+ Ctrl+Z # Suspend process
+ bg # Resume in background
+ fg # Resume in foreground Useful Aliases - typically added to ~/.bashrc bash
+ alias ll='ls -la'
+ alias gs='git status'
+ alias jupyter='jupyter notebook'
+ alias activate='source venv/bin/activate'
+
+---
+

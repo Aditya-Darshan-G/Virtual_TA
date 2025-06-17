@@ -1,0 +1,4 @@
+Data Preparation in DuckDB DuckDB's SQL engine can handle large files quickly. Below are common cleaning tasks using the DuckDB CLI. Create a Sample Dataset Let's create a sample dataset that mimics real business data patterns - incomplete customer records, time-series orders, and regional variations. Before working with messy production data, you need a controlled environment to test data cleaning techniques. This sample represents common e-commerce scenarios: missing customer info (20% of orders), seasonal patterns (15-day cycles), and geographic segmentation that drive business decisions like inventory placement and marketing campaigns.
+
+---
+

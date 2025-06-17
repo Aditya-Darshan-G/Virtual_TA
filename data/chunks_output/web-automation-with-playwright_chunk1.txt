@@ -1,0 +1,18 @@
+/// from playwright.sync_api import sync_playwright def scrape_quotes():
+ with sync_playwright() as p:
+ # Channel can be "chrome", "msedge", "chrome-beta", "msedge-beta" or "msedge-dev".
+ browser = p.chromium.launch(headless=True, channel="chrome")
+ page = browser.new_page()
+ page.goto("https://quotes.toscrape.com/js/")
+ quotes = page.query_selector_all(".quote")
+ for q in quotes:
+ text = q.query_selector(".text").inner_text()
+ author = q.query_selector(".author").inner_text()
+ print(f"{text} — {author}")
+ browser.close() if name == " main ":
+ scrape_quotes()
+``` Save as scraper.py and run: bash
+uv run scraper.py You’ll see each quote plus author printed—fetched only after the JS executes.
+
+---
+

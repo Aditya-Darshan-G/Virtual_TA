@@ -1,0 +1,4 @@
+his will be covered later in the session, in the context of CSS selectors. Q15: Can you explain the Network tab in DevTools? A15: The Network tab shows all external information the browser is fetching. For TDS, the "Fetch" tab is most useful, showing APIs, JSON code, and CSS files. It shows what the website is pulling from the server. Q16: Can we modify the content in the Network tab? A16: No, you can only modify the website's structure in the Elements tab. Q17: Can you explain the Network tab again, briefly? A17: The Network tab shows external information the browser is fetching from where the website is deployed. The "Fetch" tab is particularly useful for TDS, showing APIs, JSON, and CSS files. Q18: In a later Week 1 question, we need to find values within a specific div class. Will the JavaScript code work on the entire site, or just the specified area? A18: The JavaScript will work on the entire site because the DOM structure is a tree.
+
+---
+

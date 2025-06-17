@@ -1,0 +1,5 @@
+Multimodal Embeddings Multimodal embeddings map text and images into the same vector space, enabling direct comparison between, say, a caption — “A cute cat” — and an image of that cat. This unified representation powers real-world applications like: Cross-modal search (e.g. “find images of a sunset” via text queries) Content recommendation (suggesting visually similar products to text descriptions) Clustering & retrieval (grouping documents and their associated graphics) Anomaly detection (spotting unusual image–text pairings) By reducing different data types to a common numeric form, you unlock richer search, enhanced recommendations, and tighter integration of visual and textual data. Get API keys Below are the steps to grab a free API key for each provider. Nomic Atlas Sign up at the Nomic Atlas homepage:
+ 👉 https://atlas.nomic.ai/ ( Atlas | Nomic Atlas Documentation ) Once logged in, open the Dashboard and navigate to Settings → API Keys .
+
+---
+

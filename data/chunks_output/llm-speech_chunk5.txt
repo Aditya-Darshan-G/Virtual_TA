@@ -1,0 +1,23 @@
+l2 voices: $0.000024 To optimize: Use standard voices for development Cache common phrases Batch process where possible Choose appropriate audio quality Python implementation Here's a simple Python wrapper for both APIs: ```python
+import requests
+import base64
+import os openai_key = os.getenv("OPENAI_API_KEY")
+google_key = os.getenv("GOOGLE_API_KEY") def generate_openai_speech(text, voice="alloy", model="tts-1"):
+ response = requests.post(
+ "https://api.openai.com/v1/audio/speech",
+ headers={"Authorization": f"Bearer {openai_key}"},
+ json={"model": model, "input": text, "voice": voice}
+ )
+ return response.content def generate_gemini_speech(text, voice_name="en-US-Neural2-A"):
+ response = requests.post(
+ f"https://texttospeech.googleapis.com/v1/text:synthesize?key={google_key}",
+ json={
+ "input": {"text": text},
+ "voice": {"languageCode": "en-US", "name": voice_name},
+ "audioConfig": {"audioEncoding": "MP3"}
+ }
+ )
+ return base64.b64decode(response.json()["audioContent"]) if name == " ma
+
+---
+

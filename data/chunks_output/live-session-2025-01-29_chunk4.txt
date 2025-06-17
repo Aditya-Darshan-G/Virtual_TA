@@ -1,0 +1,4 @@
+page, I don't have a requirements file. If you push it to GitHub and it's connected to GitHub, you don't need the requirements file. Something else is the issue. It's not able to pull the Flask module. You should not have to install it separately while running the file. I used http.server . There's example code given in GA2 itself for question 6. There's sample code there that uses http.server . I just modified that bit and put my function in there, and it works without any issues. The only difference is that I modified that and put the function inside that piece of code that handles the request. You don't need a separate requirements.txt file; Vercel can run the program without that. You still need to verify that your function actually runs. That's one thing you'll have to check. Regarding the FastAPI question, there's a logic error in your code. It shouldn't fetch all of it. Your query actually says class (CLASSS) without an underscore.
+
+---
+

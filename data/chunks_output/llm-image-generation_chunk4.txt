@@ -1,0 +1,13 @@
+ns. Per-image flat cost for Pro models: ~$0.001315 /image ( Gemini Developer API Pricing | Gemini API | Google AI for Developers , Solved: Re: Outdated Gemini Pro image pricing? By tile, or... ). To optimize: Use smaller image sizes by setting responseMimeType . Cache or reuse prompts with cachedContent . Lower candidateCount or temperature for fewer tokens. OpenAI gpt-image-1 Model for Image Generation and Editing OpenAI’s GPT Image 1 ( gpt-image-1 ) is a state-of-the-art multimodal model released on April 23, 2025, for high-fidelity image creation and editing. Simple image generation Use the Image Generations endpoint: bash
+curl 'https://api.openai.com/v1/images/generations' \
+ -H 'Content-Type: application/json' \
+ -H "Authorization: Bearer $OPENAI_API_KEY" \
+ -d '{
+ "model": "gpt-image-1",
+ "prompt": "A whimsical illustration of a cat playing chess",
+ "n": 1,
+ "size": "1024x1024"
+ }' > image.png ( Generate Image | OpenAI API - Postman ) Generation options Adjust these JSON paramete
+
+---
+

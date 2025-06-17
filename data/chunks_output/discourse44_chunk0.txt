@@ -1,0 +1,16 @@
+Please post any questions related to Graded Assignment 5 - Data Preparation . Please use markdown code formatting (fenced code blocks) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test. Deadline: 2025-02-15T18:30:00Z @Jivraj @Saransh_Saini @carlton
+
+image 1448×623 16.3 KB i can’t load my questions
+
+@23f1002630 - thanks for raising this. It’s fixed and won’t re-occur for anyone. What happened? I picked random duration from the video of 10-40 seconds, but forgot to ensure that the end time should not exceed the video length. That’s what I fixed.
+
+image 1158×466 11.8 KB It was solved but again I’m facing the same issue
+
+@s.anand @Jivraj I’m still facing the issue.
+
+i guess there’s some issue in 5th question as i have correctly filtered the data in OpenRefine 2-3 times but still getting incorrect in the portal.
+
+OpenRefine question has historically been a tricky question to get right.
+
+---
+

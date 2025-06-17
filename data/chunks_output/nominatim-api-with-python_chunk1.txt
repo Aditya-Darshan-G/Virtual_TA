@@ -1,0 +1,4 @@
+address, type (university), and other relevant information. Here are links and references: Geocoding using Nominatim - Notebook Learn about the geocoders module in the geopy package Learn about the nominatim package If you get a HTTP Error 403 from Nominatim, use your email ID or your name instead of "myGeocoder" in Nominatim(user_agent="myGeocoder")
+
+---
+

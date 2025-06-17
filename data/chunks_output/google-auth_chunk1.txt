@@ -1,0 +1,24 @@
+tAPI app.py : ```python /// script dependencies = ["python-dotenv", "fastapi", "uvicorn", "itsdangerous", "httpx", "authlib"] /// import os
+from dotenv import load_dotenv
+from fastapi import FastAPI, Request
+from fastapi.responses import RedirectResponse
+from starlette.middleware.sessions import SessionMiddleware
+from authlib.integrations.starlette_client import OAuth load_dotenv()
+app = FastAPI()
+app.add_middleware(SessionMiddleware, secret_key="create-a-random-secret-key") oauth = OAuth()
+oauth.register(
+ name="google",
+ client_id=os.getenv("GOOGLE_CLIENT_ID"),
+ client_secret=os.getenv("GOOGLE_CLIENT_SECRET"),
+ server_metadata_url="https://accounts.google.com/.well-known/openid-configuration",
+ client_kwargs={"scope": "openid email profile"},
+) @app.get("/")
+async def application(request: Request):
+ user = request.session.get("user")
+ # 3. For authenticated users: say hello
+ if user:
+ return f"Hello {user['email']}"
+ # 2.
+
+---
+

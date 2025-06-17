@@ -1,0 +1,22 @@
+ample using LanceDB: ```python /// script requires-python = "==3.12" dependencies = [ "lancedb", "pyarrow", "sentence-transformers", ] /// import lancedb
+import pyarrow as pa
+from sentence_transformers import SentenceTransformer async def setup_vector_db():
+ """Initialize LanceDB with an embedding function."""
+ model = SentenceTransformer("BAAI/bge-base-en-v1.5")
+ db = lancedb.connect("./vector_db") # Create table with schema for documents
+table = db.create_table(
+ "documents",
+ schema=pa.schema([
+ pa.field("id", pa.string()),
+ pa.field("text", pa.string()),
+ pa.field("vector", pa.list_(pa.float32(), list_size=768))
+ ])
+)
+return table, model async def search_similar(table, model, query: str, n_results: int = 3) -> list[dict]:
+ """Search for documents similar to the query."""
+ query_embedding = model.encode(query)
+ results = table.search(query_embedding).limit(n_results).to_list()
+ return [{"id": r["id"], "text": r["text"], "distance": float(r["_distance"])} for r in results] async def
+
+---
+

@@ -1,0 +1,4 @@
+or a more natural user experience without the need for a complex UI. The instructor emphasizes the importance of understanding how to parse JSON responses and handle errors.
+
+---
+

@@ -1,0 +1,5 @@
+GNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTUiIGZpbGw9IiMyNTYzZWIiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJtMTYgNyAyIDcgNyAyLTcgMi0yIDctMi03LTctMiA3LTJaIi8+PC9zdmc+"
+/> Base64 is used in many places: JSON: Encoding binary data in JSON payloads Email: MIME attachments encoding Auth: HTTP Basic Authentication headers JWT: Encoding tokens in web authentication SSL/TLS: PEM certificate format SAML: Encoding assertions in SSO Git: Encoding binary files in patches Tools for working with Base64: Base64 Decoder/Encoder for online encoding/decoding data: URI Generator converts files to Data URIs
+
+---
+

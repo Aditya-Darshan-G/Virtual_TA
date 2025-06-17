@@ -1,0 +1,4 @@
+t your proxy token on the GitHub page. I'll demonstrate using this proxy, but you can use something similar for other LLMs. Q35: What is a proxy? A35: OpenAI provides the service, but you don't interact with them directly. Anand has purchased tokens from OpenAI and provides access via a proxy. The proxy acts as a middleman between you and OpenAI. Q36: How many tokens does a prompt take? A36: The prompt we used took 32 tokens. The response ("negative") took two tokens. The total was 34 tokens. This cost us 1/10,000 of a dollar. Keep track of your token usage. Q37: How can I keep track of token usage? A37: Keep track of the prompt and the cost in a file. This will help you be efficient. Q38: How are API calls made? A38: You'll need a URL, headers (including authorization), and a JSON payload. The payload includes the model, messages, and response format. The response format should be strictly defined to avoid unexpected output.
+
+---
+

@@ -1,0 +1,10 @@
+se make complex documents more scannable and easy on the eyes. Use JSON for machine-readable output When you need structured data, ask for a JSON-formatted response. This ensures the output is machine-readable and organized. BAD : Just list the items. (Reason: Unstructured plain text makes parsing harder.) GOOD : ````markdown
+ Organize as an array of objects in a JSON format, like this: json
+ [
+ { "name": "Item 1", "description": "Description of Item 1" },
+ { "name": "Item 2", "description": "Description of Item 2" },
+ { "name": "Item 3", "description": "Description of Item 3" }
+ ] ```` (Reason: Instructing JSON format ensures structured, machine-readable output.) Note: Always use JSON schema if possible. JSON schema is a way to describe the structure of JSON data. An easy way to get the JSON schema is to give ChatGPT sample output and ask it to generate the schema. Imagine you’re organizing data for a big project.
+
+---
+

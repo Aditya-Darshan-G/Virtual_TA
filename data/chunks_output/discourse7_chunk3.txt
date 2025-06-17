@@ -1,0 +1,10 @@
+me out sir, I worked hard on the project. I’ll get a zero, but I made the submissions correctly. Some other student also got the “server didn’t start in 5 minutes” but he has an evaluation log file. Please kindly help me out. My roll no. is 22f2001389
+
+We will check and rerun on arm if we ran it on the wrong emulation.
+
+Any suggestions for my case sir ? I’m really tensed.
+
+22f3002933: I have noticed that my image was run on a x86_64 architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is ARM . This is why I can see that my docker image never ran properly and threw the exec format error . This was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine. @carlton same issue, My image was also run on a x86_64 architecture. I too built on my mac which is ARM (M1 Processor).
+
+---
+

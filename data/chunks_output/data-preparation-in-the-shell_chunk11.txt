@@ -1,0 +1,21 @@
+missing a scheme
+ --proto-redir <protocols> Enable/disable PROTOCOLS on redirect
+ -x, --proxy [protocol://]host[:port] Use this proxy
+ --proxy-anyauth Pick any proxy authentication method
+ --proxy-basic Use Basic authentication on the proxy
+ --proxy-cacert <file> CA certificate to verify peer against for proxy
+ --proxy-capath <dir> CA directory to verify peer against for proxy
+ --proxy-cert <cert[:passwd]> Set client certificate for proxy
+ --proxy-cert-type <type> Client certificate type for HTTPS proxy
+ --proxy-ciphers <list> SSL ciphers to use for proxy
+ --proxy-crlfile <file> Set a CRL list for proxy
+ --proxy-digest Use Digest authentication on the proxy
+ --proxy-header <header/@file> Pass custom header(s) to proxy
+ --proxy-insecure Do HTTPS proxy connections without verifying the proxy
+ --proxy-key <key> Private key for HTTPS proxy
+ --proxy-key-type <type> Private key file type for proxy
+ --proxy-negotiate Use HTTP Negotiate (SPNEGO) authentication on the proxy
+ --proxy-ntlm Use NT
+
+---
+

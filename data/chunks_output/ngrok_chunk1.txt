@@ -1,0 +1,4 @@
+file://. to serve local files --response-header-add "Access-Control-Allow-Origin: *" to enable CORS --oauth google --oauth-client-id $CLIENT_ID --oauth-client-secret $SECRET --oauth-allow-domain example.com --oauth-allow-email user@example.org to restrict users to @example.com and user@example.org using Google Auth --ua-filter-deny ".*bot$" to reject user agents ending with bot
+
+---
+

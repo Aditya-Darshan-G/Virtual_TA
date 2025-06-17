@@ -1,0 +1,16 @@
+4.160.189
+ 3 101.44.160.20
+ 2 101.44.160.41
+ 1 101.44.161.208
+ 1 101.44.161.71
+ 3 101.44.161.77
+ 2 101.44.161.93
+ 2 101.44.162.166 That's useful. 101.2.187.83 from Colombo visited 7 times. But I'd like to know who visited the MOST. So let's sort it further. sort has an option --key 1n that sorts by field 1 -- the count of IP addresses in this case. The n indicates that it's a numeric sort (so 11 appears AFTER 2). Also, we'll use tail instead of head to get the highest entries. ```python Show the top 5 IP addresses by visits !cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | uniq --count | sort --key 1n | tail -n 5
+``` 2560 66.249.70.6
+ 3010 148.251.241.12
+ 4245 35.86.164.73
+ 7800 37.59.21.100
+ 101255 136.243.228.193 WOW! 136.243.228.193 from Dataforseo, Ukraine, sent roughly HALF of ALL the requests! I wonder if we can figure out what User Agent they send.
+
+---
+

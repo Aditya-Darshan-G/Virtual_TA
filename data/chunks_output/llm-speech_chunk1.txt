@@ -1,0 +1,14 @@
+, echo , fable , onyx , nova , or shimmer response_format : mp3 (default), opus , aac , or flac speed : 0.25 to 4.0 (default 1.0) bash
+curl https://api.openai.com/v1/audio/speech \
+ -H "Authorization: Bearer $OPENAI_API_KEY" \
+ -H "Content-Type: application/json" \
+ -d '{
+ "model": "tts-1-hd",
+ "input": "Welcome to our podcast! Today we will be discussing artificial intelligence.",
+ "voice": "nova",
+ "response_format": "mp3",
+ "speed": 1.2
+ }' --output podcast_intro.mp3 Costs and optimization Pricing per 1,000 characters: tts-1 : $0.015 tts-1-hd : $0.030 To optimize costs: Use tts-1 for drafts, tts-1-hd for final versions Batch process text in chunks Cache frequently used phrases Choose lower quality formats for testing Google Gemini Speech Studio for Text-to-Speech Google's Gemini Speech Studio offers advanced text-to-speech capabilities with support for multiple languages, voices, and speaking styles. For this, you need a GOOGLE_API_KEY .
+
+---
+

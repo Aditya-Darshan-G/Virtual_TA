@@ -1,0 +1,6 @@
+F of ALL the requests! I wonder if we can figure out what User Agent they send. Is it something that identifies itself as a bot of some kind? Find lines matching an IP grep searches for text in files. It uses Regular Expressions which are a powerful set of wildcards. 💡 TIP: You MUST learn regular expressions. They're very helpful. Here, we'll search for all lines BEGINNING with 136.243.228.193 and having a space after that. That's "^136.243.228.193 " . The ^ at the beginning matches the start of a line. ```python Preview lines that begin with 136.243.228.193 !grep "^136.243.228.193 " s-anand.net-Apr-2024 | head -n 5
+``` 136.243.228.193 - - [31/Mar/2024:11:27:43 -0500] "GET /kannadamp3 HTTP/1.1" 200 4162 "-" "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/dataforseo-bot)" www.s-anand.net 192.254.190.216
+136.243.228.193 - - [31/Mar/2024:11:31:07 -0500] "GET /kannadamp3 HTTP/1.1" 200 4162 "-" "Mozilla/5.0 (compatible; DataForSeoBot/1.0; +https://dataforseo.com/datafor
+
+---
+

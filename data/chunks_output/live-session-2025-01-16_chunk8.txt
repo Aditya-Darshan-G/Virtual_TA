@@ -1,0 +1,4 @@
+s. Q29: What is the origin of the exercise to extract names from the meeting participants? A29: The instructor created this exercise to encourage participation. A random participant is selected to answer a question. Q30: Can we go back to the syntax we typed? A30: The syntax was $$(".className").map(...) . The $$ selects elements with the specified class, and map iterates through them. The instructor demonstrates how to extract the movie names using this. The instructor also explains the difference between innerText and innerHTML . innerText returns only the text, while innerHTML returns the entire HTML code. innerText is generally preferred for data extraction. If text doesn't work, use innerText . Q31: Should the innerText be written exactly as it appears, or can we modify the case (e.g., make "T" lowercase)? A31: Use the text exactly as it appears.
+
+---
+

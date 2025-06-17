@@ -1,0 +1,5 @@
+ddresses mix abbreviations with full words. Regular expressions fix these patterns systematically, ensuring consistent data quality for customer communications, shipping integrations, and search functionality. sql
+SELECT REGEXP_REPLACE(product, '\\s+', ' ', 'g') AS tidy_product FROM orders; Working with Multiple Formats Let's combine data from different sources that use various file formats. Modern businesses receive data as CSV exports, JSON from APIs, and Parquet from data warehouses. Rather than maintaining separate processing pipelines, DuckDB's format flexibility lets you join orders from your CSV exports with customer data from JSON APIs and inventory levels from Parquet files in a single query.
+
+---
+

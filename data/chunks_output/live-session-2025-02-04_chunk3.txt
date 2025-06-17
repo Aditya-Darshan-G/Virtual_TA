@@ -1,0 +1,4 @@
+part of the assignment. A11: Let's review the Docker process. You need to create a Docker image and push it. The deliverables are the Git repo and the Docker image. It should be a public repository. Q12: I'm having trouble with the FastAPI part of the assignment. I'm trying to send a POST request to a specific endpoint, but it's not working. A12: Let's review the code. You'll need to automate the process using an LLM. The LLM will generate the code, which you'll then execute using the subprocess module in Python. Q13: Why do we need to use the subprocess module? A13: In this project, you'll receive tasks in different languages (English, Hindi, Urdu). The LLM will generate the code to handle these tasks. The subprocess module allows you to execute the generated code on your local machine. Q14: I have a question about the Base64 encoding in GA3, question 6. I converted an image to Base64 using Python, but the UI said it was wrong.
+
+---
+

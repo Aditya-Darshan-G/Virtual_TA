@@ -1,0 +1,25 @@
+re-run until all chunks are processed.) 4. Run a hybrid search and answer a question Now, we can use a single curl against the Multi-Search endpoint to combine keyword and vector search as a hybrid search : ```bash
+Q="What does the author affectionately call the => syntax?" payload=$(jq -n --arg coll "notes" --arg q "$Q" \
+ '{
+ searches: [
+ {
+ collection: $coll,
+ q: $q,
+ query_by: "content,embedding",
+ sort_by: "_text_match:desc",
+ prefix: false,
+ exclude_fields: "embedding"
+ }
+ ]
+ }'
+)
+curl -s 'http://localhost:8108/multi_search' \
+ -H "X-TYPESENSE-API-KEY: secret-key" \
+ -d "$payload" \
+ | jq -r '.results[].hits[].document.content' \
+ | llm -s "${Q} - \$Answer ONLY from these notes. Cite verbatim from the notes." \
+ | uvx streamdown
+``` query_by: "content,embedding" : tells TypeSense to score by both keyword and vector similarity. sort_by: "_text_match:desc" : boosts exact text hits. exclude_fields: "embedding" : keeps responses lightweight. curl -d : posts the search request.
+
+---
+

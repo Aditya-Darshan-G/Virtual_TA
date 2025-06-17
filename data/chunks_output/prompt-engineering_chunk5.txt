@@ -1,0 +1,11 @@
+rompt clearly. This helps the model understand structure and requirements. BAD : Here’s what I want: Provide a summary and then an example. (Reason: Unstructured, no clear separation of tasks.) GOOD : xml
+ <instructions>
+ Provide a summary of the concept of machine learning.
+ </instructions>
+ <example>
+ Then provide a simple, concrete example of a machine learning application (e.g., an email spam filter).
+ </example> (Reason: Uses XML tags to clearly distinguish instructions from examples.) Think of your request like a box. XML tags are neat little labels on that box.
+They help keep parts sorted, so nothing gets lost in the shuffle. Anthropic | OpenAI | Google Use Markdown to format your output Encourage the model to use Markdown for headings, lists, code blocks, and other formatting features to produce structured, easily readable answers. BAD : Give me the steps in plain text.
+
+---
+

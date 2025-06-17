@@ -1,0 +1,4 @@
+t documents. Tourist Recommendation Bot : Building a bot that recommends tourist attractions based on user interests using embeddings. Next Steps for Implementation : Insights into scaling the solution with a vector database, re-rankers, and improved prompts for better accuracy and efficiency. Here are the links used in the video: Jupyter Notebook gte-large-en-v1.5 embedding model Awesome vector database
+
+---
+

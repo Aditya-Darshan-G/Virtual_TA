@@ -1,0 +1,33 @@
+:
+ - name: summary_test
+ vars:
+ text: "PromptFoo is an open-source CLI and library for evaluating and testing LLMs with assertions, caching, and matrices."
+ assertions:
+ - contains-all:
+ values:
+ - "open-source"
+ - "LLMs"
+ - llm-rubric:
+ instruction: |
+ Score the summary from 1 to 5 for:
+ - relevance: captures the main info?
+ - clarity: wording is clear and concise?
+ schema:
+ type: object
+ properties:
+ relevance:
+ type: number
+ minimum: 1
+ maximum: 5
+ clarity:
+ type: number
+ minimum: 1
+ maximum: 5
+ required: [relevance, clarity]
+ additionalProperties: false commandLineOptions:
+ cache: true
+``` Now, you can run the evaluations and see the results. ```bash Execute all tests npx -y promptfoo eval -c promptfooconfig.yaml List past evaluations npx -y promptfoo list evals Launch interactive results viewer on port 8080 npx -y promptfoo view -p 8080
+``` PromptFoo caches API responses by default (TTL 14 days). You can disable it with --no-cache or clear it.
+
+---
+

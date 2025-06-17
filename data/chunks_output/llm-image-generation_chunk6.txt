@@ -1,0 +1,8 @@
+;base64,<BASE64_MASK>",
+ "prompt": "Add a rainbow in the sky above the mountains",
+ "n": 1,
+ "size": "1024x1024"
+ }' ( curl - What's the correct URL to test OpenAI API? - Stack Overflow ) Editing options Editing requests accept: image : Original image (base64 or URL). mask : PNG mask for inpainting. prompt : Instruction for the edit. n , size , response_format as above. Optional user field for attribution. Costs and optimization GPT Image 1 pricing (per 1M tokens): text input $5, image input $10, image output $40. Rough per-image costs: Low quality: ~$0.02 Medium quality: ~$0.07 High quality: ~$0.19 ( OpenAI's GPT-Image-1 API — Create Stunning Images for Your Apps! , Usage of gpt-image-1 is priced per token, with ... - Hacker News ) To optimize: Choose smaller sizes ( 256x256 ). Generate fewer images ( n:1 ). Use response_format:"url" to reduce payload.
+
+---
+

@@ -1,0 +1,22 @@
+raise HTTPException(status_code=500, detail="No function call found in response")
+ except KeyError as e:
+ raise HTTPException(status_code=500, detail=f"KeyError: Missing key in response - {str(e)}")
+ except Exception as e:
+ raise HTTPException(status_code=500, detail=f"Error processing the request: {str(e)}")
+ 
+ return output
+
+if __name__ == "__main__":
+ import uvicorn
+ uvicorn.run(app, host="0.0.0.0", port=8000) Screenshot 2025-02-14 171217 2075×1343 176 KB @Saransh_Saini , @Jivraj , @carlton
+
+Hi Sakshi, The error is quite clear, it cannot find the file /data/contacts.json Question: What creates the /data/contacts.json file?
+
+so how to do it sir that the thing i am not able to understand.
+
+sir kindly help me with this the time is running and i am still at the starting stage of project. @carlton
+
+Sakshi as the error says it’s unable to find your file. Try adding a .
+
+---
+

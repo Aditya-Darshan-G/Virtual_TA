@@ -1,0 +1,4 @@
+locations at once. It is useful for refactoring variable names or repeated patterns. Module: Data Sourcing Q9: Data API Identification Which of the following data sources is most likely to provide structured data accessible via an API? A. A scanned PDF document B. A screenshot of a chart C. The World Bank data portal D. A newspaper article Answer : C — The World Bank data portal provides structured datasets accessible via APIs. The other options involve unstructured or image-based content not suitable for direct data access. Module: Data Preparation Q10: Data Type Conversion in Excel You imported a CSV file into Excel, and one of the columns containing numbers is treated as text. What is the easiest way to convert it into numeric format? A. Use the CONCAT function B. Format the column as Text C. Use the VALUE() function D. Use SUBSTITUTE() Answer : C — The VALUE function converts text that appears as numbers into actual numeric values.
+
+---
+

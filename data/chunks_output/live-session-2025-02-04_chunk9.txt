@@ -1,0 +1,4 @@
+e beneficial for learning. Q32: Can you give me some hints on how to write a prompt to make the AI in question 9 say "yes"? A32: That's something you'll need to figure out on your own. Try different prompts. You can also look at previous Discourse posts for ideas.
+
+---
+

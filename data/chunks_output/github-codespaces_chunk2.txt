@@ -1,0 +1,4 @@
+ports in Codespaces Secrets & Variables : Keep your environment variables safe in the Codespaces settings for your repo. Manage Codespaces secrets Dotfiles Integration : Bring in your dotfiles repo to customize shell settings, aliases, and tools in every codespace. Personalizing your codespaces Machine Types & Cost Control : Pick from VMs with 2 to 32 cores and track your usage in the billing dashboard. Managing Codespaces costs VS Code & CLI Integration : Flip between browser VS Code and your desktop editor, and script everything with the CLI. VS Code Remote: Codespaces GitHub Actions : Power up prebuilds and your CI/CD right inside codespaces using Actions workflows. Prebuilding your codespaces Copilot in Codespaces : Let Copilot help you write code with in-editor AI suggestions.
+
+---
+

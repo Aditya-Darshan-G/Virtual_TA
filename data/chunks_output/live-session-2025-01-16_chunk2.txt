@@ -1,0 +1,4 @@
+? A7: The format will be similar to the graded assignments: questions and answer boxes. You can use any tools you want. It's a non-proctored exam. It will cover concepts taught in the course, including new material. Q8: In Week 1, do we need to build advanced-level concepts, or will we learn them week by week? A8: Each week will have different content, including graded assignments. Content links are provided. Q9: The UV part of the project was only a 7-minute video. Do we need to learn UV fully in Week 1, or will we learn it in upcoming weeks? A9: UV is introduced in Week 1. The most useful aspect is embedding everything in inline metadata within the script, eliminating the need for virtual environments. Q10: How do we start the project? A10: There will be separate guidance sessions for the project. Q11: Will we get a screen recording of this session? A11: Yes, the session will be uploaded to YouTube.
+
+---
+

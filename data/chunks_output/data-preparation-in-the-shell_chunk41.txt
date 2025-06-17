@@ -1,0 +1,4 @@
+ubjects/feed/ HTTP/1.1" 200 2257 "-" "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36" www.s-anand.net 192.254.190.216 Looking at the user agent, Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36 , it looks like Chrome 30 -- a very old version. Personally, I believe it's more likely to be a bot than a French human so interested in my website that they made over 250 requests every day . Find bots But, I'm curious. What are the user agents that DO identify themselves as bots? Let's use grep to find all words that match bot. grep --only-matching will show only the matches, not the entire line. The regular expression '\S*bot\S*' (which ChatGPT generated) finds all words that have bot.
+
+---
+

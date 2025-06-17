@@ -1,0 +1,4 @@
+20: Should I install it separately? A20: No, you won't require requirements for it. Vercel is able to run the program without that. Q21: For Vercel, I will take the example code and try to run it. One more question: in question 9 (FastAPI), I'm giving the URL, but when I run the file, it shows the whole data. When I add conditions, it also shows the whole data. I'll show you that. A21: You should use the requests module and send a request using headers and all those informations. What you are using is actually OpenAI's own library, and that will not work. You will have to use the requests module and send the request just like the examples shown. There will be a URL, a header, and a payload. If you use their own library, it will not construct it correctly. Because the proxy has its own method of doing some of these functions that don't match OpenAI's. For 3.5, it worked, but that was more of a coincidence.
+
+---
+
