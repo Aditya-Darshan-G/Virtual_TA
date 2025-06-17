@@ -163,6 +163,10 @@ async def query(request: QueryRequest):
 def health():
     return {"status": "ok", "chunks": len(chunks), "embeddings": len(embeddings)}
 
+@app.get("/")
+def read_root():
+    return {"message": "TDS Semantic Search App is running!"}
+
 # Local dev run
 if __name__ == "__main__":
     import uvicorn
