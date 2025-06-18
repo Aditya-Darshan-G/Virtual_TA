@@ -70,16 +70,23 @@ def cosine_similarity(a, b):
 
 # Embed text
 async def embed_text(query: str):
+    if not GEMINI_API_KEY:
+        logger.error("GENAI_API_KEY is missing")
+        raise HTTPException(status_code=500, detail="GENAI_API_KEY missing")
+
     try:
+        logger.info("Calling Gemini embed_content...")
         response = genai.embed_content(
             model="models/embedding-001",
             content=query,
             task_type="semantic_similarity"
         )
+        logger.info("Embedding response received")
         return response["embedding"]
     except Exception as e:
         logger.error("Embedding failed: %s", e)
-        raise HTTPException(status_code=500, detail="Embedding failed")
+        raise HTTPException(status_code=500, detail=f"Embedding failed: {e}")
+
 
 # Search
 def search_similar_chunks(query_emb):
@@ -94,11 +101,11 @@ def search_similar_chunks(query_emb):
         url = source_urls[idx]
         if url not in seen_sources:
             seen_sources.add(url)
-        results.append({
-            "url": url,
-            "text": chunks[idx],
-            "score": float(scores[idx])
-        })
+            results.append({
+                "url": url,
+                "text": chunks[idx],
+                "score": float(scores[idx])
+            })
         if len(results) >= MAX_RESULTS:
             break
     return results
@@ -146,6 +153,13 @@ def extract_answer_and_links(text):
             if match:
                 url, snippet = match.groups()
                 links.append({"url": url.strip(), "text": snippet.strip()})
+
+    # Fallback: if links list is empty, extract any URL inside the answer and make it a link
+    if not links:
+        urls = re.findall(r'https?://\S+', answer)
+        for url in urls:
+            links.append({"url": url, "text": "Link referenced in answer."})
+
     return {"answer": answer, "links": links}
 
 # API routes
