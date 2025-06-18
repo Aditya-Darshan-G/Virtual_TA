@@ -149,16 +149,20 @@ def extract_answer_and_links(text):
     links = []
     if len(parts) > 1:
         for line in parts[1].strip().split("\n"):
-            match = re.search(r'URL:\s*(\S+),\s*Text:\s*(.*)', line)
+            # Match either 'URL:' or 'Source:' prefix
+            match = re.search(r'(?:URL|Source):\s*(\S+),\s*Text:\s*["“”]?(.*?)["“”]?\s*$', line)
             if match:
                 url, snippet = match.groups()
                 links.append({"url": url.strip(), "text": snippet.strip()})
 
-    # Fallback: if links list is empty, extract any URL inside the answer and make it a link
+    # Fallback: extract any URL inside the answer body
     if not links:
         urls = re.findall(r'https?://\S+', answer)
         for url in urls:
             links.append({"url": url, "text": "Link referenced in answer."})
+
+    return {"answer": answer, "links": links}
+
 
     return {"answer": answer, "links": links}
 
