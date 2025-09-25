@@ -192,7 +192,7 @@ def health():
 
 @app.get("/")
 def read_root():
-    return {"message": "TDS Semantic Search App is running!"}
+    return {"message": "The Semantic Search App is running!"}
 
 # Local dev run
 if __name__ == "__main__":
